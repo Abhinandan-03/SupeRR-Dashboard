@@ -1,0 +1,7 @@
+player_id,player_name,performance_rank,performance_rating,need_fit_score,need_filled,roster_role_label,nationality,verify_manually,pressure_balls,matches_with_pressure_balls,top_10_prob,top_30_prob,rr_suitability_score,sensitivity_100_0,sensitivity_50_50,rr_suitability_rank
+PID_1205,Jonny Bairstow,4,1.3780980454767122,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,147,13,0.273,0.546,0.639783259069403,0.7489285041668,0.5306380139720059,4
+PID_4812,Harry Tector,7,1.1269749544299288,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,197,15,0.22,0.588,0.4092860624334386,0.4415989086521809,0.3769732162146964,7
+PID_2984,Sikandar Raza,8,1.107783481175411,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,394,27,0.12,0.62,0.3916708731410437,0.41811198959565427,0.3652297566864331,8
+PID_6280,Harry Brook,12,0.822821966112617,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,107,14,0.371,0.528,0.13011455788019566,0.06937023591452353,0.19085887984586775,12
+PID_768,Reeza Hendricks,14,0.5646904760042882,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,135,14,0.216,0.51,-0.10681540576997917,-0.24653638228570957,0.032905570745751206,13
+PID_3648,Deepak Hooda,30,0.03067533100859165,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Indian,None,238,21,0.141,0.434,-0.5969694309118765,-0.9000750824749061,-0.29386377934884705,27

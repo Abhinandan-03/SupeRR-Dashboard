@@ -1,0 +1,26 @@
+# Dependencies and environment
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Raw data and large zip bundles
+*.zip
+inputs/
+reference/
+superr_phase0_audit_bundle/
+
+# Intermediate pipeline cache & large modeling files
+pipeline_outputs/intermediate/
+pipeline_outputs/modeling/
+pipeline_outputs/identity/registry_role_evidence.csv
+pipeline_outputs/scratch/
+
+# IDE and agent internal directories
+.gemini/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

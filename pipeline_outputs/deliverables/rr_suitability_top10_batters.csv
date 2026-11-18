@@ -1,0 +1,11 @@
+player_id,player_name,performance_rank,performance_rating,need_fit_score,need_filled,roster_role_label,nationality,verify_manually,pressure_balls,matches_with_pressure_balls,top_10_prob,top_30_prob,rr_suitability_score,sensitivity_100_0,sensitivity_50_50,rr_suitability_rank
+CS_f32012f4,M Bryant,1,4.351706083454524,1.0,Power finisher (pos 5-7),XI Contender,Unknown,None,265,20,0.337,0.718,3.369155192932572,4.388091082651025,2.3502193032141183,1
+PID_8093,Nikhil Chaudhary,2,1.6861602139538188,1.0,Power finisher (pos 5-7),XI Contender,Overseas,None,107,12,0.115,0.615,0.9225428648371605,1.1259413118571435,0.7191444178171778,2
+CS_bc2d4f2e,W Sutherland,3,1.5244877689237324,1.0,Power finisher (pos 5-7),XI Contender,Unknown,verify manually: bowling type,299,26,0.119,0.557,0.7741493212670292,0.9280832537636349,0.6202153887704234,3
+PID_1205,Jonny Bairstow,4,1.3780980454767122,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,147,13,0.273,0.546,0.639783259069403,0.7489285041668,0.5306380139720059,4
+PID_3323,Jimmy Neesham,5,1.3317611264390758,1.0,Power finisher (pos 5-7),XI Contender,Overseas,None,411,35,0.085,0.669,0.5972522043009942,0.6922204311422551,0.5022839774597335,5
+PID_4229,George Linde,6,1.2165550530458213,1.0,Power finisher (pos 5-7),XI Contender,Overseas,None,273,30,0.203,0.571,0.4915085355611281,0.5512288728224335,0.43178819829982273,6
+PID_4812,Harry Tector,7,1.1269749544299288,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,197,15,0.22,0.588,0.4092860624334386,0.4415989086521809,0.3769732162146964,7
+PID_2984,Sikandar Raza,8,1.107783481175411,1.0,RH top-order anchor/#3 (pos 1-4),XI Contender,Overseas,None,394,27,0.12,0.62,0.3916708731410437,0.41811198959565427,0.3652297566864331,8
+PID_4821,Mahipal Lomror,10,1.0510840797683902,1.0,Power finisher (pos 5-7),XI Contender,Indian / Domestic,None,138,18,0.187,0.489,0.33962845433846206,0.34872209785887875,0.33053481081804537,9
+PID_3374,Mark Chapman,9,1.0111501924515804,1.0,Power finisher (pos 5-7),XI Contender,Overseas,None,206,17,0.285,0.545,0.3029745208473903,0.29985018653744977,0.3060988551573309,10

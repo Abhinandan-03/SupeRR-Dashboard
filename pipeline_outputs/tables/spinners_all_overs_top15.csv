@@ -1,0 +1,2 @@
+player_id,player_name,performance_rank,performance_rating,need_fit_score,need_filled,roster_role_label,nationality,verify_manually,pressure_balls,matches_with_pressure_balls,top_10_prob,top_30_prob,rr_suitability_score,sensitivity_100_0,sensitivity_50_50,rr_suitability_rank
+CS_0164b064,MG Neser,20,0.6868144833922138,0.25,Spin variety: off/wrist-spin,Backup,Unknown,verify manually: bowling type; verify manually: bowling type,138,15,0.062,0.347,-1.2968492000994467,-0.4174828436762201,-2.1762155565226733,30

@@ -1,0 +1,16 @@
+competition,pressure_class,deliveries
+Big Bash League,high_pressure,9451
+Big Bash League,middle_excluded,9276
+Big Bash League,ordinary,17353
+IPL,high_pressure,22887
+IPL,middle_excluded,21600
+IPL,ordinary,42508
+SA20,high_pressure,6900
+SA20,middle_excluded,7166
+SA20,ordinary,13301
+Syed Mushtaq Ali Trophy,high_pressure,2234
+Syed Mushtaq Ali Trophy,middle_excluded,2333
+Syed Mushtaq Ali Trophy,ordinary,5729
+T20I,high_pressure,24655
+T20I,middle_excluded,25751
+T20I,ordinary,53362

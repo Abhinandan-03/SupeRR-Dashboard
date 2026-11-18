@@ -1,0 +1,8 @@
+need_id,franchise_need,priority_weight,current_roster_cover,best_candidates,acquisition_priority
+1,"Right-handed top-order anchor/#3, positions 1-4",1.0,"Riyan Parag, Aman Rao (Aman Rao Perala), Dhruv Jurel","Jonny Bairstow, Harry Tector, Sikandar Raza",CRITICAL - Balances left-handed core
+2,"Power finisher, positions 5-7",1.0,"Dhruv Jurel, Donovan Ferreira, Shubham Dubey, Ravindra Jadeja","Max Bryant, Nikhil Chaudhary, Will Sutherland, Jimmy Neesham, George Linde, Mahipal Lomror, Mark Chapman",CRITICAL - Closes match under steep RRR
+3,"Middle-overs control, overs 7-16, pace or spin",0.8,"Ravi Bishnoi, Ravindra Jadeja, M Siddharth, Nandre Burger","Wanindu Hasaranga, Benjamin Sears, Mujeeb Ur Rahman, Mitchell Swepson, Senuran Muthusamy, Jaydev Unadkat, CJ Boyce, Lance Morris",HIGH - Restricts middle-overs consolidation
+4,Death-overs pace specialist (depth only),0.6,"Jofra Archer, Sandeep Sharma, Mohammed Shami","Spencer Johnson, Ottneil Baartman, FazalHaq Farooqi",MODERATE / DEPTH ONLY - Covers Archer/Shami injury risk
+5,"Opener backup, positions 1-3",0.6,"Yashasvi Jaiswal, Vaibhav Sooryavanshi, Lhuan-dre Pretorius","Reeza Hendricks, Matthew Wade, Matthew Renshaw",MODERATE - Injury / tactical reserve
+6,Spin variety: off-spin or wrist-spin,0.5,"Ravi Bishnoi (wrist-spin), Ravindra Jadeja (SLAO), M Siddharth (SLAO)","Wanindu Hasaranga, Mujeeb Ur Rahman, Mitchell Swepson",SECONDARY - Off-spin / wrist-spin matchup variety
+7,Seam all-rounder at 6-7 (Shanaka covers it),0.3,"Dasun Shanaka (retained), Ravindra Jadeja","Will Sutherland, Jimmy Neesham, George Linde",LOW / COVERED - Addressed by retained Shanaka

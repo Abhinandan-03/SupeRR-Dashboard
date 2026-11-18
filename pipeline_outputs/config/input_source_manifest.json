@@ -1,0 +1,80 @@
+[
+  {
+    "label": "problem_statement_pdf",
+    "path": "inputs/data_pack/Data Pack/Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf",
+    "size_bytes": 254082,
+    "sha256": "8f7965c616d4a64b779e770a6b2c17dde6a2d6ccbf7de12a58b04db792162489"
+  },
+  {
+    "label": "matches_csv",
+    "path": "inputs/data_pack/Data Pack/matches.csv",
+    "size_bytes": 123864,
+    "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+  },
+  {
+    "label": "ball_by_ball_csv",
+    "path": "inputs/data_pack/Data Pack/ball_by_ball.csv",
+    "size_bytes": 41071837,
+    "sha256": "01e2b4379edfbab6a6e456d304cb3c70f554cb312ef93d9588f3f32a82cb396e"
+  },
+  {
+    "label": "competitions_csv",
+    "path": "inputs/data_pack/Data Pack/competitions.csv",
+    "size_bytes": 7624,
+    "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+  },
+  {
+    "label": "teams_csv",
+    "path": "inputs/data_pack/Data Pack/teams.csv",
+    "size_bytes": 6922,
+    "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+  },
+  {
+    "label": "playing_eleven_csv",
+    "path": "inputs/data_pack/Data Pack/playing_eleven.csv",
+    "size_bytes": 966287,
+    "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+  },
+  {
+    "label": "competition_team_player_mapping_csv",
+    "path": "inputs/data_pack/Data Pack/competition_team_player_mapping.csv",
+    "size_bytes": 462969,
+    "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+  },
+  {
+    "label": "squads_csv",
+    "path": "inputs/squads.csv",
+    "size_bytes": 13837,
+    "sha256": "e0b8a7c2944211278f128971f1eafc3d317c9f67d4a097e57df2497b5faf0636"
+  },
+  {
+    "label": "cricsheet_sa20_zip",
+    "path": "sat.zip",
+    "size_bytes": 473148,
+    "sha256": "009b452b0594065e21a541a1d1813d3989dd4867f7018357e9a808b3705d02ff"
+  },
+  {
+    "label": "cricsheet_bbl_zip",
+    "path": "bbl.zip",
+    "size_bytes": 2433922,
+    "sha256": "02b8e6e334415d286b4ebf1a23a02832e5f1c4686fe9b414f624e5aef64a479c"
+  },
+  {
+    "label": "cricsheet_smat_zip",
+    "path": "sma.zip",
+    "size_bytes": 2462301,
+    "sha256": "bc26d8b46740e1e1c8a3e770b0d9de011976e8bab552241c74572b223ae79814"
+  },
+  {
+    "label": "cricsheet_ipl_zip",
+    "path": "ipl.zip",
+    "size_bytes": 4636910,
+    "sha256": "9b8f389855058377cfd64179ffe95d35a9cd08506afa989a30c69aed45453685"
+  },
+  {
+    "label": "cricsheet_t20s_zip",
+    "path": "t20s.zip",
+    "size_bytes": 21182792,
+    "sha256": "49cb6c024c0029a9e0ccfc016bbbdd6a1d70c2f50a1dadb73420202409066b2a"
+  }
+]

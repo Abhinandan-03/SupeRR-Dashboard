@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajasthan Royals SupeRR Selector | IPL/T20I & SMAT Analytics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --rr-navy: #0B132B;
+    --rr-blue: #004BA0;
+    --rr-pink: #EA1B86;
+    --rr-gold: #FFB703;
+    --rr-dark: #1F2937;
+    --rr-light: #F9FAFB;
+    --rr-card: #FFFFFF;
+    --rr-border: #E5E7EB;
+    --rr-muted: #6B7280;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F3F4F6;
+    color: var(--rr-dark);
+    line-height: 1.5;
+  }
+  header {
+    background: linear-gradient(135deg, var(--rr-navy) 0%, #1C2541 60%, var(--rr-blue) 100%);
+    color: white;
+    padding: 24px 36px;
+    border-bottom: 4px solid var(--rr-pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .header-left h1 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .header-left p {
+    font-size: 13px;
+    color: #93C5FD;
+    margin-top: 4px;
+  }
+  .badge-config {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 11px;
+    color: var(--rr-gold);
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px 36px;
+  }
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .kpi-card {
+    background: var(--rr-card);
+    padding: 18px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--rr-border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .kpi-title {
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--rr-muted);
+    letter-spacing: 0.5px;
+  }
+  .kpi-val {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--rr-navy);
+    margin-top: 4px;
+  }
+  .kpi-sub {
+    font-size: 11px;
+    color: var(--rr-pink);
+    font-weight: 600;
+    margin-top: 2px;
+  }
+  .nav-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid var(--rr-border);
+    padding-bottom: 8px;
+    overflow-x: auto;
+  }
+  .nav-tab {
+    background: none;
+    border: none;
+    padding: 10px 18px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--rr-muted);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .nav-tab:hover {
+    color: var(--rr-blue);
+    background: #E5E7EB;
+  }
+  .nav-tab.active {
+    color: white;
+    background: var(--rr-blue);
+  }
+  .tab-pane {
+    display: none;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  .card {
+    background: var(--rr-card);
+    border-radius: 8px;
+    border: 1px solid var(--rr-border);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .card-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--rr-navy);
+  }
+  .search-input {
+    padding: 8px 14px;
+    border: 1px solid var(--rr-border);
+    border-radius: 6px;
+    font-size: 13px;
+    min-width: 280px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+  }
+  th {
+    background: #F8FAFC;
+    color: var(--rr-navy);
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 2px solid var(--rr-border);
+  }
+  td {
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rr-border);
+  }
+  tr:hover td {
+    background: #F8FAFC;
+  }
+  .rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .rank-1 { background: #FEF3C7; color: #B45309; }
+  .rank-2 { background: #E0E7FF; color: #4338CA; }
+  .rank-3 { background: #FCE7F3; color: #BE185D; }
+  .rank-other { background: #F3F4F6; color: #4B5563; }
+  .callout {
+    padding: 14px 18px;
+    border-radius: 6px;
+    background: #EFF6FF;
+    border-left: 4px solid var(--rr-blue);
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #1E3A8A;
+  }
+  .callout-pink {
+    background: #FDF2F8;
+    border-left-color: var(--rr-pink);
+    color: #9D174D;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 950px) {
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10.5px;
+    font-weight: 600;
+  }
+  .tag-role { background: #EFF6FF; color: #1E40AF; }
+  .tag-domestic { background: #FEF3C7; color: #92400E; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Rajasthan Royals | SupeRR Selector Portal</h1>
+    <p>Pressure Handling Analytics Dashboard: Original IPL/T20I Data Pack + SMAT Domestic Talent</p>
+  </div>
+  
+</header>
+
+<div class="container">
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-title">Data Pack Matches</div>
+      <div class="kpi-val">805</div>
+      <div class="kpi-sub">IPL & T20I (2022–2026)</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Data Pack Balls</div>
+      <div class="kpi-val">190,763</div>
+      <div class="kpi-sub">Regulation Deliveries</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Eligible DP Batters</div>
+      <div class="kpi-val">52</div>
+      <div class="kpi-sub">Floor: ≥80 balls, ≥10 matches</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Eligible DP Bowlers</div>
+      <div class="kpi-val">72</div>
+      <div class="kpi-sub">Floor: ≥80 balls, ≥10 matches</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">SMAT Indian Talent</div>
+      <div class="kpi-val">120+</div>
+      <div class="kpi-sub">Uncapped Domestic Pipeline</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">RR Open Roster Slots</div>
+      <div class="kpi-val">3 (O) + 3 (D)</div>
+      <div class="kpi-sub">19 Retained / Squad, 6 Open Slots</div>
+    </div>
+  </div>
+
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="showTab('tab-dropdown')">📋 Unstop Dropdown Ready (Data Pack Top 10)</button>
+    <button class="nav-tab" onclick="showTab('tab-batters')">🏏 IPL / T20I Batters Leaderboard</button>
+    <button class="nav-tab" onclick="showTab('tab-bowlers')">🎯 IPL / T20I Bowlers Leaderboard</button>
+    <button class="nav-tab" onclick="showTab('tab-smat')">🇮🇳 SMAT Domestic Talent Crucible</button>
+    <button class="nav-tab" onclick="showTab('tab-rr')">👑 Rajasthan Royals 2027 Lineup Fit</button>
+    <button class="nav-tab" onclick="showTab('tab-methodology')">📐 Methodology & Formulas</button>
+  </div>
+
+  <!-- TAB 1: UNSTOP DROPDOWN READY -->
+  <div id="tab-dropdown" class="tab-pane active">
+    
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🏏 Top 10 Batters (Unstop Dropdowns)</div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player Name</th>
+              <th>ID</th>
+              <th>BV/Ball</th>
+              <th>Delta</th>
+              <th>Selection Reason</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="rank-badge rank-1">1</span></td>
+              <td><strong>Jimmy Neesham</strong></td>
+              <td><code>PID_3323</code></td>
+              <td><strong>+0.265</strong></td>
+              <td style="color: #166534; font-weight:600;">+1.121</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Extreme death striking (178+ SR in overs 17-20), massive clutch elevation; ice-cold closer.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-2">2</span></td>
+              <td><strong>Mark Chapman</strong></td>
+              <td><code>PID_3374</code></td>
+              <td><strong>+0.203</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.427</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Elite dot-ball suppression (28.2%) against spin in middle consolidation and death chases.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-3">3</span></td>
+              <td><strong>George Linde</strong></td>
+              <td><code>PID_4229</code></td>
+              <td><strong>+0.172</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.129</td>
+              <td style="font-size: 11.5px; color: #4B5563;">High-tempo finishing from position 7 with 170+ death SR and bowling utility.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">4</span></td>
+              <td><strong>Harry Tector</strong></td>
+              <td><code>PID_4812</code></td>
+              <td><strong>+0.153</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.436</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Technical right-handed top-order anchor; high false-shot avoidance against express pace.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">5</span></td>
+              <td><strong>Mahipal Lomror</strong></td>
+              <td><code>PID_4821</code></td>
+              <td><strong>+0.123</strong></td>
+              <td style="color: #166534; font-weight:600;">+1.166</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Top domestic Indian finisher; extraordinary +1.166 clutch delta in IPL death situations.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">6</span></td>
+              <td><strong>Sikandar Raza</strong></td>
+              <td><code>PID_2984</code></td>
+              <td><strong>+0.107</strong></td>
+              <td style="color: #166534; font-weight:600;">-0.054</td>
+              <td style="font-size: 11.5px; color: #4B5563;">High sample consistency (332 balls) as versatile middle floater and spin matchup weapon.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">7</span></td>
+              <td><strong>Mark Adair</strong></td>
+              <td><code>PID_5379</code></td>
+              <td><strong>+0.085</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.039</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Ball-one boundary hitting at the death combined with lower-order striking.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">8</span></td>
+              <td><strong>Gareth Delany</strong></td>
+              <td><code>PID_7741</code></td>
+              <td><strong>+0.077</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.882</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Aggressive middle hitter; exceptional +0.882 delta attacking spinners in overs 7-15.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">9</span></td>
+              <td><strong>Charith Asalanka</strong></td>
+              <td><code>PID_4895</code></td>
+              <td><strong>+0.074</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.147</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Left-handed middle-overs stabilizer against leg-spin and off-spin.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">10</span></td>
+              <td><strong>Shai Hope</strong></td>
+              <td><code>PID_4369</code></td>
+              <td><strong>+0.071</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.043</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Technical anchor and wicketkeeper who prevents early powerplay collapses.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🎯 Top 10 Bowlers (Unstop Dropdowns)</div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player Name</th>
+              <th>ID</th>
+              <th>BoV/Ball</th>
+              <th>Delta</th>
+              <th>Selection Reason</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="rank-badge rank-1">1</span></td>
+              <td><strong>Sean Abbott</strong></td>
+              <td><code>PID_1389</code></td>
+              <td><strong>+0.397</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.674</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Hard-length death execution; suppresses boundary rate under 13.5% at death.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-2">2</span></td>
+              <td><strong>Mayank Markande</strong></td>
+              <td><code>PID_6683</code></td>
+              <td><strong>+0.375</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.648</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Attacking domestic leg-spinner; consistently breaks partnerships in overs 7-15.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-3">3</span></td>
+              <td><strong>Mujeeb Ur Rahman</strong></td>
+              <td><code>PID_6450</code></td>
+              <td><strong>+0.333</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.322</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Powerplay and middle mystery spin; concedes under 6.2 RPO in high pressure.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">4</span></td>
+              <td><strong>Benjamin Sears</strong></td>
+              <td><code>PID_4856</code></td>
+              <td><strong>+0.312</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.317</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Outright 145+ km/h pace and toe-crushing yorker execution in final overs.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">5</span></td>
+              <td><strong>Gerald Coetzee</strong></td>
+              <td><code>PID_6628</code></td>
+              <td><strong>+0.277</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.358</td>
+              <td style="font-size: 11.5px; color: #4B5563;">High-pace strike enforcer with proven wicket-taking impact at death.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">6</span></td>
+              <td><strong>Wanindu Hasaranga</strong></td>
+              <td><code>PID_4900</code></td>
+              <td><strong>+0.273</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.132</td>
+              <td style="font-size: 11.5px; color: #4B5563;">World-class middle-overs controller across 661 balls; strikes every 9 balls.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">7</span></td>
+              <td><strong>Jaydev Unadkat</strong></td>
+              <td><code>PID_1071</code></td>
+              <td><strong>+0.247</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.371</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Premier domestic left-arm closer; elite off-cutter and wide-yorker variation.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">8</span></td>
+              <td><strong>Akash Madhwal</strong></td>
+              <td><code>PID_8177</code></td>
+              <td><strong>+0.170</strong></td>
+              <td style="color: #166534; font-weight:600;">-0.209</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Low-trajectory slingy death specialist with proven IPL yorker execution.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">9</span></td>
+              <td><strong>Lockie Ferguson</strong></td>
+              <td><code>PID_4692</code></td>
+              <td><strong>+0.161</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.216</td>
+              <td style="font-size: 11.5px; color: #4B5563;">150+ km/h express pace enforcer inducing high false-shot percentages.</td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">10</span></td>
+              <td><strong>Joshua Little</strong></td>
+              <td><code>PID_4807</code></td>
+              <td><strong>+0.134</strong></td>
+              <td style="color: #166534; font-weight:600;">+0.089</td>
+              <td style="font-size: 11.5px; color: #4B5563;">Left-arm angle specialist operating effectively across powerplay and death.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 2: IPL / T20I BATTERS LEADERBOARD -->
+  <div id="tab-batters" class="tab-pane">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">🏏 IPL / T20I Data Pack Batters Leaderboard (Floor: ≥80 balls, ≥10 matches)</div>
+        <input type="text" id="bSearch" class="search-input" placeholder="Search batter name or ID..." onkeyup="filterTable('bTable', 'bSearch')">
+      </div>
+      <table id="bTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player Name</th>
+            <th>Player ID</th>
+            <th>Pressure Balls</th>
+            <th>Matches</th>
+            <th>Raw BV/Ball</th>
+            <th>Pressure Delta</th>
+            <th>Tactical Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="rank-badge rank-1">1</span></td>
+            <td><strong>Jimmy Neesham</strong></td>
+            <td><code>PID_3323</code></td>
+            <td>266</td>
+            <td>21</td>
+            <td><strong>+0.265</strong></td>
+            <td style="color: #166534; font-weight:600;">+1.121</td>
+            <td><span class="tag tag-role">Finisher</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-2">2</span></td>
+            <td><strong>Mark Chapman</strong></td>
+            <td><code>PID_3374</code></td>
+            <td>206</td>
+            <td>17</td>
+            <td><strong>+0.203</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.427</td>
+            <td><span class="tag tag-role">Anchor / Top-Order</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-3">3</span></td>
+            <td><strong>George Linde</strong></td>
+            <td><code>PID_4229</code></td>
+            <td>103</td>
+            <td>12</td>
+            <td><strong>+0.172</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.129</td>
+            <td><span class="tag tag-role">Finisher</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">4</span></td>
+            <td><strong>Harry Tector</strong></td>
+            <td><code>PID_4812</code></td>
+            <td>197</td>
+            <td>15</td>
+            <td><strong>+0.153</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.436</td>
+            <td><span class="tag tag-role">Anchor / Top-Order</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">5</span></td>
+            <td><strong>Mahipal Lomror</strong></td>
+            <td><code>PID_4821</code></td>
+            <td>138</td>
+            <td>18</td>
+            <td><strong>+0.123</strong></td>
+            <td style="color: #166534; font-weight:600;">+1.166</td>
+            <td><span class="tag tag-role">Finisher</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">6</span></td>
+            <td><strong>Sikandar Raza</strong></td>
+            <td><code>PID_2984</code></td>
+            <td>332</td>
+            <td>22</td>
+            <td><strong>+0.107</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.054</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">7</span></td>
+            <td><strong>Mark Adair</strong></td>
+            <td><code>PID_5379</code></td>
+            <td>171</td>
+            <td>19</td>
+            <td><strong>+0.085</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.039</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">8</span></td>
+            <td><strong>Gareth Delany</strong></td>
+            <td><code>PID_7741</code></td>
+            <td>178</td>
+            <td>17</td>
+            <td><strong>+0.077</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.882</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">9</span></td>
+            <td><strong>Charith Asalanka</strong></td>
+            <td><code>PID_4895</code></td>
+            <td>138</td>
+            <td>21</td>
+            <td><strong>+0.074</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.147</td>
+            <td><span class="tag tag-role">Anchor / Top-Order</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">10</span></td>
+            <td><strong>Shai Hope</strong></td>
+            <td><code>PID_4369</code></td>
+            <td>88</td>
+            <td>10</td>
+            <td><strong>+0.071</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.043</td>
+            <td><span class="tag tag-role">Anchor / Top-Order</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">11</span></td>
+            <td><strong>Ryan Burl</strong></td>
+            <td><code>PID_2463</code></td>
+            <td>306</td>
+            <td>23</td>
+            <td><strong>+0.039</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.136</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">12</span></td>
+            <td><strong>Nehal Wadhera</strong></td>
+            <td><code>PID_7059</code></td>
+            <td>229</td>
+            <td>22</td>
+            <td><strong>+0.027</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.396</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">13</span></td>
+            <td><strong>George Dockrell</strong></td>
+            <td><code>PID_1101</code></td>
+            <td>247</td>
+            <td>25</td>
+            <td><strong>+0.025</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.428</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">14</span></td>
+            <td><strong>Clive Madande</strong></td>
+            <td><code>PID_21781</code></td>
+            <td>197</td>
+            <td>16</td>
+            <td><strong>+0.023</strong></td>
+            <td style="color: #166534; font-weight:600;">+1.232</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">15</span></td>
+            <td><strong>Moeen Ali</strong></td>
+            <td><code>PID_1596</code></td>
+            <td>285</td>
+            <td>25</td>
+            <td><strong>+0.020</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.023</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">16</span></td>
+            <td><strong>Michael Bracewell</strong></td>
+            <td><code>PID_6512</code></td>
+            <td>165</td>
+            <td>18</td>
+            <td><strong>-0.012</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.035</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">17</span></td>
+            <td><strong>Nitish Rana</strong></td>
+            <td><code>PID_4246</code></td>
+            <td>176</td>
+            <td>19</td>
+            <td><strong>-0.020</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.082</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">18</span></td>
+            <td><strong>Deepak Hooda</strong></td>
+            <td><code>PID_3648</code></td>
+            <td>238</td>
+            <td>21</td>
+            <td><strong>-0.035</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.063</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">19</span></td>
+            <td><strong>Abhinav Manohar</strong></td>
+            <td><code>PID_4494</code></td>
+            <td>160</td>
+            <td>14</td>
+            <td><strong>-0.041</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.426</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">20</span></td>
+            <td><strong>M Shahrukh Khan</strong></td>
+            <td><code>PID_3782</code></td>
+            <td>211</td>
+            <td>28</td>
+            <td><strong>-0.043</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.032</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">21</span></td>
+            <td><strong>Vijay Shankar</strong></td>
+            <td><code>PID_2877</code></td>
+            <td>143</td>
+            <td>13</td>
+            <td><strong>-0.056</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.415</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">22</span></td>
+            <td><strong>Shimron Hetmyer</strong></td>
+            <td><code>PID_3297</code></td>
+            <td>553</td>
+            <td>51</td>
+            <td><strong>-0.061</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.177</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">23</span></td>
+            <td><strong>Chamika Karunaratne</strong></td>
+            <td><code>PID_6160</code></td>
+            <td>128</td>
+            <td>12</td>
+            <td><strong>-0.088</strong></td>
+            <td style="color: #166534; font-weight:600;">+1.110</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">24</span></td>
+            <td><strong>Wanindu Hasaranga</strong></td>
+            <td><code>PID_4900</code></td>
+            <td>279</td>
+            <td>41</td>
+            <td><strong>-0.094</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.100</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">25</span></td>
+            <td><strong>Ravichandran Ashwin</strong></td>
+            <td><code>PID_305</code></td>
+            <td>152</td>
+            <td>22</td>
+            <td><strong>-0.109</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.044</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">26</span></td>
+            <td><strong>Adil Rashid</strong></td>
+            <td><code>PID_479</code></td>
+            <td>82</td>
+            <td>14</td>
+            <td><strong>-0.110</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.441</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">27</span></td>
+            <td><strong>Mahendra Singh Dhoni</strong></td>
+            <td><code>PID_8</code></td>
+            <td>316</td>
+            <td>30</td>
+            <td><strong>-0.111</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.600</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">28</span></td>
+            <td><strong>Daryl Mitchell</strong></td>
+            <td><code>PID_4106</code></td>
+            <td>280</td>
+            <td>28</td>
+            <td><strong>-0.112</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.256</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">29</span></td>
+            <td><strong>Bhanuka Rajapaksa</strong></td>
+            <td><code>PID_2003</code></td>
+            <td>99</td>
+            <td>12</td>
+            <td><strong>-0.124</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.370</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">30</span></td>
+            <td><strong>Wellington Masakadza</strong></td>
+            <td><code>PID_4639</code></td>
+            <td>121</td>
+            <td>15</td>
+            <td><strong>-0.125</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.539</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">31</span></td>
+            <td><strong>Kamindu Mendis</strong></td>
+            <td><code>PID_4904</code></td>
+            <td>199</td>
+            <td>20</td>
+            <td><strong>-0.149</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.085</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">32</span></td>
+            <td><strong>Najibullah Zadran</strong></td>
+            <td><code>PID_2533</code></td>
+            <td>140</td>
+            <td>13</td>
+            <td><strong>-0.150</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.147</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">33</span></td>
+            <td><strong>Curtis Campher</strong></td>
+            <td><code>PID_7094</code></td>
+            <td>134</td>
+            <td>16</td>
+            <td><strong>-0.192</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.366</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">34</span></td>
+            <td><strong>Kieron Pollard</strong></td>
+            <td><code>PID_494</code></td>
+            <td>139</td>
+            <td>15</td>
+            <td><strong>-0.192</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.689</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">35</span></td>
+            <td><strong>Roston Chase</strong></td>
+            <td><code>PID_2687</code></td>
+            <td>178</td>
+            <td>18</td>
+            <td><strong>-0.273</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.207</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">36</span></td>
+            <td><strong>Abishek Porel</strong></td>
+            <td><code>PID_19714</code></td>
+            <td>92</td>
+            <td>11</td>
+            <td><strong>-0.275</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.354</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">37</span></td>
+            <td><strong>Glenn Maxwell</strong></td>
+            <td><code>PID_838</code></td>
+            <td>224</td>
+            <td>28</td>
+            <td><strong>-0.284</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.651</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">38</span></td>
+            <td><strong>Tashinga Musekiwa</strong></td>
+            <td><code>PID_21790</code></td>
+            <td>116</td>
+            <td>12</td>
+            <td><strong>-0.317</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.107</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">39</span></td>
+            <td><strong>Ambati Rayudu</strong></td>
+            <td><code>PID_535</code></td>
+            <td>90</td>
+            <td>11</td>
+            <td><strong>-0.348</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.186</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">40</span></td>
+            <td><strong>Ish Sodhi</strong></td>
+            <td><code>PID_2526</code></td>
+            <td>92</td>
+            <td>18</td>
+            <td><strong>-0.462</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.433</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">41</span></td>
+            <td><strong>Maheesh Theekshana</strong></td>
+            <td><code>PID_19316</code></td>
+            <td>98</td>
+            <td>25</td>
+            <td><strong>-0.830</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.222</td>
+            <td><span class="tag tag-role">Middle Floater</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 3: IPL / T20I BOWLERS LEADERBOARD -->
+  <div id="tab-bowlers" class="tab-pane">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">🎯 IPL / T20I Data Pack Bowlers Leaderboard (Floor: ≥80 balls, ≥10 matches)</div>
+        <input type="text" id="wSearch" class="search-input" placeholder="Search bowler name or ID..." onkeyup="filterTable('wTable', 'wSearch')">
+      </div>
+      <table id="wTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player Name</th>
+            <th>Player ID</th>
+            <th>Pressure Balls</th>
+            <th>Matches</th>
+            <th>Raw BoV/Ball</th>
+            <th>Pressure Delta</th>
+            <th>Tactical Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="rank-badge rank-1">1</span></td>
+            <td><strong>Sean Abbott</strong></td>
+            <td><code>PID_1389</code></td>
+            <td>112</td>
+            <td>11</td>
+            <td><strong>+0.397</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.674</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-2">2</span></td>
+            <td><strong>Mayank Markande</strong></td>
+            <td><code>PID_6683</code></td>
+            <td>135</td>
+            <td>10</td>
+            <td><strong>+0.375</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.648</td>
+            <td><span class="tag tag-role">Middle-Overs Spin</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-3">3</span></td>
+            <td><strong>Mujeeb Ur Rahman</strong></td>
+            <td><code>PID_6450</code></td>
+            <td>154</td>
+            <td>19</td>
+            <td><strong>+0.333</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.322</td>
+            <td><span class="tag tag-role">Middle-Overs Spin</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">4</span></td>
+            <td><strong>Benjamin Sears</strong></td>
+            <td><code>PID_4856</code></td>
+            <td>124</td>
+            <td>13</td>
+            <td><strong>+0.312</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.317</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">5</span></td>
+            <td><strong>Gerald Coetzee</strong></td>
+            <td><code>PID_6628</code></td>
+            <td>121</td>
+            <td>14</td>
+            <td><strong>+0.277</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.358</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">6</span></td>
+            <td><strong>Wanindu Hasaranga</strong></td>
+            <td><code>PID_4900</code></td>
+            <td>661</td>
+            <td>53</td>
+            <td><strong>+0.273</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.132</td>
+            <td><span class="tag tag-role">Middle-Overs Spin</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">7</span></td>
+            <td><strong>Jaydev Unadkat</strong></td>
+            <td><code>PID_1071</code></td>
+            <td>116</td>
+            <td>12</td>
+            <td><strong>+0.247</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.371</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">8</span></td>
+            <td><strong>Akash Madhwal</strong></td>
+            <td><code>PID_8177</code></td>
+            <td>114</td>
+            <td>10</td>
+            <td><strong>+0.170</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.209</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">9</span></td>
+            <td><strong>Lockie Ferguson</strong></td>
+            <td><code>PID_4692</code></td>
+            <td>316</td>
+            <td>38</td>
+            <td><strong>+0.161</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.216</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">10</span></td>
+            <td><strong>Joshua Little</strong></td>
+            <td><code>PID_4807</code></td>
+            <td>232</td>
+            <td>23</td>
+            <td><strong>+0.134</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.089</td>
+            <td><span class="tag tag-role">Death Seamer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">11</span></td>
+            <td><strong>Adam Milne</strong></td>
+            <td><code>PID_1487</code></td>
+            <td>128</td>
+            <td>14</td>
+            <td><strong>+0.122</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.136</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">12</span></td>
+            <td><strong>FazalHaq Farooqi</strong></td>
+            <td><code>PID_7240</code></td>
+            <td>191</td>
+            <td>28</td>
+            <td><strong>+0.076</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.038</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">13</span></td>
+            <td><strong>Tim Southee</strong></td>
+            <td><code>PID_278</code></td>
+            <td>176</td>
+            <td>22</td>
+            <td><strong>+0.074</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.082</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">14</span></td>
+            <td><strong>Gudakesh Motie</strong></td>
+            <td><code>PID_3276</code></td>
+            <td>200</td>
+            <td>14</td>
+            <td><strong>+0.072</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.124</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">15</span></td>
+            <td><strong>Naveen ul Haq</strong></td>
+            <td><code>PID_5809</code></td>
+            <td>235</td>
+            <td>26</td>
+            <td><strong>+0.069</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.053</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">16</span></td>
+            <td><strong>Roston Chase</strong></td>
+            <td><code>PID_2687</code></td>
+            <td>156</td>
+            <td>13</td>
+            <td><strong>+0.068</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.061</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">17</span></td>
+            <td><strong>Riley Meredith</strong></td>
+            <td><code>PID_5940</code></td>
+            <td>131</td>
+            <td>13</td>
+            <td><strong>+0.066</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.253</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">18</span></td>
+            <td><strong>Gareth Delany</strong></td>
+            <td><code>PID_7741</code></td>
+            <td>151</td>
+            <td>15</td>
+            <td><strong>+0.060</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.040</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">19</span></td>
+            <td><strong>Odean Smith</strong></td>
+            <td><code>PID_4840</code></td>
+            <td>86</td>
+            <td>10</td>
+            <td><strong>+0.060</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.493</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">20</span></td>
+            <td><strong>Obed McCoy</strong></td>
+            <td><code>PID_4837</code></td>
+            <td>208</td>
+            <td>18</td>
+            <td><strong>+0.049</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.142</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">21</span></td>
+            <td><strong>Daniel Sams</strong></td>
+            <td><code>PID_6518</code></td>
+            <td>84</td>
+            <td>11</td>
+            <td><strong>+0.048</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.049</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">22</span></td>
+            <td><strong>Ryan Burl</strong></td>
+            <td><code>PID_2463</code></td>
+            <td>137</td>
+            <td>12</td>
+            <td><strong>+0.044</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.248</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">23</span></td>
+            <td><strong>Adam Zampa</strong></td>
+            <td><code>PID_2636</code></td>
+            <td>398</td>
+            <td>33</td>
+            <td><strong>+0.038</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.168</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">24</span></td>
+            <td><strong>Maheesh Theekshana</strong></td>
+            <td><code>PID_19316</code></td>
+            <td>495</td>
+            <td>49</td>
+            <td><strong>+0.036</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.090</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">25</span></td>
+            <td><strong>Alzarri Joseph</strong></td>
+            <td><code>PID_3275</code></td>
+            <td>259</td>
+            <td>27</td>
+            <td><strong>+0.021</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.213</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">26</span></td>
+            <td><strong>Jimmy Neesham</strong></td>
+            <td><code>PID_3323</code></td>
+            <td>178</td>
+            <td>19</td>
+            <td><strong>+0.011</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.339</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">27</span></td>
+            <td><strong>Richard Ngarava</strong></td>
+            <td><code>PID_4874</code></td>
+            <td>132</td>
+            <td>16</td>
+            <td><strong>+0.011</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.030</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">28</span></td>
+            <td><strong>Piyush Chawla</strong></td>
+            <td><code>PID_23</code></td>
+            <td>138</td>
+            <td>14</td>
+            <td><strong>+0.005</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.086</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">29</span></td>
+            <td><strong>Dushmantha Chameera</strong></td>
+            <td><code>PID_2399</code></td>
+            <td>254</td>
+            <td>27</td>
+            <td><strong>-0.015</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.003</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">30</span></td>
+            <td><strong>Mitchell Starc</strong></td>
+            <td><code>PID_829</code></td>
+            <td>164</td>
+            <td>20</td>
+            <td><strong>-0.023</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.127</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">31</span></td>
+            <td><strong>Moeen Ali</strong></td>
+            <td><code>PID_1596</code></td>
+            <td>117</td>
+            <td>14</td>
+            <td><strong>-0.041</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.116</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">32</span></td>
+            <td><strong>Ish Sodhi</strong></td>
+            <td><code>PID_2526</code></td>
+            <td>315</td>
+            <td>28</td>
+            <td><strong>-0.041</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.044</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">33</span></td>
+            <td><strong>Sikandar Raza</strong></td>
+            <td><code>PID_2984</code></td>
+            <td>295</td>
+            <td>25</td>
+            <td><strong>-0.070</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.192</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">34</span></td>
+            <td><strong>Dwaine Pretorius</strong></td>
+            <td><code>PID_2334</code></td>
+            <td>147</td>
+            <td>13</td>
+            <td><strong>-0.070</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.356</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">35</span></td>
+            <td><strong>Mohit Sharma</strong></td>
+            <td><code>PID_2878</code></td>
+            <td>300</td>
+            <td>27</td>
+            <td><strong>-0.076</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.069</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">36</span></td>
+            <td><strong>Tushar Deshpande</strong></td>
+            <td><code>PID_6806</code></td>
+            <td>226</td>
+            <td>28</td>
+            <td><strong>-0.096</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.076</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">37</span></td>
+            <td><strong>Avesh Khan</strong></td>
+            <td><code>PID_3653</code></td>
+            <td>527</td>
+            <td>51</td>
+            <td><strong>-0.101</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.058</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">38</span></td>
+            <td><strong>Ishant Sharma</strong></td>
+            <td><code>PID_28</code></td>
+            <td>104</td>
+            <td>14</td>
+            <td><strong>-0.116</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.091</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">39</span></td>
+            <td><strong>Jason Behrendorff</strong></td>
+            <td><code>PID_2054</code></td>
+            <td>80</td>
+            <td>10</td>
+            <td><strong>-0.119</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.257</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">40</span></td>
+            <td><strong>Ravichandran Ashwin</strong></td>
+            <td><code>PID_305</code></td>
+            <td>378</td>
+            <td>35</td>
+            <td><strong>-0.121</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.151</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">41</span></td>
+            <td><strong>Curtis Campher</strong></td>
+            <td><code>PID_7094</code></td>
+            <td>139</td>
+            <td>14</td>
+            <td><strong>-0.134</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.301</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">42</span></td>
+            <td><strong>Luke Jongwe</strong></td>
+            <td><code>PID_22134</code></td>
+            <td>131</td>
+            <td>13</td>
+            <td><strong>-0.137</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.376</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">43</span></td>
+            <td><strong>Trent Boult</strong></td>
+            <td><code>PID_2320</code></td>
+            <td>283</td>
+            <td>36</td>
+            <td><strong>-0.137</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.221</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">44</span></td>
+            <td><strong>Mark Adair</strong></td>
+            <td><code>PID_5379</code></td>
+            <td>145</td>
+            <td>18</td>
+            <td><strong>-0.146</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.214</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">45</span></td>
+            <td><strong>Glenn Maxwell</strong></td>
+            <td><code>PID_838</code></td>
+            <td>109</td>
+            <td>16</td>
+            <td><strong>-0.192</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.290</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">46</span></td>
+            <td><strong>Michael Bracewell</strong></td>
+            <td><code>PID_6512</code></td>
+            <td>190</td>
+            <td>21</td>
+            <td><strong>-0.194</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.255</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">47</span></td>
+            <td><strong>Shamar Joseph</strong></td>
+            <td><code>PID_47050</code></td>
+            <td>119</td>
+            <td>11</td>
+            <td><strong>-0.203</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.096</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">48</span></td>
+            <td><strong>Anrich Nortje</strong></td>
+            <td><code>PID_7270</code></td>
+            <td>223</td>
+            <td>20</td>
+            <td><strong>-0.204</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.009</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">49</span></td>
+            <td><strong>Barry McCarthy</strong></td>
+            <td><code>PID_5441</code></td>
+            <td>174</td>
+            <td>17</td>
+            <td><strong>-0.277</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.189</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">50</span></td>
+            <td><strong>Chris Jordan</strong></td>
+            <td><code>PID_786</code></td>
+            <td>141</td>
+            <td>17</td>
+            <td><strong>-0.303</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.091</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">51</span></td>
+            <td><strong>Fareed Malik</strong></td>
+            <td><code>PID_4201</code></td>
+            <td>93</td>
+            <td>10</td>
+            <td><strong>-0.327</strong></td>
+            <td style="color: #166534; font-weight:600;">+0.010</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">52</span></td>
+            <td><strong>Reece Topley</strong></td>
+            <td><code>PID_2315</code></td>
+            <td>98</td>
+            <td>12</td>
+            <td><strong>-0.336</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.273</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">53</span></td>
+            <td><strong>Adil Rashid</strong></td>
+            <td><code>PID_479</code></td>
+            <td>306</td>
+            <td>25</td>
+            <td><strong>-0.343</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.368</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">54</span></td>
+            <td><strong>Keshav Maharaj</strong></td>
+            <td><code>PID_1944</code></td>
+            <td>164</td>
+            <td>14</td>
+            <td><strong>-0.346</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.785</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">55</span></td>
+            <td><strong>Karn Sharma</strong></td>
+            <td><code>PID_395</code></td>
+            <td>175</td>
+            <td>14</td>
+            <td><strong>-0.508</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.595</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr><tr>
+            <td><span class="rank-badge rank-other">56</span></td>
+            <td><strong>Deepak Chahar</strong></td>
+            <td><code>PID_1813</code></td>
+            <td>99</td>
+            <td>17</td>
+            <td><strong>-0.556</strong></td>
+            <td style="color: #166534; font-weight:600;">-0.548</td>
+            <td><span class="tag tag-role">Left-Arm Closer</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 4: SMAT DOMESTIC TALENT CRUCIBLE -->
+  <div id="tab-smat" class="tab-pane">
+    <div class="callout callout-pink">
+      <strong>Syed Mushtaq Ali Trophy (SMAT) Pipeline:</strong> Evaluates domestic Indian talent to discover uncapped clutch performers who can be acquired at base auction prices, solving domestic roster depth without spending primary purse capital.
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🇮🇳 Top 10 SMAT Batters</div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player Name</th>
+              <th>Player ID</th>
+              <th>SMAT Rating</th>
+              <th>Pressure Balls</th>
+              <th>BV/Ball</th>
+              <th>Tactical Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="rank-badge rank-1">1</span></td>
+              <td><strong>SS Sharma</strong></td>
+              <td><code>CS_0ebaa16a</code></td>
+              <td><strong>+1.621</strong></td>
+              <td>31.0</td>
+              <td>+0.491</td>
+              <td><span class="tag tag-domestic">Top-Order Anchor</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-2">2</span></td>
+              <td><strong>Rajat Dey</strong></td>
+              <td><code>CS_ccc04a61</code></td>
+              <td><strong>+1.315</strong></td>
+              <td>32.0</td>
+              <td>+0.421</td>
+              <td><span class="tag tag-domestic">Power Finisher</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-3">3</span></td>
+              <td><strong>Abhinav Manohar</strong></td>
+              <td><code>PID_4494</code></td>
+              <td><strong>+0.868</strong></td>
+              <td>47.0</td>
+              <td>+0.188</td>
+              <td><span class="tag tag-domestic">Power Finisher</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">4</span></td>
+              <td><strong>Vishnu Solanki</strong></td>
+              <td><code>CS_2e802011</code></td>
+              <td><strong>+0.628</strong></td>
+              <td>18.0</td>
+              <td>+0.469</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">5</span></td>
+              <td><strong>Rahul Batham</strong></td>
+              <td><code>CS_891b9757</code></td>
+              <td><strong>+0.575</strong></td>
+              <td>45.0</td>
+              <td>+0.130</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">6</span></td>
+              <td><strong>Karan Lal</strong></td>
+              <td><code>CS_72147266</code></td>
+              <td><strong>+0.512</strong></td>
+              <td>37.0</td>
+              <td>+0.129</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">7</span></td>
+              <td><strong>A Sheth</strong></td>
+              <td><code>CS_4312e8f9</code></td>
+              <td><strong>+0.436</strong></td>
+              <td>15.0</td>
+              <td>+0.185</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">8</span></td>
+              <td><strong>Mohit Jangra</strong></td>
+              <td><code>CS_4052ab5c</code></td>
+              <td><strong>+0.433</strong></td>
+              <td>18.0</td>
+              <td>+0.161</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">9</span></td>
+              <td><strong>Ajay Mandal</strong></td>
+              <td><code>CS_31ee319e</code></td>
+              <td><strong>+0.370</strong></td>
+              <td>37.0</td>
+              <td>+0.102</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">10</span></td>
+              <td><strong>Anish Charak</strong></td>
+              <td><code>CS_62a48252</code></td>
+              <td><strong>+0.288</strong></td>
+              <td>25.0</td>
+              <td>+0.076</td>
+              <td><span class="tag tag-domestic">Middle Hitter / WK</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🇮🇳 Top 10 SMAT Bowlers</div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player Name</th>
+              <th>Player ID</th>
+              <th>SMAT Rating</th>
+              <th>Pressure Balls</th>
+              <th>BoV/Ball</th>
+              <th>Tactical Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="rank-badge rank-1">1</span></td>
+              <td><strong>Shams Mulani</strong></td>
+              <td><code>PID_6697</code></td>
+              <td><strong>+2.372</strong></td>
+              <td>20.0</td>
+              <td>+1.345</td>
+              <td><span class="tag tag-domestic">Left-Arm Spin (Jadeja Mirror)</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-2">2</span></td>
+              <td><strong>LI Meriwala</strong></td>
+              <td><code>CS_d3611425</code></td>
+              <td><strong>+1.234</strong></td>
+              <td>34.0</td>
+              <td>+0.407</td>
+              <td><span class="tag tag-domestic">Death Seamer (Yorkers)</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-3">3</span></td>
+              <td><strong>CV Milind</strong></td>
+              <td><code>CS_7b5b6311</code></td>
+              <td><strong>+1.163</strong></td>
+              <td>19.0</td>
+              <td>+0.655</td>
+              <td><span class="tag tag-domestic">Left-Arm Seam</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">4</span></td>
+              <td><strong>AV Rajput</strong></td>
+              <td><code>CS_c1d3515b</code></td>
+              <td><strong>+0.974</strong></td>
+              <td>20.0</td>
+              <td>+0.511</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">5</span></td>
+              <td><strong>Lalit Yadav</strong></td>
+              <td><code>PID_6671</code></td>
+              <td><strong>+0.914</strong></td>
+              <td>44.0</td>
+              <td>+0.234</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">6</span></td>
+              <td><strong>Tanush Kotian</strong></td>
+              <td><code>PID_6486</code></td>
+              <td><strong>+0.858</strong></td>
+              <td>20.0</td>
+              <td>+0.508</td>
+              <td><span class="tag tag-domestic">Off-Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">7</span></td>
+              <td><strong>Sayan Ghosh</strong></td>
+              <td><code>CS_d4b8ea98</code></td>
+              <td><strong>+0.670</strong></td>
+              <td>20.0</td>
+              <td>+0.330</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">8</span></td>
+              <td><strong>Avesh Khan</strong></td>
+              <td><code>PID_3653</code></td>
+              <td><strong>+0.643</strong></td>
+              <td>18.0</td>
+              <td>+0.345</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">9</span></td>
+              <td><strong>Kanishk Seth</strong></td>
+              <td><code>CS_98f27d4b</code></td>
+              <td><strong>+0.577</strong></td>
+              <td>17.0</td>
+              <td>+0.317</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr><tr>
+              <td><span class="rank-badge rank-other">10</span></td>
+              <td><strong>Ravi Teja</strong></td>
+              <td><code>CS_5f39537c</code></td>
+              <td><strong>+0.558</strong></td>
+              <td>18.0</td>
+              <td>+0.289</td>
+              <td><span class="tag tag-domestic">Pace / Spin Variety</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 5: RAJASTHAN ROYALS 2027 LINEUP FIT -->
+  <div id="tab-rr" class="tab-pane">
+    <div class="callout">
+      <strong>Rajasthan Royals 2027 Roster Audit:</strong> RR holds 19 retained squad members, including 5 overseas players (Jofra Archer, Nandre Burger, Dasun Shanaka, Donovan Ferreira, Lhuan-dre Pretorius). Exactly 3 Overseas Slots and 3 Domestic Indian Slots remain open to reach the 25-man squad maximum.
+    </div>
+
+    <div class="card">
+      <div class="card-title" style="margin-bottom: 14px;">Tactical Mapping: How Data Pack & SMAT Targets Resolve RR's 7 Needs</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Need ID</th>
+            <th>Franchise Priority Need</th>
+            <th>Weight</th>
+            <th>Recommended Candidates</th>
+            <th>Strategic Rationale & Role in RR Squad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Need 1</strong></td>
+            <td><strong>RH Top-Order Anchor (pos 1–4)</strong></td>
+            <td><strong>1.0</strong></td>
+            <td><strong>Harry Tector</strong> (T20I) / <strong>Shai Hope</strong> (T20I)</td>
+            <td>Starting XI #3 (Overseas Slot #1). Balances left-handed core (Jaiswal, Jadeja) and stabilizes early collapses, enabling Parag and Jurel to attack from positions 4 and 5.</td>
+          </tr>
+          <tr>
+            <td><strong>Need 2</strong></td>
+            <td><strong>Power Finisher (pos 5–7)</strong></td>
+            <td><strong>1.0</strong></td>
+            <td><strong>Mahipal Lomror</strong> (IPL) / <strong>Jimmy Neesham</strong> (T20I)</td>
+            <td>Lomror (+1.166 delta) provides an elite domestic left-handed finisher, preserving overseas slots. Neesham provides world-class death striking (178+ SR).</td>
+          </tr>
+          <tr>
+            <td><strong>Need 3</strong></td>
+            <td><strong>Middle-Overs Control (overs 7–16)</strong></td>
+            <td><strong>0.8</strong></td>
+            <td><strong>Wanindu Hasaranga</strong> (IPL) / <strong>Mayank Markande</strong></td>
+            <td>Hasaranga (Overseas Slot #3) strikes every 9 balls in high leverage. Creates an unplayable middle-overs spin triumvirate with Bishnoi and Jadeja. Markande provides domestic leg-spin depth.</td>
+          </tr>
+          <tr>
+            <td><strong>Need 4</strong></td>
+            <td><strong>Death-Overs Pace Specialist</strong></td>
+            <td><strong>0.6</strong></td>
+            <td><strong>Sean Abbott</strong> / <strong>Gerald Coetzee</strong> / <strong>Akash Madhwal</strong></td>
+            <td>Workload and injury insurance behind Jofra Archer and Mohammed Shami. Abbott suppresses death boundaries under 13.5%; Madhwal executes domestic yorkers.</td>
+          </tr>
+          <tr>
+            <td><strong>Need 5</strong></td>
+            <td><strong>Opener Backup (pos 1–3)</strong></td>
+            <td><strong>0.6</strong></td>
+            <td><strong>Shai Hope</strong> / <strong>Priyank Panchal</strong> (SMAT)</td>
+            <td>Provides technical anchor depth if Vaibhav Sooryavanshi encounters difficult seam-friendly conditions.</td>
+          </tr>
+          <tr>
+            <td><strong>Need 6</strong></td>
+            <td><strong>Spin Variety (Off/Mystery Spin)</strong></td>
+            <td><strong>0.5</strong></td>
+            <td><strong>Mujeeb Ur Rahman</strong> / <strong>Tanush Kotian</strong> (SMAT)</td>
+            <td>Tactical weapon against left-heavy opposition top orders, offering off-spin and carrom-ball angles.</td>
+          </tr>
+          <tr>
+            <td><strong>Need 7</strong></td>
+            <td><strong>Seam All-Rounder Depth (pos 6–7)</strong></td>
+            <td><strong>0.3</strong></td>
+            <td><strong>Jimmy Neesham</strong> / <strong>Atit Sheth</strong> (SMAT)</td>
+            <td>Depth cover behind retained all-rounder Dasun Shanaka, providing a 6th bowling option without sacrificing batting depth.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 6: METHODOLOGY & FORMULAS -->
+  <div id="tab-methodology" class="tab-pane">
+    <div class="card">
+      <div class="card-title">Mathematical Formulation & Pressure Engine</div>
+      <p style="margin-bottom: 12px; font-size: 13px;"><strong>1. Logistic Win Probability (WP) & First-Innings Par Divergence:</strong></p>
+      <div style="background: #F8FAFC; padding: 14px; border-radius: 6px; font-family: monospace; font-size: 12.5px; margin-bottom: 16px; border: 1px solid var(--rr-border);">
+        WP(s) = 1 / [1 + exp(-(β₀ + β_req·RRR + β_curr·CRR + β_wkt·wickets + β_rem·balls_left))]
+      </div>
+
+      <p style="margin-bottom: 12px; font-size: 13px;"><strong>2. Continuous Pressure Index (PI in [0, 1]):</strong></p>
+      <div style="background: #F8FAFC; padding: 14px; border-radius: 6px; font-family: monospace; font-size: 12.5px; margin-bottom: 16px; border: 1px solid var(--rr-border);">
+        PI = 1 - 4·(WP - 0.5)²  (calibrated with par-score variance in 1st innings to eliminate leverage collapse)
+      </div>
+
+      <p style="margin-bottom: 12px; font-size: 13px;"><strong>3. Contextual Ball Value (BV & BoV):</strong></p>
+      <div style="background: #F8FAFC; padding: 14px; border-radius: 6px; font-family: monospace; font-size: 12.5px; margin-bottom: 16px; border: 1px solid var(--rr-border);">
+        BV = (runs - E[runs]) - 4.5·(wicket - E[wicket])<br>
+        BoV = -BV = (E[runs] - runs) + 4.5·(wicket - E[wicket])<br>
+        Clutch Delta (Δ) = Average(Value_pressure) - Average(Value_ordinary)
+      </div>
+
+      <p style="margin-bottom: 12px; font-size: 13px;"><strong>4. Empirical Bayes Shrinkage Estimator:</strong></p>
+      <div style="background: #F8FAFC; padding: 14px; border-radius: 6px; font-family: monospace; font-size: 12.5px; margin-bottom: 16px; border: 1px solid var(--rr-border);">
+        θ_shrunk = μ + [ τ² / (τ² + s_i²) ] · (θ_i - μ)
+      </div>
+      <p style="font-size: 12px; color: var(--rr-muted);">
+        Where τ² represents true between-player variance and s_i² represents individual sampling variance. Regularizes small-sample noise to guarantee statistical reliability across matches.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function showTab(tabId) {
+  document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(el => el.classList.remove('active'));
+  document.getElementById(tabId).classList.add('active');
+  event.target.classList.add('active');
+}
+
+function filterTable(tableId, inputId) {
+  let input = document.getElementById(inputId).value.toLowerCase();
+  let table = document.getElementById(tableId);
+  let tr = table.getElementsByTagName('tr');
+  for (let i = 1; i < tr.length; i++) {
+    let text = tr[i].textContent.toLowerCase();
+    tr[i].style.display = text.indexOf(input) > -1 ? '' : 'none';
+  }
+}
+</script>
+
+</body>
+</html>

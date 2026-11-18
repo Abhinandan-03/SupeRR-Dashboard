@@ -1,0 +1,759 @@
+source,cricsheet_file,cricsheet_date,team1,team2,canonical_match_id,canonical_competition,canonical_match_date,cricsheet_deliveries,canonical_deliveries,matched_events,agreement_denominator,agreement,accepted_ge_95
+Cricsheet IPL,1304047.yaml,2022-03-26,Chennai Super Kings,Kolkata Knight Riders,14094,IPL 2022,2022-03-26,237,237,237,237,1.0,true
+Cricsheet IPL,1304048.yaml,2022-03-27,Mumbai Indians,Delhi Capitals,14095,IPL 2022,2022-03-27,239,239,239,239,1.0,true
+Cricsheet IPL,1304049.yaml,2022-03-27,Royal Challengers Bangalore,Punjab Kings,14096,IPL 2022,2022-03-27,253,253,253,253,1.0,true
+Cricsheet IPL,1304050.yaml,2022-03-28,Lucknow Super Giants,Gujarat Titans,14097,IPL 2022,2022-03-28,245,245,245,245,1.0,true
+Cricsheet IPL,1304051.yaml,2022-03-29,Rajasthan Royals,Sunrisers Hyderabad,14098,IPL 2022,2022-03-29,255,255,255,255,1.0,true
+Cricsheet IPL,1304052.yaml,2022-03-30,Kolkata Knight Riders,Royal Challengers Bangalore,14099,IPL 2022,2022-03-30,236,236,236,236,1.0,true
+Cricsheet IPL,1304053.yaml,2022-03-31,Chennai Super Kings,Lucknow Super Giants,14100,IPL 2022,2022-03-31,252,252,252,252,1.0,true
+Cricsheet IPL,1304054.yaml,2022-04-01,Punjab Kings,Kolkata Knight Riders,14101,IPL 2022,2022-04-01,210,210,210,210,1.0,true
+Cricsheet IPL,1304055.yaml,2022-04-02,Rajasthan Royals,Mumbai Indians,14102,IPL 2022,2022-04-02,256,256,256,256,1.0,true
+Cricsheet IPL,1304056.yaml,2022-04-02,Gujarat Titans,Delhi Capitals,14103,IPL 2022,2022-04-02,247,247,247,247,1.0,true
+Cricsheet IPL,1304057.yaml,2022-04-03,Punjab Kings,Chennai Super Kings,14104,IPL 2022,2022-04-03,245,245,245,245,1.0,true
+Cricsheet IPL,1304058.yaml,2022-04-04,Lucknow Super Giants,Sunrisers Hyderabad,14105,IPL 2022,2022-04-04,247,247,247,247,1.0,true
+Cricsheet IPL,1304059.yaml,2022-04-05,Rajasthan Royals,Royal Challengers Bangalore,14106,IPL 2022,2022-04-05,247,247,247,247,1.0,true
+Cricsheet IPL,1304060.yaml,2022-04-06,Mumbai Indians,Kolkata Knight Riders,14107,IPL 2022,2022-04-06,218,218,218,218,1.0,true
+Cricsheet IPL,1304061.yaml,2022-04-07,Delhi Capitals,Lucknow Super Giants,14108,IPL 2022,2022-04-07,246,246,246,246,1.0,true
+Cricsheet IPL,1304062.yaml,2022-04-08,Punjab Kings,Gujarat Titans,14109,IPL 2022,2022-04-08,247,247,247,247,1.0,true
+Cricsheet IPL,1304063.yaml,2022-04-09,Chennai Super Kings,Sunrisers Hyderabad,14110,IPL 2022,2022-04-09,235,235,235,235,1.0,true
+Cricsheet IPL,1304064.yaml,2022-04-09,Mumbai Indians,Royal Challengers Bangalore,14111,IPL 2022,2022-04-09,236,236,236,236,1.0,true
+Cricsheet IPL,1304065.yaml,2022-04-10,Delhi Capitals,Kolkata Knight Riders,14112,IPL 2022,2022-04-10,246,246,246,246,1.0,true
+Cricsheet IPL,1304066.yaml,2022-04-10,Rajasthan Royals,Lucknow Super Giants,14113,IPL 2022,2022-04-10,250,250,250,250,1.0,true
+Cricsheet IPL,1304067.yaml,2022-04-11,Gujarat Titans,Sunrisers Hyderabad,14114,IPL 2022,2022-04-11,246,246,243,246,0.9878048780487805,true
+Cricsheet IPL,1304068.yaml,2022-04-12,Chennai Super Kings,Royal Challengers Bangalore,14115,IPL 2022,2022-04-12,256,256,256,256,1.0,true
+Cricsheet IPL,1304069.yaml,2022-04-13,Punjab Kings,Mumbai Indians,14116,IPL 2022,2022-04-13,252,252,252,252,1.0,true
+Cricsheet IPL,1304070.yaml,2022-04-14,Gujarat Titans,Rajasthan Royals,14117,IPL 2022,2022-04-14,246,246,246,246,1.0,true
+Cricsheet IPL,1304071.yaml,2022-04-15,Kolkata Knight Riders,Sunrisers Hyderabad,14118,IPL 2022,2022-04-15,234,234,234,234,1.0,true
+Cricsheet IPL,1304072.yaml,2022-04-16,Lucknow Super Giants,Mumbai Indians,14119,IPL 2022,2022-04-16,249,249,249,249,1.0,true
+Cricsheet IPL,1304073.yaml,2022-04-16,Royal Challengers Bangalore,Delhi Capitals,14120,IPL 2022,2022-04-16,250,250,250,250,1.0,true
+Cricsheet IPL,1304074.yaml,2022-04-17,Punjab Kings,Sunrisers Hyderabad,14121,IPL 2022,2022-04-17,242,242,242,242,1.0,true
+Cricsheet IPL,1304075.yaml,2022-04-17,Chennai Super Kings,Gujarat Titans,14122,IPL 2022,2022-04-17,246,246,246,246,1.0,true
+Cricsheet IPL,1304076.yaml,2022-04-18,Rajasthan Royals,Kolkata Knight Riders,14123,IPL 2022,2022-04-18,258,258,258,258,1.0,true
+Cricsheet IPL,1304077.yaml,2022-04-19,Royal Challengers Bangalore,Lucknow Super Giants,14124,IPL 2022,2022-04-19,254,254,254,254,1.0,true
+Cricsheet IPL,1304078.yaml,2022-04-20,Punjab Kings,Delhi Capitals,14125,IPL 2022,2022-04-20,190,190,190,190,1.0,true
+Cricsheet IPL,1304079.yaml,2022-04-21,Mumbai Indians,Chennai Super Kings,14126,IPL 2022,2022-04-21,250,250,250,250,1.0,true
+Cricsheet IPL,1304080.yaml,2022-04-22,Rajasthan Royals,Delhi Capitals,14127,IPL 2022,2022-04-22,252,252,252,252,1.0,true
+Cricsheet IPL,1304081.yaml,2022-04-23,Gujarat Titans,Kolkata Knight Riders,14128,IPL 2022,2022-04-23,253,253,253,253,1.0,true
+Cricsheet IPL,1304082.yaml,2022-04-23,Royal Challengers Bangalore,Sunrisers Hyderabad,14129,IPL 2022,2022-04-23,154,154,154,154,1.0,true
+Cricsheet IPL,1304083.yaml,2022-04-24,Lucknow Super Giants,Mumbai Indians,14130,IPL 2022,2022-04-24,253,251,245,253,0.9683794466403162,true
+Cricsheet IPL,1304084.yaml,2022-04-25,Punjab Kings,Chennai Super Kings,14131,IPL 2022,2022-04-25,259,259,259,259,1.0,true
+Cricsheet IPL,1304085.yaml,2022-04-26,Rajasthan Royals,Royal Challengers Bangalore,14132,IPL 2022,2022-04-26,246,246,246,246,1.0,true
+Cricsheet IPL,1304086.yaml,2022-04-27,Sunrisers Hyderabad,Gujarat Titans,14133,IPL 2022,2022-04-27,251,251,251,251,1.0,true
+Cricsheet IPL,1304087.yaml,2022-04-28,Kolkata Knight Riders,Delhi Capitals,14134,IPL 2022,2022-04-28,241,241,241,241,1.0,true
+Cricsheet IPL,1304088.yaml,2022-04-29,Lucknow Super Giants,Punjab Kings,14135,IPL 2022,2022-04-29,253,253,253,253,1.0,true
+Cricsheet IPL,1304089.yaml,2022-04-30,Royal Challengers Bangalore,Gujarat Titans,14136,IPL 2022,2022-04-30,244,244,244,244,1.0,true
+Cricsheet IPL,1304090.yaml,2022-04-30,Rajasthan Royals,Mumbai Indians,14137,IPL 2022,2022-04-30,247,247,247,247,1.0,true
+Cricsheet IPL,1304091.yaml,2022-05-01,Lucknow Super Giants,Delhi Capitals,14139,IPL 2022,2022-05-01,255,255,255,255,1.0,true
+Cricsheet IPL,1304092.yaml,2022-05-01,Chennai Super Kings,Sunrisers Hyderabad,14140,IPL 2022,2022-05-01,246,246,246,246,1.0,true
+Cricsheet IPL,1304093.yaml,2022-05-02,Rajasthan Royals,Kolkata Knight Riders,14141,IPL 2022,2022-05-02,251,251,251,251,1.0,true
+Cricsheet IPL,1304094.yaml,2022-05-03,Gujarat Titans,Punjab Kings,14142,IPL 2022,2022-05-03,229,229,229,229,1.0,true
+Cricsheet IPL,1304095.yaml,2022-05-04,Royal Challengers Bangalore,Chennai Super Kings,14143,IPL 2022,2022-05-04,247,247,247,247,1.0,true
+Cricsheet IPL,1304096.yaml,2022-05-05,Delhi Capitals,Sunrisers Hyderabad,14144,IPL 2022,2022-05-05,253,253,253,253,1.0,true
+Cricsheet IPL,1304097.yaml,2022-05-06,Mumbai Indians,Gujarat Titans,14145,IPL 2022,2022-05-06,246,246,246,246,1.0,true
+Cricsheet IPL,1304098.yaml,2022-05-07,Punjab Kings,Rajasthan Royals,14146,IPL 2022,2022-05-07,255,255,255,255,1.0,true
+Cricsheet IPL,1304099.yaml,2022-05-07,Lucknow Super Giants,Kolkata Knight Riders,14147,IPL 2022,2022-05-07,211,211,211,211,1.0,true
+Cricsheet IPL,1304100.yaml,2022-05-08,Royal Challengers Bangalore,Sunrisers Hyderabad,14148,IPL 2022,2022-05-08,246,246,246,246,1.0,true
+Cricsheet IPL,1304101.yaml,2022-05-08,Chennai Super Kings,Delhi Capitals,14149,IPL 2022,2022-05-08,239,239,239,239,1.0,true
+Cricsheet IPL,1304102.yaml,2022-05-09,Kolkata Knight Riders,Mumbai Indians,14150,IPL 2022,2022-05-09,233,233,233,233,1.0,true
+Cricsheet IPL,1304103.yaml,2022-05-10,Gujarat Titans,Lucknow Super Giants,14151,IPL 2022,2022-05-10,212,212,212,212,1.0,true
+Cricsheet IPL,1304104.yaml,2022-05-11,Rajasthan Royals,Delhi Capitals,14152,IPL 2022,2022-05-11,239,239,239,239,1.0,true
+Cricsheet IPL,1304105.yaml,2022-05-12,Chennai Super Kings,Mumbai Indians,14153,IPL 2022,2022-05-12,198,198,198,198,1.0,true
+Cricsheet IPL,1304106.yaml,2022-05-13,Punjab Kings,Royal Challengers Bangalore,14154,IPL 2022,2022-05-13,252,252,252,252,1.0,true
+Cricsheet IPL,1304107.yaml,2022-05-14,Kolkata Knight Riders,Sunrisers Hyderabad,14155,IPL 2022,2022-05-14,251,251,251,251,1.0,true
+Cricsheet IPL,1304108.yaml,2022-05-15,Chennai Super Kings,Gujarat Titans,14156,IPL 2022,2022-05-15,244,244,244,244,1.0,true
+Cricsheet IPL,1304109.yaml,2022-05-15,Rajasthan Royals,Lucknow Super Giants,14157,IPL 2022,2022-05-15,251,251,251,251,1.0,true
+Cricsheet IPL,1304110.yaml,2022-05-16,Delhi Capitals,Punjab Kings,14158,IPL 2022,2022-05-16,249,249,249,249,1.0,true
+Cricsheet IPL,1304111.yaml,2022-05-17,Sunrisers Hyderabad,Mumbai Indians,14159,IPL 2022,2022-05-17,255,255,255,255,1.0,true
+Cricsheet IPL,1304112.yaml,2022-05-18,Lucknow Super Giants,Kolkata Knight Riders,14160,IPL 2022,2022-05-18,249,249,249,249,1.0,true
+Cricsheet IPL,1304113.yaml,2022-05-19,Gujarat Titans,Royal Challengers Bangalore,14161,IPL 2022,2022-05-19,237,237,237,237,1.0,true
+Cricsheet IPL,1304114.yaml,2022-05-20,Chennai Super Kings,Rajasthan Royals,14162,IPL 2022,2022-05-20,247,247,247,247,1.0,true
+Cricsheet IPL,1304115.yaml,2022-05-21,Delhi Capitals,Mumbai Indians,14163,IPL 2022,2022-05-21,247,247,247,247,1.0,true
+Cricsheet IPL,1304116.yaml,2022-05-22,Sunrisers Hyderabad,Punjab Kings,14164,IPL 2022,2022-05-22,220,219,219,220,0.9954545454545455,true
+Cricsheet IPL,1312197.yaml,2022-05-24,Rajasthan Royals,Gujarat Titans,15187,IPL 2022,2022-05-24,252,252,252,252,1.0,true
+Cricsheet IPL,1312198.yaml,2022-05-25,Royal Challengers Bangalore,Lucknow Super Giants,15188,IPL 2022,2022-05-25,256,256,256,256,1.0,true
+Cricsheet IPL,1312199.yaml,2022-05-27,Royal Challengers Bangalore,Rajasthan Royals,15189,IPL 2022,2022-05-27,236,236,236,236,1.0,true
+Cricsheet IPL,1312200.yaml,2022-05-29,Rajasthan Royals,Gujarat Titans,15190,IPL 2022,2022-05-29,233,233,233,233,1.0,true
+Cricsheet IPL,1359475.yaml,2023-03-31,Chennai Super Kings,Gujarat Titans,20181,IPL 2023,2023-03-31,243,243,241,243,0.9917695473251029,true
+Cricsheet IPL,1359476.yaml,2023-04-01,Punjab Kings,Kolkata Knight Riders,20182,IPL 2023,2023-04-01,222,222,222,222,1.0,true
+Cricsheet IPL,1359477.yaml,2023-04-01,Lucknow Super Giants,Delhi Capitals,20183,IPL 2023,2023-04-01,251,251,251,251,1.0,true
+Cricsheet IPL,1359478.yaml,2023-04-02,Rajasthan Royals,Sunrisers Hyderabad,20184,IPL 2023,2023-04-02,248,248,246,248,0.9919354838709677,true
+Cricsheet IPL,1359479.yaml,2023-04-02,Mumbai Indians,Royal Challengers Bangalore,20185,IPL 2023,2023-04-02,232,232,232,232,1.0,true
+Cricsheet IPL,1359480.yaml,2023-04-03,Chennai Super Kings,Lucknow Super Giants,20186,IPL 2023,2023-04-03,260,260,260,260,1.0,true
+Cricsheet IPL,1359481.yaml,2023-04-04,Delhi Capitals,Gujarat Titans,20187,IPL 2023,2023-04-04,240,240,240,240,1.0,true
+Cricsheet IPL,1359482.yaml,2023-04-05,Punjab Kings,Rajasthan Royals,20188,IPL 2023,2023-04-05,252,252,251,252,0.996031746031746,true
+Cricsheet IPL,1359483.yaml,2023-04-06,Kolkata Knight Riders,Royal Challengers Bangalore,20189,IPL 2023,2023-04-06,236,236,236,236,1.0,true
+Cricsheet IPL,1359484.yaml,2023-04-07,Sunrisers Hyderabad,Lucknow Super Giants,20190,IPL 2023,2023-04-07,223,223,223,223,1.0,true
+Cricsheet IPL,1359485.yaml,2023-04-08,Rajasthan Royals,Delhi Capitals,20191,IPL 2023,2023-04-08,252,252,252,252,1.0,true
+Cricsheet IPL,1359486.yaml,2023-04-08,Mumbai Indians,Chennai Super Kings,20192,IPL 2023,2023-04-08,239,239,239,239,1.0,true
+Cricsheet IPL,1359487.yaml,2023-04-09,Gujarat Titans,Kolkata Knight Riders,20193,IPL 2023,2023-04-09,250,250,250,250,1.0,true
+Cricsheet IPL,1359488.yaml,2023-04-09,Punjab Kings,Sunrisers Hyderabad,20194,IPL 2023,2023-04-09,228,228,228,228,1.0,true
+Cricsheet IPL,1359489.yaml,2023-04-10,Royal Challengers Bangalore,Lucknow Super Giants,20195,IPL 2023,2023-04-10,253,253,253,253,1.0,true
+Cricsheet IPL,1359490.yaml,2023-04-11,Delhi Capitals,Mumbai Indians,20196,IPL 2023,2023-04-11,246,246,246,246,1.0,true
+Cricsheet IPL,1359491.yaml,2023-04-12,Rajasthan Royals,Chennai Super Kings,20197,IPL 2023,2023-04-12,253,253,253,253,1.0,true
+Cricsheet IPL,1359492.yaml,2023-04-13,Punjab Kings,Gujarat Titans,20198,IPL 2023,2023-04-13,248,248,248,248,1.0,true
+Cricsheet IPL,1359493.yaml,2023-04-14,Sunrisers Hyderabad,Kolkata Knight Riders,20199,IPL 2023,2023-04-14,256,256,256,256,1.0,true
+Cricsheet IPL,1359494.yaml,2023-04-15,Royal Challengers Bangalore,Delhi Capitals,20200,IPL 2023,2023-04-15,247,247,247,247,1.0,true
+Cricsheet IPL,1359495.yaml,2023-04-15,Lucknow Super Giants,Punjab Kings,20201,IPL 2023,2023-04-15,249,249,249,249,1.0,true
+Cricsheet IPL,1359496.yaml,2023-04-16,Kolkata Knight Riders,Mumbai Indians,20202,IPL 2023,2023-04-16,237,237,237,237,1.0,true
+Cricsheet IPL,1359497.yaml,2023-04-16,Gujarat Titans,Rajasthan Royals,20203,IPL 2023,2023-04-16,242,242,242,242,1.0,true
+Cricsheet IPL,1359498.yaml,2023-04-17,Chennai Super Kings,Royal Challengers Bangalore,20204,IPL 2023,2023-04-17,252,252,252,252,1.0,true
+Cricsheet IPL,1359499.yaml,2023-04-18,Mumbai Indians,Sunrisers Hyderabad,20205,IPL 2023,2023-04-18,249,249,249,249,1.0,true
+Cricsheet IPL,1359500.yaml,2023-04-19,Lucknow Super Giants,Rajasthan Royals,20206,IPL 2023,2023-04-19,245,245,245,245,1.0,true
+Cricsheet IPL,1359501.yaml,2023-04-20,Royal Challengers Bangalore,Punjab Kings,20207,IPL 2023,2023-04-20,236,236,236,236,1.0,true
+Cricsheet IPL,1359502.yaml,2023-04-20,Kolkata Knight Riders,Delhi Capitals,20208,IPL 2023,2023-04-20,251,251,251,251,1.0,true
+Cricsheet IPL,1359503.yaml,2023-04-21,Sunrisers Hyderabad,Chennai Super Kings,20209,IPL 2023,2023-04-21,234,234,234,234,1.0,true
+Cricsheet IPL,1359504.yaml,2023-04-22,Gujarat Titans,Lucknow Super Giants,20210,IPL 2023,2023-04-22,241,241,241,241,1.0,true
+Cricsheet IPL,1359505.yaml,2023-04-22,Punjab Kings,Mumbai Indians,20211,IPL 2023,2023-04-22,252,252,252,252,1.0,true
+Cricsheet IPL,1359506.yaml,2023-04-23,Royal Challengers Bangalore,Rajasthan Royals,20212,IPL 2023,2023-04-23,251,251,251,251,1.0,true
+Cricsheet IPL,1359507.yaml,2023-04-23,Chennai Super Kings,Kolkata Knight Riders,20213,IPL 2023,2023-04-23,252,252,252,252,1.0,true
+Cricsheet IPL,1359508.yaml,2023-04-24,Delhi Capitals,Sunrisers Hyderabad,20214,IPL 2023,2023-04-24,242,242,242,242,1.0,true
+Cricsheet IPL,1359509.yaml,2023-04-25,Gujarat Titans,Mumbai Indians,20215,IPL 2023,2023-04-25,246,246,246,246,1.0,true
+Cricsheet IPL,1359510.yaml,2023-04-26,Kolkata Knight Riders,Royal Challengers Bangalore,20216,IPL 2023,2023-04-26,247,247,247,247,1.0,true
+Cricsheet IPL,1359511.yaml,2023-04-27,Rajasthan Royals,Chennai Super Kings,20217,IPL 2023,2023-04-27,245,245,245,245,1.0,true
+Cricsheet IPL,1359512.yaml,2023-04-28,Lucknow Super Giants,Punjab Kings,20218,IPL 2023,2023-04-28,257,257,257,257,1.0,true
+Cricsheet IPL,1359513.yaml,2023-04-29,Kolkata Knight Riders,Gujarat Titans,20219,IPL 2023,2023-04-29,233,233,233,233,1.0,true
+Cricsheet IPL,1359514.yaml,2023-04-29,Sunrisers Hyderabad,Delhi Capitals,20220,IPL 2023,2023-04-29,252,252,252,252,1.0,true
+Cricsheet IPL,1359515.yaml,2023-04-30,Chennai Super Kings,Punjab Kings,20221,IPL 2023,2023-04-30,252,252,252,252,1.0,true
+Cricsheet IPL,1359516.yaml,2023-04-30,Rajasthan Royals,Mumbai Indians,20222,IPL 2023,2023-04-30,258,258,258,258,1.0,true
+Cricsheet IPL,1359517.yaml,2023-05-01,Royal Challengers Bangalore,Lucknow Super Giants,20223,IPL 2023,2023-05-01,246,246,246,246,1.0,true
+Cricsheet IPL,1359518.yaml,2023-05-02,Delhi Capitals,Gujarat Titans,20224,IPL 2023,2023-05-02,248,248,248,248,1.0,true
+Cricsheet IPL,1359519.yaml,2023-05-03,Lucknow Super Giants,Chennai Super Kings,20226,IPL 2023,2023-05-03,118,118,118,118,1.0,true
+Cricsheet IPL,1359520.yaml,2023-05-03,Punjab Kings,Mumbai Indians,20225,IPL 2023,2023-05-03,244,244,244,244,1.0,true
+Cricsheet IPL,1359521.yaml,2023-05-04,Kolkata Knight Riders,Sunrisers Hyderabad,20227,IPL 2023,2023-05-04,254,254,254,254,1.0,true
+Cricsheet IPL,1359522.yaml,2023-05-05,Rajasthan Royals,Gujarat Titans,20228,IPL 2023,2023-05-05,198,198,198,198,1.0,true
+Cricsheet IPL,1359523.yaml,2023-05-06,Mumbai Indians,Chennai Super Kings,20229,IPL 2023,2023-05-06,231,231,231,231,1.0,true
+Cricsheet IPL,1359524.yaml,2023-05-06,Royal Challengers Bangalore,Delhi Capitals,20230,IPL 2023,2023-05-06,228,228,228,228,1.0,true
+Cricsheet IPL,1359525.yaml,2023-05-07,Gujarat Titans,Lucknow Super Giants,20231,IPL 2023,2023-05-07,250,250,250,250,1.0,true
+Cricsheet IPL,1359526.yaml,2023-05-07,Rajasthan Royals,Sunrisers Hyderabad,20232,IPL 2023,2023-05-07,250,250,250,250,1.0,true
+Cricsheet IPL,1359527.yaml,2023-05-08,Punjab Kings,Kolkata Knight Riders,20233,IPL 2023,2023-05-08,249,249,249,249,1.0,true
+Cricsheet IPL,1359528.yaml,2023-05-09,Royal Challengers Bangalore,Mumbai Indians,20234,IPL 2023,2023-05-09,229,229,229,229,1.0,true
+Cricsheet IPL,1359529.yaml,2023-05-10,Chennai Super Kings,Delhi Capitals,20235,IPL 2023,2023-05-10,255,255,255,255,1.0,true
+Cricsheet IPL,1359530.yaml,2023-05-11,Kolkata Knight Riders,Rajasthan Royals,20236,IPL 2023,2023-05-11,203,203,203,203,1.0,true
+Cricsheet IPL,1359531.yaml,2023-05-12,Mumbai Indians,Gujarat Titans,20237,IPL 2023,2023-05-12,243,243,243,243,1.0,true
+Cricsheet IPL,1359532.yaml,2023-05-13,Sunrisers Hyderabad,Lucknow Super Giants,20238,IPL 2023,2023-05-13,244,244,244,244,1.0,true
+Cricsheet IPL,1359533.yaml,2023-05-13,Punjab Kings,Delhi Capitals,20239,IPL 2023,2023-05-13,250,250,250,250,1.0,true
+Cricsheet IPL,1359534.yaml,2023-05-14,Royal Challengers Bangalore,Rajasthan Royals,20240,IPL 2023,2023-05-14,189,189,189,189,1.0,true
+Cricsheet IPL,1359535.yaml,2023-05-14,Chennai Super Kings,Kolkata Knight Riders,20241,IPL 2023,2023-05-14,243,243,243,243,1.0,true
+Cricsheet IPL,1359536.yaml,2023-05-15,Gujarat Titans,Sunrisers Hyderabad,20242,IPL 2023,2023-05-15,253,253,253,253,1.0,true
+Cricsheet IPL,1359537.yaml,2023-05-16,Lucknow Super Giants,Mumbai Indians,20243,IPL 2023,2023-05-16,255,255,254,255,0.996078431372549,true
+Cricsheet IPL,1359538.yaml,2023-05-17,Delhi Capitals,Punjab Kings,20244,IPL 2023,2023-05-17,249,249,249,249,1.0,true
+Cricsheet IPL,1359539.yaml,2023-05-18,Sunrisers Hyderabad,Royal Challengers Bangalore,20245,IPL 2023,2023-05-18,245,245,245,245,1.0,true
+Cricsheet IPL,1359540.yaml,2023-05-19,Punjab Kings,Rajasthan Royals,20246,IPL 2023,2023-05-19,252,252,252,252,1.0,true
+Cricsheet IPL,1359541.yaml,2023-05-20,Chennai Super Kings,Delhi Capitals,20247,IPL 2023,2023-05-20,256,256,256,256,1.0,true
+Cricsheet IPL,1359542.yaml,2023-05-20,Lucknow Super Giants,Kolkata Knight Riders,20248,IPL 2023,2023-05-20,252,252,252,252,1.0,true
+Cricsheet IPL,1359543.yaml,2023-05-21,Sunrisers Hyderabad,Mumbai Indians,20249,IPL 2023,2023-05-21,239,239,239,239,1.0,true
+Cricsheet IPL,1359544.yaml,2023-05-21,Royal Challengers Bangalore,Gujarat Titans,20250,IPL 2023,2023-05-21,248,248,248,248,1.0,true
+Cricsheet IPL,1370350.yaml,2023-05-23,Chennai Super Kings,Gujarat Titans,21583,IPL 2023,2023-05-23,254,254,254,254,1.0,true
+Cricsheet IPL,1370351.yaml,2023-05-24,Mumbai Indians,Lucknow Super Giants,21584,IPL 2023,2023-05-24,228,228,228,228,1.0,true
+Cricsheet IPL,1370352.yaml,2023-05-26,Gujarat Titans,Mumbai Indians,21585,IPL 2023,2023-05-26,242,242,242,242,1.0,true
+Cricsheet IPL,1370353.yaml,2023-05-29,Gujarat Titans,Chennai Super Kings,21586,IPL 2023,2023-05-29,216,216,216,216,1.0,true
+Cricsheet IPL,1422119.yaml,2024-03-22,Royal Challengers Bengaluru,Chennai Super Kings,30056,IPL 2024,2024-03-22,249,249,249,249,1.0,true
+Cricsheet IPL,1422120.yaml,2024-03-23,Delhi Capitals,Punjab Kings,30057,IPL 2024,2024-03-23,246,246,246,246,1.0,true
+Cricsheet IPL,1422121.yaml,2024-03-23,Kolkata Knight Riders,Sunrisers Hyderabad,30058,IPL 2024,2024-03-23,250,250,250,250,1.0,true
+Cricsheet IPL,1422122.yaml,2024-03-24,Rajasthan Royals,Lucknow Super Giants,30059,IPL 2024,2024-03-24,251,251,251,251,1.0,true
+Cricsheet IPL,1422123.yaml,2024-03-24,Gujarat Titans,Mumbai Indians,30060,IPL 2024,2024-03-24,247,247,247,247,1.0,true
+Cricsheet IPL,1422124.yaml,2024-03-25,Punjab Kings,Royal Challengers Bengaluru,30061,IPL 2024,2024-03-25,248,248,248,248,1.0,true
+Cricsheet IPL,1422125.yaml,2024-03-26,Chennai Super Kings,Gujarat Titans,30062,IPL 2024,2024-03-26,253,253,253,253,1.0,true
+Cricsheet IPL,1422126.yaml,2024-03-27,Sunrisers Hyderabad,Mumbai Indians,30063,IPL 2024,2024-03-27,256,256,256,256,1.0,true
+Cricsheet IPL,1422127.yaml,2024-03-28,Rajasthan Royals,Delhi Capitals,30064,IPL 2024,2024-03-28,249,249,249,249,1.0,true
+Cricsheet IPL,1422128.yaml,2024-03-29,Royal Challengers Bengaluru,Kolkata Knight Riders,30065,IPL 2024,2024-03-29,228,228,228,228,1.0,true
+Cricsheet IPL,1422129.yaml,2024-03-30,Lucknow Super Giants,Punjab Kings,30066,IPL 2024,2024-03-30,247,247,247,247,1.0,true
+Cricsheet IPL,1422130.yaml,2024-03-31,Sunrisers Hyderabad,Gujarat Titans,30067,IPL 2024,2024-03-31,241,241,241,241,1.0,true
+Cricsheet IPL,1422131.yaml,2024-03-31,Delhi Capitals,Chennai Super Kings,30068,IPL 2024,2024-03-31,256,256,256,256,1.0,true
+Cricsheet IPL,1422132.yaml,2024-04-01,Mumbai Indians,Rajasthan Royals,30069,IPL 2024,2024-04-01,223,223,223,223,1.0,true
+Cricsheet IPL,1422133.yaml,2024-04-02,Lucknow Super Giants,Royal Challengers Bengaluru,30070,IPL 2024,2024-04-02,248,248,248,248,1.0,true
+Cricsheet IPL,1422134.yaml,2024-04-03,Kolkata Knight Riders,Delhi Capitals,30071,IPL 2024,2024-04-03,244,244,244,244,1.0,true
+Cricsheet IPL,1422135.yaml,2024-04-04,Gujarat Titans,Punjab Kings,30072,IPL 2024,2024-04-04,247,247,247,247,1.0,true
+Cricsheet IPL,1422136.yaml,2024-04-05,Chennai Super Kings,Sunrisers Hyderabad,30073,IPL 2024,2024-04-05,232,232,232,232,1.0,true
+Cricsheet IPL,1422137.yaml,2024-04-06,Royal Challengers Bengaluru,Rajasthan Royals,30074,IPL 2024,2024-04-06,243,243,243,243,1.0,true
+Cricsheet IPL,1422138.yaml,2024-04-07,Mumbai Indians,Delhi Capitals,30075,IPL 2024,2024-04-07,251,251,251,251,1.0,true
+Cricsheet IPL,1422139.yaml,2024-04-07,Lucknow Super Giants,Gujarat Titans,30076,IPL 2024,2024-04-07,243,243,243,243,1.0,true
+Cricsheet IPL,1426260.yaml,2024-04-08,Kolkata Knight Riders,Chennai Super Kings,31240,IPL 2024,2024-04-08,237,237,237,237,1.0,true
+Cricsheet IPL,1426261.yaml,2024-04-09,Sunrisers Hyderabad,Punjab Kings,31241,IPL 2024,2024-04-09,251,251,251,251,1.0,true
+Cricsheet IPL,1426262.yaml,2024-04-10,Rajasthan Royals,Gujarat Titans,31242,IPL 2024,2024-04-10,255,255,255,255,1.0,true
+Cricsheet IPL,1426263.yaml,2024-04-11,Royal Challengers Bengaluru,Mumbai Indians,31243,IPL 2024,2024-04-11,224,224,224,224,1.0,true
+Cricsheet IPL,1426264.yaml,2024-04-12,Lucknow Super Giants,Delhi Capitals,31244,IPL 2024,2024-04-12,239,239,239,239,1.0,true
+Cricsheet IPL,1426265.yaml,2024-04-13,Punjab Kings,Rajasthan Royals,31245,IPL 2024,2024-04-13,247,247,247,247,1.0,true
+Cricsheet IPL,1426266.yaml,2024-04-14,Lucknow Super Giants,Kolkata Knight Riders,31246,IPL 2024,2024-04-14,232,232,232,232,1.0,true
+Cricsheet IPL,1426267.yaml,2024-04-14,Chennai Super Kings,Mumbai Indians,31247,IPL 2024,2024-04-14,249,249,249,249,1.0,true
+Cricsheet IPL,1426268.yaml,2024-04-15,Sunrisers Hyderabad,Royal Challengers Bengaluru,31248,IPL 2024,2024-04-15,265,265,265,265,1.0,true
+Cricsheet IPL,1426269.yaml,2024-04-16,Kolkata Knight Riders,Rajasthan Royals,31250,IPL 2024,2024-04-16,259,259,259,259,1.0,true
+Cricsheet IPL,1426270.yaml,2024-04-17,Gujarat Titans,Delhi Capitals,31249,IPL 2024,2024-04-17,167,167,167,167,1.0,true
+Cricsheet IPL,1426271.yaml,2024-04-18,Mumbai Indians,Punjab Kings,31251,IPL 2024,2024-04-18,252,252,252,252,1.0,true
+Cricsheet IPL,1426272.yaml,2024-04-19,Chennai Super Kings,Lucknow Super Giants,31252,IPL 2024,2024-04-19,247,247,247,247,1.0,true
+Cricsheet IPL,1426273.yaml,2024-04-20,Sunrisers Hyderabad,Delhi Capitals,31253,IPL 2024,2024-04-20,245,245,245,245,1.0,true
+Cricsheet IPL,1426274.yaml,2024-04-21,Kolkata Knight Riders,Royal Challengers Bengaluru,31254,IPL 2024,2024-04-21,253,253,253,253,1.0,true
+Cricsheet IPL,1426275.yaml,2024-04-21,Punjab Kings,Gujarat Titans,31255,IPL 2024,2024-04-21,239,239,239,239,1.0,true
+Cricsheet IPL,1426276.yaml,2024-04-22,Mumbai Indians,Rajasthan Royals,31256,IPL 2024,2024-04-22,245,245,245,245,1.0,true
+Cricsheet IPL,1426277.yaml,2024-04-23,Chennai Super Kings,Lucknow Super Giants,31257,IPL 2024,2024-04-23,245,245,245,245,1.0,true
+Cricsheet IPL,1426278.yaml,2024-04-24,Delhi Capitals,Gujarat Titans,31258,IPL 2024,2024-04-24,247,247,247,247,1.0,true
+Cricsheet IPL,1426279.yaml,2024-04-25,Royal Challengers Bengaluru,Sunrisers Hyderabad,31259,IPL 2024,2024-04-25,254,254,254,254,1.0,true
+Cricsheet IPL,1426280.yaml,2024-04-26,Kolkata Knight Riders,Punjab Kings,31260,IPL 2024,2024-04-26,247,247,247,247,1.0,true
+Cricsheet IPL,1426281.yaml,2024-04-27,Delhi Capitals,Mumbai Indians,31261,IPL 2024,2024-04-27,255,255,255,255,1.0,true
+Cricsheet IPL,1426282.yaml,2024-04-27,Lucknow Super Giants,Rajasthan Royals,31262,IPL 2024,2024-04-27,244,244,244,244,1.0,true
+Cricsheet IPL,1426283.yaml,2024-04-28,Gujarat Titans,Royal Challengers Bengaluru,31263,IPL 2024,2024-04-28,230,230,230,230,1.0,true
+Cricsheet IPL,1426284.yaml,2024-04-28,Chennai Super Kings,Sunrisers Hyderabad,31264,IPL 2024,2024-04-28,242,242,242,242,1.0,true
+Cricsheet IPL,1426285.yaml,2024-04-29,Delhi Capitals,Kolkata Knight Riders,31265,IPL 2024,2024-04-29,227,227,227,227,1.0,true
+Cricsheet IPL,1426286.yaml,2024-04-30,Mumbai Indians,Lucknow Super Giants,31266,IPL 2024,2024-04-30,248,248,248,248,1.0,true
+Cricsheet IPL,1426287.yaml,2024-05-01,Chennai Super Kings,Punjab Kings,31267,IPL 2024,2024-05-01,245,245,245,245,1.0,true
+Cricsheet IPL,1426288.yaml,2024-05-02,Sunrisers Hyderabad,Rajasthan Royals,31268,IPL 2024,2024-05-02,260,260,260,260,1.0,true
+Cricsheet IPL,1426289.yaml,2024-05-03,Kolkata Knight Riders,Mumbai Indians,31269,IPL 2024,2024-05-03,243,243,243,243,1.0,true
+Cricsheet IPL,1426290.yaml,2024-05-04,Gujarat Titans,Royal Challengers Bengaluru,31270,IPL 2024,2024-05-04,204,204,204,204,1.0,true
+Cricsheet IPL,1426291.yaml,2024-05-05,Chennai Super Kings,Punjab Kings,31271,IPL 2024,2024-05-05,249,249,249,249,1.0,true
+Cricsheet IPL,1426292.yaml,2024-05-05,Kolkata Knight Riders,Lucknow Super Giants,31272,IPL 2024,2024-05-05,232,232,232,232,1.0,true
+Cricsheet IPL,1426293.yaml,2024-05-06,Sunrisers Hyderabad,Mumbai Indians,31273,IPL 2024,2024-05-06,239,239,239,239,1.0,true
+Cricsheet IPL,1426294.yaml,2024-05-07,Delhi Capitals,Rajasthan Royals,31274,IPL 2024,2024-05-07,252,252,252,252,1.0,true
+Cricsheet IPL,1426295.yaml,2024-05-08,Lucknow Super Giants,Sunrisers Hyderabad,31275,IPL 2024,2024-05-08,183,183,183,183,1.0,true
+Cricsheet IPL,1426296.yaml,2024-05-09,Royal Challengers Bengaluru,Punjab Kings,31276,IPL 2024,2024-05-09,232,232,232,232,1.0,true
+Cricsheet IPL,1426297.yaml,2024-05-10,Gujarat Titans,Chennai Super Kings,31277,IPL 2024,2024-05-10,249,249,249,249,1.0,true
+Cricsheet IPL,1426298.yaml,2024-05-11,Kolkata Knight Riders,Mumbai Indians,31278,IPL 2024,2024-05-11,201,201,201,201,1.0,true
+Cricsheet IPL,1426299.yaml,2024-05-12,Rajasthan Royals,Chennai Super Kings,31279,IPL 2024,2024-05-12,239,239,239,239,1.0,true
+Cricsheet IPL,1426300.yaml,2024-05-12,Royal Challengers Bengaluru,Delhi Capitals,31280,IPL 2024,2024-05-12,247,247,247,247,1.0,true
+Cricsheet IPL,1426302.yaml,2024-05-14,Delhi Capitals,Lucknow Super Giants,31282,IPL 2024,2024-05-14,253,253,253,253,1.0,true
+Cricsheet IPL,1426303.yaml,2024-05-15,Rajasthan Royals,Punjab Kings,31283,IPL 2024,2024-05-15,235,235,235,235,1.0,true
+Cricsheet IPL,1426305.yaml,2024-05-17,Lucknow Super Giants,Mumbai Indians,31285,IPL 2024,2024-05-17,259,259,259,259,1.0,true
+Cricsheet IPL,1426306.yaml,2024-05-18,Royal Challengers Bengaluru,Chennai Super Kings,31286,IPL 2024,2024-05-18,253,253,253,253,1.0,true
+Cricsheet IPL,1426307.yaml,2024-05-19,Punjab Kings,Sunrisers Hyderabad,31287,IPL 2024,2024-05-19,247,247,247,247,1.0,true
+Cricsheet IPL,1426309.yaml,2024-05-21,Sunrisers Hyderabad,Kolkata Knight Riders,31289,IPL 2024,2024-05-21,208,208,208,208,1.0,true
+Cricsheet IPL,1426310.yaml,2024-05-22,Royal Challengers Bengaluru,Rajasthan Royals,31290,IPL 2024,2024-05-22,241,241,241,241,1.0,true
+Cricsheet IPL,1426311.yaml,2024-05-24,Sunrisers Hyderabad,Rajasthan Royals,31291,IPL 2024,2024-05-24,251,251,251,251,1.0,true
+Cricsheet IPL,1426312.yaml,2024-05-26,Sunrisers Hyderabad,Kolkata Knight Riders,31292,IPL 2024,2024-05-26,184,184,184,184,1.0,true
+Cricsheet IPL,1473438.yaml,2025-03-22,Kolkata Knight Riders,Royal Challengers Bengaluru,40694,IPL 2025,2025-03-22,223,223,223,223,1.0,true
+Cricsheet IPL,1473439.yaml,2025-03-23,Sunrisers Hyderabad,Rajasthan Royals,40695,IPL 2025,2025-03-23,262,262,262,262,1.0,true
+Cricsheet IPL,1473440.yaml,2025-03-23,Mumbai Indians,Chennai Super Kings,40696,IPL 2025,2025-03-23,243,243,243,243,1.0,true
+Cricsheet IPL,1473441.yaml,2025-03-24,Lucknow Super Giants,Delhi Capitals,40697,IPL 2025,2025-03-24,246,246,246,246,1.0,true
+Cricsheet IPL,1473442.yaml,2025-03-25,Punjab Kings,Gujarat Titans,40698,IPL 2025,2025-03-25,254,254,254,254,1.0,true
+Cricsheet IPL,1473443.yaml,2025-03-26,Rajasthan Royals,Kolkata Knight Riders,40699,IPL 2025,2025-03-26,234,234,234,234,1.0,true
+Cricsheet IPL,1473444.yaml,2025-03-27,Sunrisers Hyderabad,Lucknow Super Giants,40700,IPL 2025,2025-03-27,233,233,233,233,1.0,true
+Cricsheet IPL,1473445.yaml,2025-03-28,Royal Challengers Bengaluru,Chennai Super Kings,40701,IPL 2025,2025-03-28,250,250,250,250,1.0,true
+Cricsheet IPL,1473446.yaml,2025-03-29,Gujarat Titans,Mumbai Indians,40702,IPL 2025,2025-03-29,257,257,257,257,1.0,true
+Cricsheet IPL,1473447.yaml,2025-03-30,Sunrisers Hyderabad,Delhi Capitals,40703,IPL 2025,2025-03-30,217,217,217,217,1.0,true
+Cricsheet IPL,1473448.yaml,2025-03-30,Rajasthan Royals,Chennai Super Kings,40704,IPL 2025,2025-03-30,250,250,250,250,1.0,true
+Cricsheet IPL,1473449.yaml,2025-03-31,Kolkata Knight Riders,Mumbai Indians,40705,IPL 2025,2025-03-31,182,182,182,182,1.0,true
+Cricsheet IPL,1473450.yaml,2025-04-01,Lucknow Super Giants,Punjab Kings,40706,IPL 2025,2025-04-01,225,225,225,225,1.0,true
+Cricsheet IPL,1473451.yaml,2025-04-02,Royal Challengers Bengaluru,Gujarat Titans,40707,IPL 2025,2025-04-02,231,231,231,231,1.0,true
+Cricsheet IPL,1473452.yaml,2025-04-03,Kolkata Knight Riders,Sunrisers Hyderabad,40708,IPL 2025,2025-04-03,228,228,228,228,1.0,true
+Cricsheet IPL,1473453.yaml,2025-04-04,Lucknow Super Giants,Mumbai Indians,40709,IPL 2025,2025-04-04,252,252,252,252,1.0,true
+Cricsheet IPL,1473454.yaml,2025-04-05,Delhi Capitals,Chennai Super Kings,40710,IPL 2025,2025-04-05,251,251,251,251,1.0,true
+Cricsheet IPL,1473455.yaml,2025-04-05,Rajasthan Royals,Punjab Kings,40711,IPL 2025,2025-04-05,253,253,253,253,1.0,true
+Cricsheet IPL,1473456.yaml,2025-04-08,Lucknow Super Giants,Kolkata Knight Riders,40712,IPL 2025,2025-04-08,264,264,264,264,1.0,true
+Cricsheet IPL,1473457.yaml,2025-04-06,Sunrisers Hyderabad,Gujarat Titans,40713,IPL 2025,2025-04-06,225,225,225,225,1.0,true
+Cricsheet IPL,1473458.yaml,2025-04-07,Royal Challengers Bengaluru,Mumbai Indians,40714,IPL 2025,2025-04-07,253,253,253,253,1.0,true
+Cricsheet IPL,1473459.yaml,2025-04-08,Punjab Kings,Chennai Super Kings,40715,IPL 2025,2025-04-08,253,253,253,253,1.0,true
+Cricsheet IPL,1473460.yaml,2025-04-09,Gujarat Titans,Rajasthan Royals,40716,IPL 2025,2025-04-09,260,260,260,260,1.0,true
+Cricsheet IPL,1473461.yaml,2025-04-10,Royal Challengers Bengaluru,Delhi Capitals,40717,IPL 2025,2025-04-10,236,236,236,236,1.0,true
+Cricsheet IPL,1473462.yaml,2025-04-11,Chennai Super Kings,Kolkata Knight Riders,40718,IPL 2025,2025-04-11,189,189,189,189,1.0,true
+Cricsheet IPL,1473463.yaml,2025-04-12,Gujarat Titans,Lucknow Super Giants,40719,IPL 2025,2025-04-12,249,249,249,249,1.0,true
+Cricsheet IPL,1473464.yaml,2025-04-12,Punjab Kings,Sunrisers Hyderabad,40720,IPL 2025,2025-04-12,248,248,248,248,1.0,true
+Cricsheet IPL,1473465.yaml,2025-04-13,Rajasthan Royals,Royal Challengers Bengaluru,40721,IPL 2025,2025-04-13,233,233,233,233,1.0,true
+Cricsheet IPL,1473466.yaml,2025-04-13,Mumbai Indians,Delhi Capitals,40722,IPL 2025,2025-04-13,243,243,243,243,1.0,true
+Cricsheet IPL,1473467.yaml,2025-04-14,Lucknow Super Giants,Chennai Super Kings,40723,IPL 2025,2025-04-14,254,254,254,254,1.0,true
+Cricsheet IPL,1473468.yaml,2025-04-15,Punjab Kings,Kolkata Knight Riders,40724,IPL 2025,2025-04-15,188,188,188,188,1.0,true
+Cricsheet IPL,1473469.yaml,2025-04-16,Delhi Capitals,Rajasthan Royals,40725,IPL 2025,2025-04-16,252,252,251,252,0.996031746031746,true
+Cricsheet IPL,1473470.yaml,2025-04-17,Sunrisers Hyderabad,Mumbai Indians,40726,IPL 2025,2025-04-17,242,242,242,242,1.0,true
+Cricsheet IPL,1473471.yaml,2025-04-18,Royal Challengers Bengaluru,Punjab Kings,40727,IPL 2025,2025-04-18,160,160,160,160,1.0,true
+Cricsheet IPL,1473472.yaml,2025-04-19,Delhi Capitals,Gujarat Titans,40728,IPL 2025,2025-04-19,250,250,250,250,1.0,true
+Cricsheet IPL,1473473.yaml,2025-04-19,Lucknow Super Giants,Rajasthan Royals,40729,IPL 2025,2025-04-19,246,246,246,246,1.0,true
+Cricsheet IPL,1473474.yaml,2025-04-20,Punjab Kings,Royal Challengers Bengaluru,40730,IPL 2025,2025-04-20,237,237,237,237,1.0,true
+Cricsheet IPL,1473475.yaml,2025-04-20,Chennai Super Kings,Mumbai Indians,40731,IPL 2025,2025-04-20,228,228,228,228,1.0,true
+Cricsheet IPL,1473476.yaml,2025-04-21,Gujarat Titans,Kolkata Knight Riders,40732,IPL 2025,2025-04-21,249,249,249,249,1.0,true
+Cricsheet IPL,1473477.yaml,2025-04-22,Lucknow Super Giants,Delhi Capitals,40733,IPL 2025,2025-04-22,231,231,231,231,1.0,true
+Cricsheet IPL,1473478.yaml,2025-04-23,Sunrisers Hyderabad,Mumbai Indians,40734,IPL 2025,2025-04-23,218,218,218,218,1.0,true
+Cricsheet IPL,1473479.yaml,2025-04-24,Royal Challengers Bengaluru,Rajasthan Royals,40735,IPL 2025,2025-04-24,253,253,253,253,1.0,true
+Cricsheet IPL,1473480.yaml,2025-04-25,Chennai Super Kings,Sunrisers Hyderabad,40736,IPL 2025,2025-04-25,244,244,244,244,1.0,true
+Cricsheet IPL,1473481.yaml,2025-04-26,Punjab Kings,Kolkata Knight Riders,40737,IPL 2025,2025-04-26,130,130,130,130,1.0,true
+Cricsheet IPL,1473482.yaml,2025-04-27,Mumbai Indians,Lucknow Super Giants,40738,IPL 2025,2025-04-27,251,251,251,251,1.0,true
+Cricsheet IPL,1473483.yaml,2025-04-27,Delhi Capitals,Royal Challengers Bengaluru,40739,IPL 2025,2025-04-27,238,238,238,238,1.0,true
+Cricsheet IPL,1473484.yaml,2025-04-28,Gujarat Titans,Rajasthan Royals,40740,IPL 2025,2025-04-28,227,227,227,227,1.0,true
+Cricsheet IPL,1473485.yaml,2025-04-29,Kolkata Knight Riders,Delhi Capitals,40741,IPL 2025,2025-04-29,257,257,257,257,1.0,true
+Cricsheet IPL,1473486.yaml,2025-04-30,Chennai Super Kings,Punjab Kings,40742,IPL 2025,2025-04-30,249,249,249,249,1.0,true
+Cricsheet IPL,1473487.yaml,2025-05-01,Mumbai Indians,Rajasthan Royals,40743,IPL 2025,2025-05-01,226,226,226,226,1.0,true
+Cricsheet IPL,1473488.yaml,2025-05-02,Gujarat Titans,Sunrisers Hyderabad,40744,IPL 2025,2025-05-02,250,250,250,250,1.0,true
+Cricsheet IPL,1473489.yaml,2025-05-03,Royal Challengers Bengaluru,Chennai Super Kings,40745,IPL 2025,2025-05-03,246,246,246,246,1.0,true
+Cricsheet IPL,1473490.yaml,2025-05-04,Kolkata Knight Riders,Rajasthan Royals,40746,IPL 2025,2025-05-04,252,252,252,252,1.0,true
+Cricsheet IPL,1473491.yaml,2025-05-04,Punjab Kings,Lucknow Super Giants,40747,IPL 2025,2025-05-04,253,253,253,253,1.0,true
+Cricsheet IPL,1473492.yaml,2025-05-05,Delhi Capitals,Sunrisers Hyderabad,40748,IPL 2025,2025-05-05,123,123,123,123,1.0,true
+Cricsheet IPL,1473493.yaml,2025-05-06,Mumbai Indians,Gujarat Titans,40749,IPL 2025,2025-05-06,244,244,244,244,1.0,true
+Cricsheet IPL,1473494.yaml,2025-05-07,Kolkata Knight Riders,Chennai Super Kings,40750,IPL 2025,2025-05-07,244,244,244,244,1.0,true
+Cricsheet IPL,1473495.yaml,2025-05-08,Punjab Kings,Delhi Capitals,40751,IPL 2025,2025-05-08,63,63,63,63,1.0,true
+Cricsheet IPL,1473497.yaml,2025-05-18,Punjab Kings,Rajasthan Royals,40760,IPL 2025,2025-05-18,248,248,248,248,1.0,true
+Cricsheet IPL,1473498.yaml,2025-05-18,Delhi Capitals,Gujarat Titans,40755,IPL 2025,2025-05-18,241,241,241,241,1.0,true
+Cricsheet IPL,1473499.yaml,2025-05-19,Lucknow Super Giants,Sunrisers Hyderabad,40763,IPL 2025,2025-05-19,250,250,249,250,0.996,true
+Cricsheet IPL,1473500.yaml,2025-05-20,Chennai Super Kings,Rajasthan Royals,40756,IPL 2025,2025-05-20,236,236,236,236,1.0,true
+Cricsheet IPL,1473501.yaml,2025-05-21,Mumbai Indians,Delhi Capitals,40759,IPL 2025,2025-05-21,232,232,232,232,1.0,true
+Cricsheet IPL,1473502.yaml,2025-05-22,Lucknow Super Giants,Gujarat Titans,40758,IPL 2025,2025-05-22,254,254,254,254,1.0,true
+Cricsheet IPL,1473503.yaml,2025-05-23,Sunrisers Hyderabad,Royal Challengers Bengaluru,40757,IPL 2025,2025-05-23,247,247,247,247,1.0,true
+Cricsheet IPL,1473504.yaml,2025-05-25,Chennai Super Kings,Gujarat Titans,40762,IPL 2025,2025-05-25,242,242,242,242,1.0,true
+Cricsheet IPL,1473505.yaml,2025-05-25,Sunrisers Hyderabad,Kolkata Knight Riders,40753,IPL 2025,2025-05-25,247,247,247,247,1.0,true
+Cricsheet IPL,1473506.yaml,2025-05-26,Mumbai Indians,Punjab Kings,40754,IPL 2025,2025-05-26,245,245,245,245,1.0,true
+Cricsheet IPL,1473507.yaml,2025-05-27,Lucknow Super Giants,Royal Challengers Bengaluru,40752,IPL 2025,2025-05-27,244,244,244,244,1.0,true
+Cricsheet IPL,1473508.yaml,2025-05-29,Punjab Kings,Royal Challengers Bengaluru,40764,IPL 2025,2025-05-29,147,147,147,147,1.0,true
+Cricsheet IPL,1473509.yaml,2025-05-30,Mumbai Indians,Gujarat Titans,40765,IPL 2025,2025-05-30,248,248,248,248,1.0,true
+Cricsheet IPL,1473510.yaml,2025-06-01,Mumbai Indians,Punjab Kings,40766,IPL 2025,2025-06-01,244,244,244,244,1.0,true
+Cricsheet IPL,1473511.yaml,2025-06-03,Royal Challengers Bengaluru,Punjab Kings,40767,IPL 2025,2025-06-03,252,252,252,252,1.0,true
+Cricsheet IPL,1485779.yaml,2025-05-24,Punjab Kings,Delhi Capitals,43057,IPL 2025,2025-05-24,249,249,249,249,1.0,true
+Cricsheet IPL,1527674.yaml,2026-03-28,Sunrisers Hyderabad,Royal Challengers Bengaluru,50125,IPL 2026,2026-03-28,225,225,225,225,1.0,true
+Cricsheet IPL,1527675.yaml,2026-03-29,Kolkata Knight Riders,Mumbai Indians,50126,IPL 2026,2026-03-29,247,247,247,247,1.0,true
+Cricsheet IPL,1527676.yaml,2026-03-30,Chennai Super Kings,Rajasthan Royals,50127,IPL 2026,2026-03-30,199,199,199,199,1.0,true
+Cricsheet IPL,1527677.yaml,2026-03-31,Gujarat Titans,Punjab Kings,50128,IPL 2026,2026-03-31,250,250,250,250,1.0,true
+Cricsheet IPL,1527678.yaml,2026-04-01,Lucknow Super Giants,Delhi Capitals,50129,IPL 2026,2026-04-01,229,229,229,229,1.0,true
+Cricsheet IPL,1527679.yaml,2026-04-02,Sunrisers Hyderabad,Kolkata Knight Riders,50130,IPL 2026,2026-04-02,231,231,231,231,1.0,true
+Cricsheet IPL,1527680.yaml,2026-04-03,Chennai Super Kings,Punjab Kings,50131,IPL 2026,2026-04-03,251,251,251,251,1.0,true
+Cricsheet IPL,1527681.yaml,2026-04-04,Mumbai Indians,Delhi Capitals,50132,IPL 2026,2026-04-04,237,237,237,237,1.0,true
+Cricsheet IPL,1527682.yaml,2026-04-04,Rajasthan Royals,Gujarat Titans,50133,IPL 2026,2026-04-04,253,253,253,253,1.0,true
+Cricsheet IPL,1527683.yaml,2026-04-05,Sunrisers Hyderabad,Lucknow Super Giants,50134,IPL 2026,2026-04-05,242,242,242,242,1.0,true
+Cricsheet IPL,1527684.yaml,2026-04-05,Royal Challengers Bengaluru,Chennai Super Kings,50135,IPL 2026,2026-04-05,247,247,247,247,1.0,true
+Cricsheet IPL,1527685.yaml,2026-04-06,Kolkata Knight Riders,Punjab Kings,50136,IPL 2026,2026-04-06,22,22,22,22,1.0,true
+Cricsheet IPL,1527686.yaml,2026-04-07,Rajasthan Royals,Mumbai Indians,50137,IPL 2026,2026-04-07,144,144,144,144,1.0,true
+Cricsheet IPL,1527687.yaml,2026-04-08,Gujarat Titans,Delhi Capitals,50138,IPL 2026,2026-04-08,254,254,254,254,1.0,true
+Cricsheet IPL,1527688.yaml,2026-04-09,Kolkata Knight Riders,Lucknow Super Giants,50139,IPL 2026,2026-04-09,253,253,253,253,1.0,true
+Cricsheet IPL,1527689.yaml,2026-04-10,Royal Challengers Bengaluru,Rajasthan Royals,50140,IPL 2026,2026-04-10,233,233,233,233,1.0,true
+Cricsheet IPL,1527690.yaml,2026-04-11,Sunrisers Hyderabad,Punjab Kings,50141,IPL 2026,2026-04-11,250,250,250,250,1.0,true
+Cricsheet IPL,1527691.yaml,2026-04-11,Chennai Super Kings,Delhi Capitals,50142,IPL 2026,2026-04-11,252,252,251,252,0.996031746031746,true
+Cricsheet IPL,1527692.yaml,2026-04-12,Lucknow Super Giants,Gujarat Titans,50143,IPL 2026,2026-04-12,237,237,237,237,1.0,true
+Cricsheet IPL,1527693.yaml,2026-04-12,Royal Challengers Bengaluru,Mumbai Indians,50144,IPL 2026,2026-04-12,262,262,261,262,0.9961832061068703,true
+Cricsheet IPL,1529264.yaml,2026-04-13,Sunrisers Hyderabad,Rajasthan Royals,50342,IPL 2026,2026-04-13,251,251,251,251,1.0,true
+Cricsheet IPL,1529265.yaml,2026-04-14,Chennai Super Kings,Kolkata Knight Riders,50343,IPL 2026,2026-04-14,255,255,255,255,1.0,true
+Cricsheet IPL,1529266.yaml,2026-04-15,Lucknow Super Giants,Royal Challengers Bengaluru,50344,IPL 2026,2026-04-15,216,216,216,216,1.0,true
+Cricsheet IPL,1529267.yaml,2026-04-16,Mumbai Indians,Punjab Kings,50345,IPL 2026,2026-04-16,233,233,233,233,1.0,true
+Cricsheet IPL,1529268.yaml,2026-04-17,Kolkata Knight Riders,Gujarat Titans,50346,IPL 2026,2026-04-17,249,249,249,249,1.0,true
+Cricsheet IPL,1529269.yaml,2026-04-18,Royal Challengers Bengaluru,Delhi Capitals,50347,IPL 2026,2026-04-18,251,251,250,251,0.9960159362549801,true
+Cricsheet IPL,1529270.yaml,2026-04-18,Sunrisers Hyderabad,Chennai Super Kings,50348,IPL 2026,2026-04-18,257,257,257,257,1.0,true
+Cricsheet IPL,1529271.yaml,2026-04-19,Rajasthan Royals,Kolkata Knight Riders,50349,IPL 2026,2026-04-19,256,256,256,256,1.0,true
+Cricsheet IPL,1529272.yaml,2026-04-19,Punjab Kings,Lucknow Super Giants,50350,IPL 2026,2026-04-19,253,253,253,253,1.0,true
+Cricsheet IPL,1529273.yaml,2026-04-20,Mumbai Indians,Gujarat Titans,50351,IPL 2026,2026-04-20,224,224,224,224,1.0,true
+Cricsheet IPL,1529274.yaml,2026-04-21,Sunrisers Hyderabad,Delhi Capitals,50352,IPL 2026,2026-04-21,255,255,254,255,0.996078431372549,true
+Cricsheet IPL,1529275.yaml,2026-04-22,Rajasthan Royals,Lucknow Super Giants,50353,IPL 2026,2026-04-22,237,237,237,237,1.0,true
+Cricsheet IPL,1529276.yaml,2026-04-23,Chennai Super Kings,Mumbai Indians,50354,IPL 2026,2026-04-23,247,247,247,247,1.0,true
+Cricsheet IPL,1529277.yaml,2026-04-24,Gujarat Titans,Royal Challengers Bengaluru,50355,IPL 2026,2026-04-24,239,239,239,239,1.0,true
+Cricsheet IPL,1529278.yaml,2026-04-25,Delhi Capitals,Punjab Kings,50356,IPL 2026,2026-04-25,253,253,253,253,1.0,true
+Cricsheet IPL,1529279.yaml,2026-04-25,Rajasthan Royals,Sunrisers Hyderabad,50357,IPL 2026,2026-04-25,246,246,246,246,1.0,true
+Cricsheet IPL,1529280.yaml,2026-04-26,Chennai Super Kings,Gujarat Titans,50358,IPL 2026,2026-04-26,228,228,228,228,1.0,true
+Cricsheet IPL,1529281.yaml,2026-04-26,Kolkata Knight Riders,Lucknow Super Giants,50359,IPL 2026,2026-04-26,252,252,252,252,1.0,true
+Cricsheet IPL,1529282.yaml,2026-04-27,Delhi Capitals,Royal Challengers Bengaluru,50360,IPL 2026,2026-04-27,142,142,142,142,1.0,true
+Cricsheet IPL,1529283.yaml,2026-04-28,Punjab Kings,Rajasthan Royals,50361,IPL 2026,2026-04-28,242,242,242,242,1.0,true
+Cricsheet IPL,1529284.yaml,2026-04-29,Mumbai Indians,Sunrisers Hyderabad,50362,IPL 2026,2026-04-29,247,247,247,247,1.0,true
+Cricsheet IPL,1529285.yaml,2026-04-30,Royal Challengers Bengaluru,Gujarat Titans,50363,IPL 2026,2026-04-30,217,217,217,217,1.0,true
+Cricsheet IPL,1529286.yaml,2026-05-01,Rajasthan Royals,Delhi Capitals,50364,IPL 2026,2026-05-01,249,249,249,249,1.0,true
+Cricsheet IPL,1529287.yaml,2026-05-02,Mumbai Indians,Chennai Super Kings,50365,IPL 2026,2026-05-02,234,234,234,234,1.0,true
+Cricsheet IPL,1529288.yaml,2026-05-03,Sunrisers Hyderabad,Kolkata Knight Riders,50366,IPL 2026,2026-05-03,235,235,235,235,1.0,true
+Cricsheet IPL,1529289.yaml,2026-05-03,Punjab Kings,Gujarat Titans,50367,IPL 2026,2026-05-03,248,248,248,248,1.0,true
+Cricsheet IPL,1529290.yaml,2026-05-04,Lucknow Super Giants,Mumbai Indians,50368,IPL 2026,2026-05-04,246,246,246,246,1.0,true
+Cricsheet IPL,1529291.yaml,2026-05-05,Delhi Capitals,Chennai Super Kings,50369,IPL 2026,2026-05-05,230,230,230,230,1.0,true
+Cricsheet IPL,1529292.yaml,2026-05-06,Sunrisers Hyderabad,Punjab Kings,50370,IPL 2026,2026-05-06,254,254,254,254,1.0,true
+Cricsheet IPL,1529293.yaml,2026-05-07,Lucknow Super Giants,Royal Challengers Bengaluru,50371,IPL 2026,2026-05-07,241,241,241,241,1.0,true
+Cricsheet IPL,1529294.yaml,2026-05-08,Delhi Capitals,Kolkata Knight Riders,50372,IPL 2026,2026-05-08,208,208,208,208,1.0,true
+Cricsheet IPL,1529295.yaml,2026-05-09,Gujarat Titans,Rajasthan Royals,50373,IPL 2026,2026-05-09,234,234,234,234,1.0,true
+Cricsheet IPL,1529296.yaml,2026-05-10,Lucknow Super Giants,Chennai Super Kings,50374,IPL 2026,2026-05-10,250,250,250,250,1.0,true
+Cricsheet IPL,1529297.yaml,2026-05-10,Mumbai Indians,Royal Challengers Bengaluru,50375,IPL 2026,2026-05-10,254,254,254,254,1.0,true
+Cricsheet IPL,1529298.yaml,2026-05-11,Punjab Kings,Delhi Capitals,50376,IPL 2026,2026-05-11,252,252,252,252,1.0,true
+Cricsheet IPL,1529299.yaml,2026-05-12,Gujarat Titans,Sunrisers Hyderabad,50377,IPL 2026,2026-05-12,216,216,216,216,1.0,true
+Cricsheet IPL,1529300.yaml,2026-05-13,Kolkata Knight Riders,Royal Challengers Bengaluru,50378,IPL 2026,2026-05-13,246,246,246,246,1.0,true
+Cricsheet IPL,1529301.yaml,2026-05-14,Punjab Kings,Mumbai Indians,50379,IPL 2026,2026-05-14,249,249,249,249,1.0,true
+Cricsheet IPL,1529302.yaml,2026-05-15,Chennai Super Kings,Lucknow Super Giants,50380,IPL 2026,2026-05-15,230,230,230,230,1.0,true
+Cricsheet IPL,1529303.yaml,2026-05-16,Kolkata Knight Riders,Gujarat Titans,50381,IPL 2026,2026-05-16,252,252,252,252,1.0,true
+Cricsheet IPL,1529304.yaml,2026-05-17,Royal Challengers Bengaluru,Punjab Kings,50382,IPL 2026,2026-05-17,254,254,254,254,1.0,true
+Cricsheet IPL,1529305.yaml,2026-05-17,Rajasthan Royals,Delhi Capitals,50383,IPL 2026,2026-05-17,249,249,249,249,1.0,true
+Cricsheet IPL,1529306.yaml,2026-05-18,Chennai Super Kings,Sunrisers Hyderabad,50384,IPL 2026,2026-05-18,249,249,249,249,1.0,true
+Cricsheet IPL,1529307.yaml,2026-05-19,Lucknow Super Giants,Rajasthan Royals,50385,IPL 2026,2026-05-19,251,251,251,251,1.0,true
+Cricsheet IPL,1529308.yaml,2026-05-20,Mumbai Indians,Kolkata Knight Riders,50386,IPL 2026,2026-05-20,241,241,241,241,1.0,true
+Cricsheet IPL,1529309.yaml,2026-05-21,Gujarat Titans,Chennai Super Kings,50387,IPL 2026,2026-05-21,215,215,215,215,1.0,true
+Cricsheet IPL,1529310.yaml,2026-05-22,Sunrisers Hyderabad,Royal Challengers Bengaluru,50388,IPL 2026,2026-05-22,258,258,258,258,1.0,true
+Cricsheet IPL,1529311.yaml,2026-05-23,Lucknow Super Giants,Punjab Kings,50389,IPL 2026,2026-05-23,239,239,239,239,1.0,true
+Cricsheet IPL,1529312.yaml,2026-05-24,Rajasthan Royals,Mumbai Indians,50390,IPL 2026,2026-05-24,251,251,251,251,1.0,true
+Cricsheet IPL,1529313.yaml,2026-05-24,Delhi Capitals,Kolkata Knight Riders,50391,IPL 2026,2026-05-24,245,245,245,245,1.0,true
+Cricsheet IPL,1535462.yaml,2026-05-26,Royal Challengers Bengaluru,Gujarat Titans,50942,IPL 2026,2026-05-26,249,249,249,249,1.0,true
+Cricsheet IPL,1535463.yaml,2026-05-27,Rajasthan Royals,Sunrisers Hyderabad,50943,IPL 2026,2026-05-27,252,252,252,252,1.0,true
+Cricsheet IPL,1535464.yaml,2026-05-29,Rajasthan Royals,Gujarat Titans,50944,IPL 2026,2026-05-29,241,241,241,241,1.0,true
+Cricsheet IPL,1535465.yaml,2026-05-31,Gujarat Titans,Royal Challengers Bengaluru,50945,IPL 2026,2026-05-31,233,233,233,233,1.0,true
+Cricsheet men T20I,1496587.yaml,2026-09-19,Sri Lanka,England,45491,Sri Lanka in England T20I Series 2026,2026-09-19,184,184,184,184,1.0,true
+Cricsheet men T20I,1529230.yaml,2026-10-06,West Indies,India,50404,West Indies in India T20I Series 2026,2026-10-06,205,205,205,205,1.0,true
+Cricsheet men T20I,1552859.yaml,2026-09-22,India,Japan,54711,India in Japan T20I Match 2026,2026-09-22,64,64,64,64,1.0,true
+Cricsheet men T20I,1529231.yaml,2026-10-09,India,West Indies,50405,West Indies in India T20I Series 2026,2026-10-09,243,243,243,243,1.0,true
+Cricsheet men T20I,1529232.yaml,2026-10-11,India,West Indies,50406,West Indies in India T20I Series 2026,2026-10-11,251,251,251,251,1.0,true
+Cricsheet men T20I,1550708.yaml,2026-10-09,Sri Lanka,Pakistan,55078,Sri Lanka in Pakistan T20I Series 2026,2026-10-09,242,242,242,242,1.0,true
+Cricsheet men T20I,1550709.yaml,2026-10-11,Pakistan,Sri Lanka,55079,Sri Lanka in Pakistan T20I Series 2026,2026-10-11,247,247,247,247,1.0,true
+Cricsheet men T20I,1550710.yaml,2026-10-13,Pakistan,Sri Lanka,55080,Sri Lanka in Pakistan T20I Series 2026,2026-10-13,229,229,229,229,1.0,true
+Cricsheet men T20I,1529233.yaml,2026-10-14,West Indies,India,50407,West Indies in India T20I Series 2026,2026-10-14,260,260,259,260,0.9961538461538462,true
+Cricsheet men T20I,1529234.yaml,2026-10-17,India,West Indies,50408,West Indies in India T20I Series 2026,2026-10-17,55,55,55,55,1.0,true
+Cricsheet men T20I,1539432.yaml,2026-10-22,New Zealand,India,54210,India in New Zealand T20I Series 2026,2026-10-22,254,254,254,254,1.0,true
+Cricsheet men T20I,1539433.yaml,2026-10-24,New Zealand,India,54211,India in New Zealand T20I Series 2026,2026-10-24,254,254,254,254,1.0,true
+Cricsheet men T20I,1539434.yaml,2026-10-27,New Zealand,India,54212,India in New Zealand T20I Series 2026,2026-10-27,212,212,212,212,1.0,true
+Cricsheet men T20I,1539435.yaml,2026-10-30,New Zealand,India,54213,India in New Zealand T20I Series 2026,2026-10-30,253,253,253,253,1.0,true
+Cricsheet men T20I,1539436.yaml,2026-11-01,India,New Zealand,54214,India in New Zealand T20I Series 2026,2026-11-01,236,236,236,236,1.0,true
+Cricsheet men T20I,1256720.yaml,2022-01-22,England,West Indies,13511,England in West Indies T20I Series 2022,2022-01-22,224,224,224,224,1.0,true
+Cricsheet men T20I,1256721.yaml,2022-01-23,England,West Indies,13512,England in West Indies T20I Series 2022,2022-01-23,252,252,252,252,1.0,true
+Cricsheet men T20I,1256722.yaml,2022-01-26,West Indies,England,13513,England in West Indies T20I Series 2022,2022-01-26,252,252,252,252,1.0,true
+Cricsheet men T20I,1256723.yaml,2022-01-29,England,West Indies,13514,England in West Indies T20I Series 2022,2022-01-29,253,253,253,253,1.0,true
+Cricsheet men T20I,1256724.yaml,2022-01-30,West Indies,England,13515,England in West Indies T20I Series 2022,2022-01-30,254,254,254,254,1.0,true
+Cricsheet men T20I,1263471.yaml,2022-02-11,Australia,Sri Lanka,13612,Sri Lanka in Australia T20I Series 2022,2022-02-11,242,242,240,242,0.9917355371900827,true
+Cricsheet men T20I,1263472.yaml,2022-02-13,Australia,Sri Lanka,13613,Sri Lanka in Australia T20I Series 2022,2022-02-13,246,246,246,246,1.0,true
+Cricsheet men T20I,1263473.yaml,2022-02-15,Sri Lanka,Australia,13614,Sri Lanka in Australia T20I Series 2022,2022-02-15,227,227,227,227,1.0,true
+Cricsheet men T20I,1263474.yaml,2022-02-18,Sri Lanka,Australia,13615,Sri Lanka in Australia T20I Series 2022,2022-02-18,236,236,236,236,1.0,true
+Cricsheet men T20I,1263475.yaml,2022-02-20,Australia,Sri Lanka,13616,Sri Lanka in Australia T20I Series 2022,2022-02-20,250,250,250,250,1.0,true
+Cricsheet men T20I,1276904.yaml,2022-07-07,India,England,16040,India in England T20I Series 2022,2022-07-07,247,247,247,247,1.0,true
+Cricsheet men T20I,1276905.yaml,2022-07-09,India,England,16041,India in England T20I Series 2022,2022-07-09,231,231,231,231,1.0,true
+Cricsheet men T20I,1276906.yaml,2022-07-10,England,India,16042,India in England T20I Series 2022,2022-07-10,255,255,255,255,1.0,true
+Cricsheet men T20I,1276913.yaml,2022-07-27,England,South Africa,16315,South Africa in England T20I Series 2022,2022-07-27,250,250,250,250,1.0,true
+Cricsheet men T20I,1276914.yaml,2022-07-28,South Africa,England,16316,South Africa in England T20I Series 2022,2022-07-28,234,234,234,234,1.0,true
+Cricsheet men T20I,1276915.yaml,2022-07-31,South Africa,England,16317,South Africa in England T20I Series 2022,2022-07-31,227,227,227,227,1.0,true
+Cricsheet men T20I,1278679.yaml,2022-02-16,West Indies,India,13522,West Indies in India T20I Series 2022,2022-02-16,247,247,247,247,1.0,true
+Cricsheet men T20I,1278680.yaml,2022-02-18,India,West Indies,13523,West Indies in India T20I Series 2022,2022-02-18,257,257,257,257,1.0,true
+Cricsheet men T20I,1278681.yaml,2022-02-20,India,West Indies,13524,West Indies in India T20I Series 2022,2022-02-20,251,251,251,251,1.0,true
+Cricsheet men T20I,1278687.yaml,2022-06-09,India,South Africa,15406,South Africa in India T20I Series 2022,2022-06-09,246,246,246,246,1.0,true
+Cricsheet men T20I,1278688.yaml,2022-06-12,India,South Africa,15407,South Africa in India T20I Series 2022,2022-06-12,238,238,238,238,1.0,true
+Cricsheet men T20I,1278689.yaml,2022-06-14,India,South Africa,15408,South Africa in India T20I Series 2022,2022-06-14,240,240,240,240,1.0,true
+Cricsheet men T20I,1278690.yaml,2022-06-17,India,South Africa,15409,South Africa in India T20I Series 2022,2022-06-17,226,226,225,226,0.995575221238938,true
+Cricsheet men T20I,1278691.yaml,2022-06-19,India,South Africa,15410,South Africa in India T20I Series 2022,2022-06-19,22,22,22,22,1.0,true
+Cricsheet men T20I,1303307.yaml,2022-06-26,Ireland,India,15795,India in Ireland T20I Series 2022,2022-06-26,139,139,139,139,1.0,true
+Cricsheet men T20I,1303308.yaml,2022-06-28,India,Ireland,15796,India in Ireland T20I Series 2022,2022-06-28,260,260,260,260,1.0,true
+Cricsheet men T20I,1303312.yaml,2022-07-18,New Zealand,Ireland,16258,New Zealand in Ireland T20I Series 2022,2022-07-18,244,244,244,244,1.0,true
+Cricsheet men T20I,1303313.yaml,2022-07-20,New Zealand,Ireland,16259,New Zealand in Ireland T20I Series 2022,2022-07-20,210,210,210,210,1.0,true
+Cricsheet men T20I,1303314.yaml,2022-07-22,Ireland,New Zealand,16260,New Zealand in Ireland T20I Series 2022,2022-07-22,242,242,242,242,1.0,true
+Cricsheet men T20I,1303315.yaml,2022-08-03,South Africa,Ireland,16646,South Africa vs Ireland T20I Series 2022,2022-08-03,252,252,252,252,1.0,true
+Cricsheet men T20I,1303316.yaml,2022-08-05,South Africa,Ireland,16647,South Africa vs Ireland T20I Series 2022,2022-08-05,249,249,249,249,1.0,true
+Cricsheet men T20I,1307293.yaml,2022-06-07,Sri Lanka,Australia,15458,Australia in Sri Lanka T20I Series 2022,2022-06-07,207,207,207,207,1.0,true
+Cricsheet men T20I,1307294.yaml,2022-06-08,Sri Lanka,Australia,15459,Australia in Sri Lanka T20I Series 2022,2022-06-08,229,229,229,229,1.0,true
+Cricsheet men T20I,1307295.yaml,2022-06-11,Australia,Sri Lanka,15460,Australia in Sri Lanka T20I Series 2022,2022-06-11,248,248,248,248,1.0,true
+Cricsheet men T20I,1310901.yaml,2022-08-04,New Zealand,Netherlands,16666,New Zealand in Netherlands T20I Series 2022,2022-08-04,246,246,246,246,1.0,true
+Cricsheet men T20I,1310902.yaml,2022-08-05,Netherlands,New Zealand,16667,New Zealand in Netherlands T20I Series 2022,2022-08-05,210,210,210,210,1.0,true
+Cricsheet men T20I,1317149.yaml,2022-07-02,Bangladesh,West Indies,15546,Bangladesh in West Indies T20I Series 2022,2022-07-02,82,82,82,82,1.0,true
+Cricsheet men T20I,1317150.yaml,2022-07-03,West Indies,Bangladesh,15547,Bangladesh in West Indies T20I Series 2022,2022-07-03,257,257,257,257,1.0,true
+Cricsheet men T20I,1317151.yaml,2022-07-07,Bangladesh,West Indies,15548,Bangladesh in West Indies T20I Series 2022,2022-07-07,248,248,248,248,1.0,true
+Cricsheet men T20I,1317482.yaml,2022-10-05,West Indies,Australia,17640,West Indies in Australia T20I Series 2022,2022-10-05,254,254,254,254,1.0,true
+Cricsheet men T20I,1317483.yaml,2022-10-07,Australia,West Indies,17641,West Indies in Australia T20I Series 2022,2022-10-07,250,250,250,250,1.0,true
+Cricsheet men T20I,1317486.yaml,2022-10-09,England,Australia,17763,England in Australia T20I Series 2022,2022-10-09,255,255,255,255,1.0,true
+Cricsheet men T20I,1317487.yaml,2022-10-12,England,Australia,17764,England in Australia T20I Series 2022,2022-10-12,254,254,254,254,1.0,true
+Cricsheet men T20I,1317488.yaml,2022-10-14,England,Australia,17765,England in Australia T20I Series 2022,2022-10-14,100,100,100,100,1.0,true
+Cricsheet men T20I,1317903.yaml,2022-07-29,India,West Indies,16062,India in West Indies T20I Series 2022,2022-07-29,253,253,253,253,1.0,true
+Cricsheet men T20I,1317904.yaml,2022-08-01,India,West Indies,16063,India in West Indies T20I Series 2022,2022-08-01,240,240,240,240,1.0,true
+Cricsheet men T20I,1317905.yaml,2022-08-02,West Indies,India,16064,India in West Indies T20I Series 2022,2022-08-02,242,242,241,242,0.9958677685950413,true
+Cricsheet men T20I,1317906.yaml,2022-08-06,India,West Indies,16065,India in West Indies T20I Series 2022,2022-08-06,249,249,249,249,1.0,true
+Cricsheet men T20I,1317907.yaml,2022-08-07,India,West Indies,16066,India in West Indies T20I Series 2022,2022-08-07,228,228,228,228,1.0,true
+Cricsheet men T20I,1322276.yaml,2022-11-20,India,New Zealand,18531,India in New Zealand T20I Series 2022/23,2022-11-20,241,241,241,241,1.0,true
+Cricsheet men T20I,1322277.yaml,2022-11-22,New Zealand,India,18532,India in New Zealand T20I Series 2022/23,2022-11-22,179,179,179,179,1.0,true
+Cricsheet men T20I,1322334.yaml,2022-10-07,Pakistan,Bangladesh,17737,New Zealand T20I Tri Series 2022/23,2022-10-07,248,248,248,248,1.0,true
+Cricsheet men T20I,1322335.yaml,2022-10-08,New Zealand,Pakistan,17738,New Zealand T20I Tri Series 2022/23,2022-10-08,234,234,234,234,1.0,true
+Cricsheet men T20I,1322336.yaml,2022-10-09,Bangladesh,New Zealand,17739,New Zealand T20I Tri Series 2022/23,2022-10-09,233,233,233,233,1.0,true
+Cricsheet men T20I,1322337.yaml,2022-10-11,Pakistan,New Zealand,17740,New Zealand T20I Tri Series 2022/23,2022-10-11,230,230,230,230,1.0,true
+Cricsheet men T20I,1322338.yaml,2022-10-12,New Zealand,Bangladesh,17741,New Zealand T20I Tri Series 2022/23,2022-10-12,247,247,247,247,1.0,true
+Cricsheet men T20I,1322339.yaml,2022-10-13,Bangladesh,Pakistan,17742,New Zealand T20I Tri Series 2022/23,2022-10-13,249,249,249,249,1.0,true
+Cricsheet men T20I,1322340.yaml,2022-10-14,New Zealand,Pakistan,17743,New Zealand T20I Tri Series 2022/23,2022-10-14,241,241,241,241,1.0,true
+Cricsheet men T20I,1322362.yaml,2023-04-02,Sri Lanka,New Zealand,21176,Sri Lanka in New Zealand T20I Series 2023,2023-04-02,252,252,252,252,1.0,true
+Cricsheet men T20I,1322363.yaml,2023-04-05,Sri Lanka,New Zealand,21177,Sri Lanka in New Zealand T20I Series 2023,2023-04-05,214,214,214,214,1.0,true
+Cricsheet men T20I,1322364.yaml,2023-04-08,Sri Lanka,New Zealand,21178,Sri Lanka in New Zealand T20I Series 2023,2023-04-08,251,251,250,251,0.9960159362549801,true
+Cricsheet men T20I,1323295.yaml,2022-07-30,Zimbabwe,Bangladesh,16424,Bangladesh in Zimbabwe T20I Series 2022,2022-07-30,257,257,256,257,0.9961089494163424,true
+Cricsheet men T20I,1323296.yaml,2022-07-31,Zimbabwe,Bangladesh,16425,Bangladesh in Zimbabwe T20I Series 2022,2022-07-31,237,237,237,237,1.0,true
+Cricsheet men T20I,1323297.yaml,2022-08-02,Zimbabwe,Bangladesh,16426,Bangladesh in Zimbabwe T20I Series 2022,2022-08-02,242,242,242,242,1.0,true
+Cricsheet men T20I,1327228.yaml,2022-09-20,Pakistan,England,17553,England in Pakistan T20I Series 2022,2022-09-20,241,241,241,241,1.0,true
+Cricsheet men T20I,1327229.yaml,2022-09-22,England,Pakistan,17554,England in Pakistan T20I Series 2022,2022-09-22,245,245,245,245,1.0,true
+Cricsheet men T20I,1327230.yaml,2022-09-23,England,Pakistan,17555,England in Pakistan T20I Series 2022,2022-09-23,249,249,249,249,1.0,true
+Cricsheet men T20I,1327231.yaml,2022-09-25,Pakistan,England,17556,England in Pakistan T20I Series 2022,2022-09-25,241,241,241,241,1.0,true
+Cricsheet men T20I,1327232.yaml,2022-09-28,Pakistan,England,17557,England in Pakistan T20I Series 2022,2022-09-28,241,241,241,241,1.0,true
+Cricsheet men T20I,1327233.yaml,2022-09-30,Pakistan,England,17558,England in Pakistan T20I Series 2022,2022-09-30,211,211,211,211,1.0,true
+Cricsheet men T20I,1327234.yaml,2022-10-02,England,Pakistan,17559,England in Pakistan T20I Series 2022,2022-10-02,250,250,250,250,1.0,true
+Cricsheet men T20I,1327270.yaml,2022-08-28,Pakistan,India,16654,Mens Twenty20 Asia Cup 2022,2022-08-28,247,247,247,247,1.0,true
+Cricsheet men T20I,1327272.yaml,2022-08-31,India,Hong Kong,16656,Mens Twenty20 Asia Cup 2022,2022-08-31,252,252,250,252,0.9920634920634921,true
+Cricsheet men T20I,1327273.yaml,2022-09-01,Bangladesh,Sri Lanka,16657,Mens Twenty20 Asia Cup 2022,2022-09-01,246,246,246,246,1.0,true
+Cricsheet men T20I,1327274.yaml,2022-09-02,Pakistan,Hong Kong,16658,Mens Twenty20 Asia Cup 2022,2022-09-02,197,197,197,197,1.0,true
+Cricsheet men T20I,1327276.yaml,2022-09-04,India,Pakistan,16660,Mens Twenty20 Asia Cup 2022,2022-09-04,251,251,251,251,1.0,true
+Cricsheet men T20I,1327277.yaml,2022-09-06,India,Sri Lanka,16661,Mens Twenty20 Asia Cup 2022,2022-09-06,250,250,250,250,1.0,true
+Cricsheet men T20I,1327280.yaml,2022-09-09,Pakistan,Sri Lanka,16664,Mens Twenty20 Asia Cup 2022,2022-09-09,225,225,225,225,1.0,true
+Cricsheet men T20I,1327281.yaml,2022-09-11,Sri Lanka,Pakistan,16665,Mens Twenty20 Asia Cup 2022,2022-09-11,252,252,252,252,1.0,true
+Cricsheet men T20I,1327503.yaml,2022-09-20,India,Australia,17394,Australia in India T20I Series 2022,2022-09-20,246,246,246,246,1.0,true
+Cricsheet men T20I,1327504.yaml,2022-09-23,Australia,India,17395,Australia in India T20I Series 2022,2022-09-23,97,97,97,97,1.0,true
+Cricsheet men T20I,1327505.yaml,2022-09-25,Australia,India,17396,Australia in India T20I Series 2022,2022-09-25,247,247,247,247,1.0,true
+Cricsheet men T20I,1327506.yaml,2022-09-28,South Africa,India,17625,South Africa in India T20I Series 2022/23,2022-09-28,229,229,229,229,1.0,true
+Cricsheet men T20I,1327507.yaml,2022-10-02,India,South Africa,17626,South Africa in India T20I Series 2022/23,2022-10-02,258,258,258,258,1.0,true
+Cricsheet men T20I,1327508.yaml,2022-10-04,South Africa,India,17627,South Africa in India T20I Series 2022/23,2022-10-04,249,249,248,249,0.9959839357429718,true
+Cricsheet men T20I,1328849.yaml,2022-08-20,Hong Kong,Singapore,16862,Asia Cup T20 Qualifiers 2022,2022-08-20,252,252,252,252,1.0,true
+Cricsheet men T20I,1328850.yaml,2022-08-21,United Arab Emirates,Kuwait,16863,Asia Cup T20 Qualifiers 2022,2022-08-21,251,251,251,251,1.0,true
+Cricsheet men T20I,1328851.yaml,2022-08-22,United Arab Emirates,Singapore,16864,Asia Cup T20 Qualifiers 2022,2022-08-22,235,235,235,235,1.0,true
+Cricsheet men T20I,1328852.yaml,2022-08-23,Kuwait,Hong Kong,16865,Asia Cup T20 Qualifiers 2022,2022-08-23,235,235,235,235,1.0,true
+Cricsheet men T20I,1328853.yaml,2022-08-24,Singapore,Kuwait,16867,Asia Cup T20 Qualifiers 2022,2022-08-24,171,171,171,171,1.0,true
+Cricsheet men T20I,1328854.yaml,2022-08-24,United Arab Emirates,Hong Kong,16866,Asia Cup T20 Qualifiers 2022,2022-08-24,235,235,235,235,1.0,true
+Cricsheet men T20I,1336031.yaml,2022-09-25,Bangladesh,United Arab Emirates,17631,Bangladesh in United Arab Emirates T20I Series 2022,2022-09-25,249,249,249,249,1.0,true
+Cricsheet men T20I,1336032.yaml,2022-09-27,Bangladesh,United Arab Emirates,17632,Bangladesh in United Arab Emirates T20I Series 2022,2022-09-27,247,247,247,247,1.0,true
+Cricsheet men T20I,1336048.yaml,2023-08-30,New Zealand,England,25158,New Zealand in England T20I Series 2023,2023-08-30,214,214,214,214,1.0,true
+Cricsheet men T20I,1336049.yaml,2023-09-01,England,New Zealand,25159,New Zealand in England T20I Series 2023,2023-09-01,209,209,209,209,1.0,true
+Cricsheet men T20I,1336050.yaml,2023-09-03,New Zealand,England,25160,New Zealand in England T20I Series 2023,2023-09-03,240,240,240,240,1.0,true
+Cricsheet men T20I,1336051.yaml,2023-09-05,England,New Zealand,25161,New Zealand in England T20I Series 2023,2023-09-05,232,232,232,232,1.0,true
+Cricsheet men T20I,1339604.yaml,2023-03-25,South Africa,West Indies,19959,West Indies in South Africa T20I Series 2023,2023-03-25,140,140,140,140,1.0,true
+Cricsheet men T20I,1339605.yaml,2023-03-26,West Indies,South Africa,19960,West Indies in South Africa T20I Series 2023,2023-03-26,248,248,248,248,1.0,true
+Cricsheet men T20I,1339606.yaml,2023-03-28,West Indies,South Africa,19961,West Indies in South Africa T20I Series 2023,2023-03-28,258,258,258,258,1.0,true
+Cricsheet men T20I,1339614.yaml,2023-04-14,Pakistan,New Zealand,21403,New Zealand in Pakistan T20I Series 2023,2023-04-14,222,222,222,222,1.0,true
+Cricsheet men T20I,1339615.yaml,2023-04-15,Pakistan,New Zealand,21404,New Zealand in Pakistan T20I Series 2023,2023-04-15,246,246,246,246,1.0,true
+Cricsheet men T20I,1339616.yaml,2023-04-17,New Zealand,Pakistan,21405,New Zealand in Pakistan T20I Series 2023,2023-04-17,249,249,249,249,1.0,true
+Cricsheet men T20I,1339617.yaml,2023-04-20,New Zealand,Pakistan,21406,New Zealand in Pakistan T20I Series 2023,2023-04-20,118,118,118,118,1.0,true
+Cricsheet men T20I,1339618.yaml,2023-04-24,Pakistan,New Zealand,21407,New Zealand in Pakistan T20I Series 2023,2023-04-24,247,247,247,247,1.0,true
+Cricsheet men T20I,1348323.yaml,2023-01-12,Ireland,Zimbabwe,19690,Ireland in Zimbabwe T20I Series 2023,2023-01-12,228,228,228,228,1.0,true
+Cricsheet men T20I,1348324.yaml,2023-01-14,Zimbabwe,Ireland,19691,Ireland in Zimbabwe T20I Series 2023,2023-01-14,245,245,245,245,1.0,true
+Cricsheet men T20I,1348325.yaml,2023-01-15,Ireland,Zimbabwe,19692,Ireland in Zimbabwe T20I Series 2023,2023-01-15,242,242,242,242,1.0,true
+Cricsheet men T20I,1348640.yaml,2023-01-03,India,Sri Lanka,19556,Sri Lanka in India T20I Series 2023,2023-01-03,249,249,249,249,1.0,true
+Cricsheet men T20I,1348641.yaml,2023-01-05,Sri Lanka,India,19557,Sri Lanka in India T20I Series 2023,2023-01-05,257,257,257,257,1.0,true
+Cricsheet men T20I,1348642.yaml,2023-01-07,India,Sri Lanka,19558,Sri Lanka in India T20I Series 2023,2023-01-07,235,235,235,235,1.0,true
+Cricsheet men T20I,1348649.yaml,2023-01-27,New Zealand,India,19715,New Zealand in India T20I Series 2023,2023-01-27,252,252,252,252,1.0,true
+Cricsheet men T20I,1348650.yaml,2023-01-29,New Zealand,India,19716,New Zealand in India T20I Series 2023,2023-01-29,250,250,250,250,1.0,true
+Cricsheet men T20I,1348651.yaml,2023-02-01,India,New Zealand,19717,New Zealand in India T20I Series 2023,2023-02-01,199,199,199,199,1.0,true
+Cricsheet men T20I,1351400.yaml,2023-03-09,England,Bangladesh,20133,England in Bangladesh T20I Series 2023,2023-03-09,232,232,232,232,1.0,true
+Cricsheet men T20I,1351401.yaml,2023-03-12,England,Bangladesh,20134,England in Bangladesh T20I Series 2023,2023-03-12,242,242,242,242,1.0,true
+Cricsheet men T20I,1351402.yaml,2023-03-14,Bangladesh,England,20135,England in Bangladesh T20I Series 2023,2023-03-14,249,249,249,249,1.0,true
+Cricsheet men T20I,1355720.yaml,2023-03-27,Bangladesh,Ireland,21070,Ireland in Bangladesh T20I Series 2023,2023-03-27,174,174,174,174,1.0,true
+Cricsheet men T20I,1355721.yaml,2023-03-29,Bangladesh,Ireland,21071,Ireland in Bangladesh T20I Series 2023,2023-03-29,213,213,213,213,1.0,true
+Cricsheet men T20I,1355722.yaml,2023-03-31,Bangladesh,Ireland,21072,Ireland in Bangladesh T20I Series 2023,2023-03-31,206,206,206,206,1.0,true
+Cricsheet men T20I,1373568.yaml,2023-08-30,Australia,South Africa,25155,Australia in South Africa T20I Series 2023,2023-08-30,220,220,220,220,1.0,true
+Cricsheet men T20I,1373569.yaml,2023-09-01,South Africa,Australia,25156,Australia in South Africa T20I Series 2023,2023-09-01,215,215,215,215,1.0,true
+Cricsheet men T20I,1373570.yaml,2023-09-03,South Africa,Australia,25157,Australia in South Africa T20I Series 2023,2023-09-03,233,233,233,233,1.0,true
+Cricsheet men T20I,1373580.yaml,2023-12-14,West Indies,England,28064,England in West Indies T20I Series 2023,2023-12-14,249,249,249,249,1.0,true
+Cricsheet men T20I,1373581.yaml,2023-12-16,West Indies,England,28065,England in West Indies T20I Series 2023,2023-12-16,249,249,249,249,1.0,true
+Cricsheet men T20I,1375850.yaml,2024-02-09,Australia,West Indies,29815,West Indies in Australia T20I Series 2024,2024-02-09,251,251,251,251,1.0,true
+Cricsheet men T20I,1375851.yaml,2024-02-11,Australia,West Indies,29816,West Indies in Australia T20I Series 2024,2024-02-11,255,255,255,255,1.0,true
+Cricsheet men T20I,1375852.yaml,2024-02-13,West Indies,Australia,29817,West Indies in Australia T20I Series 2024,2024-02-13,250,250,250,250,1.0,true
+Cricsheet men T20I,1377727.yaml,2023-08-17,New Zealand,United Arab Emirates,24792,New Zealand in United Arab Emirates T20I Series 2023,2023-08-17,245,245,245,245,1.0,true
+Cricsheet men T20I,1377728.yaml,2023-08-19,New Zealand,United Arab Emirates,24793,New Zealand in United Arab Emirates T20I Series 2023,2023-08-19,221,221,221,221,1.0,true
+Cricsheet men T20I,1377729.yaml,2023-08-20,New Zealand,United Arab Emirates,24794,New Zealand in United Arab Emirates T20I Series 2023,2023-08-20,252,252,252,252,1.0,true
+Cricsheet men T20I,1381217.yaml,2023-08-03,West Indies,India,24350,India in West Indies T20I Series 2023,2023-08-03,253,253,253,253,1.0,true
+Cricsheet men T20I,1381218.yaml,2023-08-06,India,West Indies,24351,India in West Indies T20I Series 2023,2023-08-06,240,240,240,240,1.0,true
+Cricsheet men T20I,1381219.yaml,2023-08-08,West Indies,India,24352,India in West Indies T20I Series 2023,2023-08-08,235,235,235,235,1.0,true
+Cricsheet men T20I,1381220.yaml,2023-08-12,West Indies,India,24353,India in West Indies T20I Series 2023,2023-08-12,229,229,229,229,1.0,true
+Cricsheet men T20I,1381221.yaml,2023-08-13,India,West Indies,24354,India in West Indies T20I Series 2023,2023-08-13,238,238,238,238,1.0,true
+Cricsheet men T20I,1384634.yaml,2023-08-18,Ireland,India,24822,India in Ireland T20I Series 2023,2023-08-18,170,170,170,170,1.0,true
+Cricsheet men T20I,1384637.yaml,2023-08-20,India,Ireland,24823,India in Ireland T20I Series 2023,2023-08-20,251,251,251,251,1.0,true
+Cricsheet men T20I,1385688.yaml,2024-05-25,England,Pakistan,32611,Pakistan in England T20I Series 2024,2024-05-25,242,242,242,242,1.0,true
+Cricsheet men T20I,1385690.yaml,2024-05-30,Pakistan,England,32613,Pakistan in England T20I Series 2024,2024-05-30,219,219,219,219,1.0,true
+Cricsheet men T20I,1385697.yaml,2024-09-11,Australia,England,36562,Australia in England T20I Series 2024,2024-09-11,245,245,245,245,1.0,true
+Cricsheet men T20I,1385698.yaml,2024-09-13,Australia,England,36563,Australia in England T20I Series 2024,2024-09-13,244,244,244,244,1.0,true
+Cricsheet men T20I,1387598.yaml,2023-12-12,India,South Africa,28046,India in South Africa T20I Series 2023,2023-12-12,209,209,209,209,1.0,true
+Cricsheet men T20I,1387599.yaml,2023-12-14,India,South Africa,28047,India in South Africa T20I Series 2023,2023-12-14,209,209,209,209,1.0,true
+Cricsheet men T20I,1388213.yaml,2023-12-27,New Zealand,Bangladesh,28332,Bangladesh in New Zealand T20I Series 2023,2023-12-27,235,235,235,235,1.0,true
+Cricsheet men T20I,1388214.yaml,2023-12-29,New Zealand,Bangladesh,28333,Bangladesh in New Zealand T20I Series 2023,2023-12-29,66,66,66,66,1.0,true
+Cricsheet men T20I,1388215.yaml,2023-12-31,Bangladesh,New Zealand,28334,Bangladesh in New Zealand T20I Series 2023,2023-12-31,218,218,218,218,1.0,true
+Cricsheet men T20I,1388216.yaml,2024-01-12,New Zealand,Pakistan,28963,Pakistan in New Zealand T20I series 2024,2024-01-12,239,239,239,239,1.0,true
+Cricsheet men T20I,1388217.yaml,2024-01-14,New Zealand,Pakistan,28964,Pakistan in New Zealand T20I series 2024,2024-01-14,246,246,245,246,0.9959349593495935,true
+Cricsheet men T20I,1388218.yaml,2024-01-17,New Zealand,Pakistan,28965,Pakistan in New Zealand T20I series 2024,2024-01-17,252,252,252,252,1.0,true
+Cricsheet men T20I,1388219.yaml,2024-01-19,Pakistan,New Zealand,28966,Pakistan in New Zealand T20I series 2024,2024-01-19,239,239,239,239,1.0,true
+Cricsheet men T20I,1388220.yaml,2024-01-21,Pakistan,New Zealand,28967,Pakistan in New Zealand T20I series 2024,2024-01-21,224,224,223,224,0.9955357142857143,true
+Cricsheet men T20I,1388223.yaml,2024-02-21,New Zealand,Australia,29982,Australia in New Zealand T20I Series 2024,2024-02-21,258,258,258,258,1.0,true
+Cricsheet men T20I,1388224.yaml,2024-02-23,Australia,New Zealand,29983,Australia in New Zealand T20I Series 2024,2024-02-23,231,231,231,231,1.0,true
+Cricsheet men T20I,1388225.yaml,2024-02-25,Australia,New Zealand,29984,Australia in New Zealand T20I Series 2024,2024-02-25,129,129,129,129,1.0,true
+Cricsheet men T20I,1389391.yaml,2023-11-23,Australia,India,27060,Australia in India T20I Series 2023,2023-11-23,257,257,257,257,1.0,true
+Cricsheet men T20I,1389392.yaml,2023-11-26,India,Australia,27061,Australia in India T20I Series 2023,2023-11-26,258,258,258,258,1.0,true
+Cricsheet men T20I,1389393.yaml,2023-11-28,India,Australia,27062,Australia in India T20I Series 2023,2023-11-28,262,262,262,262,1.0,true
+Cricsheet men T20I,1389394.yaml,2023-12-01,India,Australia,27063,Australia in India T20I Series 2023,2023-12-01,250,250,250,250,1.0,true
+Cricsheet men T20I,1389395.yaml,2023-12-03,India,Australia,27064,Australia in India T20I Series 2023,2023-12-03,244,244,244,244,1.0,true
+Cricsheet men T20I,1408103.yaml,2023-12-07,Ireland,Zimbabwe,28057,Ireland in Zimbabwe T20I Series 2023/24,2023-12-07,244,244,244,244,1.0,true
+Cricsheet men T20I,1408104.yaml,2023-12-09,Zimbabwe,Ireland,28058,Ireland in Zimbabwe T20I Series 2023/24,2023-12-09,254,254,254,254,1.0,true
+Cricsheet men T20I,1408105.yaml,2023-12-10,Zimbabwe,Ireland,28059,Ireland in Zimbabwe T20I Series 2023/24,2023-12-10,241,241,239,241,0.991701244813278,true
+Cricsheet men T20I,1412542.yaml,2024-01-14,Zimbabwe,Sri Lanka,28957,Zimbabwe in Sri Lanka T20I Series 2024,2024-01-14,245,245,245,245,1.0,true
+Cricsheet men T20I,1412543.yaml,2024-01-16,Sri Lanka,Zimbabwe,28958,Zimbabwe in Sri Lanka T20I Series 2024,2024-01-16,249,249,249,249,1.0,true
+Cricsheet men T20I,1412544.yaml,2024-01-18,Zimbabwe,Sri Lanka,28959,Zimbabwe in Sri Lanka T20I Series 2024,2024-01-18,150,150,150,150,1.0,true
+Cricsheet men T20I,1419824.yaml,2024-03-04,Sri Lanka,Bangladesh,30341,Sri Lanka in Bangladesh T20I Series 2024,2024-03-04,263,263,263,263,1.0,true
+Cricsheet men T20I,1419825.yaml,2024-03-06,Sri Lanka,Bangladesh,30342,Sri Lanka in Bangladesh T20I Series 2024,2024-03-06,241,241,241,241,1.0,true
+Cricsheet men T20I,1419826.yaml,2024-03-09,Sri Lanka,Bangladesh,30343,Sri Lanka in Bangladesh T20I Series 2024,2024-03-09,247,247,247,247,1.0,true
+Cricsheet men T20I,1420223.yaml,2024-07-06,Zimbabwe,India,33803,India in Zimbabwe T20I Series 2024,2024-07-06,243,243,243,243,1.0,true
+Cricsheet men T20I,1420224.yaml,2024-07-07,India,Zimbabwe,33804,India in Zimbabwe T20I Series 2024,2024-07-07,243,243,243,243,1.0,true
+Cricsheet men T20I,1420225.yaml,2024-07-10,India,Zimbabwe,33805,India in Zimbabwe T20I Series 2024,2024-07-10,244,244,244,244,1.0,true
+Cricsheet men T20I,1420226.yaml,2024-07-13,Zimbabwe,India,33806,India in Zimbabwe T20I Series 2024,2024-07-13,220,220,220,220,1.0,true
+Cricsheet men T20I,1420227.yaml,2024-07-14,India,Zimbabwe,33807,India in Zimbabwe T20I Series 2024,2024-07-14,243,243,243,243,1.0,true
+Cricsheet men T20I,1424829.yaml,2024-04-18,New Zealand,Pakistan,31707,New Zealand in Pakistan T20I Series 2024,2024-04-18,2,2,2,2,1.0,true
+Cricsheet men T20I,1424830.yaml,2024-04-20,New Zealand,Pakistan,31708,New Zealand in Pakistan T20I Series 2024,2024-04-20,184,184,184,184,1.0,true
+Cricsheet men T20I,1424831.yaml,2024-04-21,Pakistan,New Zealand,31709,New Zealand in Pakistan T20I Series 2024,2024-04-21,243,243,242,243,0.9958847736625515,true
+Cricsheet men T20I,1424832.yaml,2024-04-25,New Zealand,Pakistan,31710,New Zealand in Pakistan T20I Series 2024,2024-04-25,260,260,260,260,1.0,true
+Cricsheet men T20I,1424833.yaml,2024-04-27,Pakistan,New Zealand,31711,New Zealand in Pakistan T20I Series 2024,2024-04-27,254,254,254,254,1.0,true
+Cricsheet men T20I,1425126.yaml,2024-05-03,Zimbabwe,Bangladesh,32132,Zimbabwe in Bangladesh T20I Series 2024,2024-05-03,219,219,219,219,1.0,true
+Cricsheet men T20I,1425127.yaml,2024-05-05,Zimbabwe,Bangladesh,32133,Zimbabwe in Bangladesh T20I Series 2024,2024-05-05,238,238,238,238,1.0,true
+Cricsheet men T20I,1425128.yaml,2024-05-07,Bangladesh,Zimbabwe,32134,Zimbabwe in Bangladesh T20I Series 2024,2024-05-07,254,254,254,254,1.0,true
+Cricsheet men T20I,1425129.yaml,2024-05-10,Bangladesh,Zimbabwe,32135,Zimbabwe in Bangladesh T20I Series 2024,2024-05-10,246,246,246,246,1.0,true
+Cricsheet men T20I,1425130.yaml,2024-05-12,Bangladesh,Zimbabwe,32136,Zimbabwe in Bangladesh T20I Series 2024,2024-05-12,241,241,241,241,1.0,true
+Cricsheet men T20I,1426552.yaml,2024-11-14,Australia,Pakistan,37354,Pakistan in Australia T20I Series 2024,2024-11-14,86,86,86,86,1.0,true
+Cricsheet men T20I,1426553.yaml,2024-11-16,Australia,Pakistan,37355,Pakistan in Australia T20I Series 2024,2024-11-16,250,250,250,250,1.0,true
+Cricsheet men T20I,1426554.yaml,2024-11-18,Pakistan,Australia,37356,Pakistan in Australia T20I Series 2024,2024-11-18,184,184,184,184,1.0,true
+Cricsheet men T20I,1426830.yaml,2024-05-10,Pakistan,Ireland,32290,Pakistan in Ireland T20I series 2024,2024-05-10,251,251,251,251,1.0,true
+Cricsheet men T20I,1426831.yaml,2024-05-12,Ireland,Pakistan,32291,Pakistan in Ireland T20I series 2024,2024-05-12,228,228,226,228,0.9912280701754386,true
+Cricsheet men T20I,1426832.yaml,2024-05-14,Ireland,Pakistan,32292,Pakistan in Ireland T20I series 2024,2024-05-14,234,234,234,234,1.0,true
+Cricsheet men T20I,1428151.yaml,2024-05-18,Netherlands,Scotland,32620,Netherlands Tri-Nation T20I Series 2024,2024-05-18,237,237,237,237,1.0,true
+Cricsheet men T20I,1428152.yaml,2024-05-19,Ireland,Netherlands,32621,Netherlands Tri-Nation T20I Series 2024,2024-05-19,249,249,249,249,1.0,true
+Cricsheet men T20I,1428154.yaml,2024-05-22,Scotland,Netherlands,32623,Netherlands Tri-Nation T20I Series 2024,2024-05-22,219,219,219,219,1.0,true
+Cricsheet men T20I,1428155.yaml,2024-05-23,Scotland,Ireland,32624,Netherlands Tri-Nation T20I Series 2024,2024-05-23,243,243,243,243,1.0,true
+Cricsheet men T20I,1428156.yaml,2024-05-24,Ireland,Netherlands,32625,Netherlands Tri-Nation T20I Series 2024,2024-05-24,243,243,243,243,1.0,true
+Cricsheet men T20I,1431086.yaml,2024-09-27,Ireland,South Africa,37014,Ireland v South Africa T20I Series 2024,2024-09-27,239,239,239,239,1.0,true
+Cricsheet men T20I,1431087.yaml,2024-09-29,Ireland,South Africa,37015,Ireland v South Africa T20I Series 2024,2024-09-29,258,258,258,258,1.0,true
+Cricsheet men T20I,1432211.yaml,2024-12-10,South Africa,Pakistan,38795,Pakistan in South Africa T20I Series 2024,2024-12-10,251,251,251,251,1.0,true
+Cricsheet men T20I,1432212.yaml,2024-12-13,Pakistan,South Africa,38796,Pakistan in South Africa T20I Series 2024,2024-12-13,255,255,255,255,1.0,true
+Cricsheet men T20I,1433364.yaml,2024-05-26,South Africa,West Indies,32618,South Africa in West Indies T20I Series [May 2024] 2024,2024-05-26,211,255,63,255,0.24705882352941178,false
+Cricsheet men T20I,1433374.yaml,2024-11-10,West Indies,England,37349,England in West Indies T20I Series 2024,2024-11-10,226,229,57,229,0.24890829694323144,false
+Cricsheet men T20I,1433377.yaml,2024-11-17,West Indies,England,37352,England in West Indies T20I Series 2024,2024-11-17,30,244,9,244,0.036885245901639344,false
+Cricsheet men T20I,1439893.yaml,2024-10-06,Bangladesh,India,37276,Bangladesh in India T20I Series 2024,2024-10-06,193,193,193,193,1.0,true
+Cricsheet men T20I,1439894.yaml,2024-10-09,India,Bangladesh,37277,Bangladesh in India T20I Series 2024,2024-10-09,248,248,248,248,1.0,true
+Cricsheet men T20I,1439895.yaml,2024-10-12,India,Bangladesh,37278,Bangladesh in India T20I Series 2024,2024-10-12,253,253,253,253,1.0,true
+Cricsheet men T20I,1439899.yaml,2025-01-22,England,India,40036,England in India T20I Series 2025,2025-01-22,203,203,203,203,1.0,true
+Cricsheet men T20I,1439900.yaml,2025-01-25,England,India,40037,England in India T20I Series 2025,2025-01-25,243,243,243,243,1.0,true
+Cricsheet men T20I,1439901.yaml,2025-01-28,England,India,40038,England in India T20I Series 2025,2025-01-28,251,251,251,251,1.0,true
+Cricsheet men T20I,1439902.yaml,2025-01-31,India,England,40039,England in India T20I Series 2025,2025-01-31,246,246,246,246,1.0,true
+Cricsheet men T20I,1439903.yaml,2025-02-02,India,England,40040,England in India T20I Series 2025,2025-02-02,188,188,188,188,1.0,true
+Cricsheet men T20I,1440463.yaml,2024-09-04,Scotland,Australia,36559,Australia in Scotland T20I Series 2024,2024-09-04,182,182,182,182,1.0,true
+Cricsheet men T20I,1440464.yaml,2024-09-06,Australia,Scotland,36560,Australia in Scotland T20I Series 2024,2024-09-06,228,228,228,228,1.0,true
+Cricsheet men T20I,1440465.yaml,2024-09-07,Scotland,Australia,36561,Australia in Scotland T20I Series 2024,2024-09-07,225,225,225,225,1.0,true
+Cricsheet men T20I,1442987.yaml,2024-07-27,India,Sri Lanka,34427,India in Sri Lanka T20I Series 2024,2024-07-27,242,242,242,242,1.0,true
+Cricsheet men T20I,1442988.yaml,2024-07-28,Sri Lanka,India,34428,India in Sri Lanka T20I Series 2024,2024-07-28,168,168,168,168,1.0,true
+Cricsheet men T20I,1442989.yaml,2024-07-30,India,Sri Lanka,34429,India in Sri Lanka T20I Series 2024,2024-07-30,252,252,252,252,1.0,true
+Cricsheet men T20I,1443543.yaml,2024-12-28,New Zealand,Sri Lanka,38632,Sri Lanka in New Zealand T20I Series 2024/25,2024-12-28,250,250,250,250,1.0,true
+Cricsheet men T20I,1443544.yaml,2024-12-30,New Zealand,Sri Lanka,38633,Sri Lanka in New Zealand T20I Series 2024/25,2024-12-30,251,251,251,251,1.0,true
+Cricsheet men T20I,1443545.yaml,2025-01-02,Sri Lanka,New Zealand,38634,Sri Lanka in New Zealand T20I Series 2024/25,2025-01-02,253,253,253,253,1.0,true
+Cricsheet men T20I,1443549.yaml,2025-03-16,Pakistan,New Zealand,39808,Pakistan in New Zealand T20I Series 2025,2025-03-16,177,177,177,177,1.0,true
+Cricsheet men T20I,1443550.yaml,2025-03-18,Pakistan,New Zealand,39809,Pakistan in New Zealand T20I Series 2025,2025-03-18,176,176,176,176,1.0,true
+Cricsheet men T20I,1443551.yaml,2025-03-21,New Zealand,Pakistan,39810,Pakistan in New Zealand T20I Series 2025,2025-03-21,224,224,224,224,1.0,true
+Cricsheet men T20I,1443552.yaml,2025-03-23,New Zealand,Pakistan,39811,Pakistan in New Zealand T20I Series 2025,2025-03-23,234,234,234,234,1.0,true
+Cricsheet men T20I,1443553.yaml,2025-03-26,Pakistan,New Zealand,39812,Pakistan in New Zealand T20I Series 2025,2025-03-26,189,189,189,189,1.0,true
+Cricsheet men T20I,1444652.yaml,2024-12-01,Pakistan,Zimbabwe,37926,Pakistan in Zimbabwe T20I Series 2024,2024-12-01,217,217,217,217,1.0,true
+Cricsheet men T20I,1444653.yaml,2024-12-03,Zimbabwe,Pakistan,37927,Pakistan in Zimbabwe T20I Series 2024,2024-12-03,110,110,110,110,1.0,true
+Cricsheet men T20I,1444654.yaml,2024-12-05,Pakistan,Zimbabwe,37928,Pakistan in Zimbabwe T20I Series 2024,2024-12-05,247,247,247,247,1.0,true
+Cricsheet men T20I,1446761.yaml,2024-08-23,Canada,Netherlands,35423,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-23,231,231,231,231,1.0,true
+Cricsheet men T20I,1446762.yaml,2024-08-24,Canada,United States of America,35424,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-24,125,125,125,125,1.0,true
+Cricsheet men T20I,1446763.yaml,2024-08-25,Netherlands,United States of America,35425,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-25,217,217,217,217,1.0,true
+Cricsheet men T20I,1446764.yaml,2024-08-26,Canada,Netherlands,35427,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-26,252,252,252,252,1.0,true
+Cricsheet men T20I,1446765.yaml,2024-08-27,United States of America,Canada,35428,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-27,244,244,244,244,1.0,true
+Cricsheet men T20I,1446766.yaml,2024-08-28,Netherlands,United States of America,35429,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024-08-28,237,237,237,237,1.0,true
+Cricsheet men T20I,1448346.yaml,2025-06-06,England,West Indies,36199,West Indies in England T20I Series 2025,2025-06-06,267,267,267,267,1.0,true
+Cricsheet men T20I,1448347.yaml,2025-06-08,West Indies,England,36200,West Indies in England T20I Series 2025,2025-06-08,245,245,245,245,1.0,true
+Cricsheet men T20I,1448348.yaml,2025-06-10,England,West Indies,36201,West Indies in England T20I Series 2025,2025-06-10,252,252,252,252,1.0,true
+Cricsheet men T20I,1448357.yaml,2025-09-10,South Africa,England,36208,South Africa in England T20I Series 2025,2025-09-10,80,80,80,80,1.0,true
+Cricsheet men T20I,1448358.yaml,2025-09-12,England,South Africa,36209,South Africa in England T20I Series 2025,2025-09-12,232,232,232,232,1.0,true
+Cricsheet men T20I,1448360.yaml,2025-09-17,Ireland,England,46007,England in Ireland T20I series 2025,2025-09-17,236,236,236,236,1.0,true
+Cricsheet men T20I,1448362.yaml,2025-09-21,Ireland,England,46009,England in Ireland T20I series 2025,2025-09-21,231,231,231,231,1.0,true
+Cricsheet men T20I,1449301.yaml,2024-11-08,India,South Africa,37940,India in South Africa T20I Series 2024,2024-11-08,241,241,241,241,1.0,true
+Cricsheet men T20I,1449302.yaml,2024-11-10,India,South Africa,37941,India in South Africa T20I Series 2024,2024-11-10,246,246,246,246,1.0,true
+Cricsheet men T20I,1449303.yaml,2024-11-13,India,South Africa,37942,India in South Africa T20I Series 2024,2024-11-13,254,254,254,254,1.0,true
+Cricsheet men T20I,1449304.yaml,2024-11-15,India,South Africa,37943,India in South Africa T20I Series 2024,2024-11-15,249,249,249,249,1.0,true
+Cricsheet men T20I,1451814.yaml,2024-10-13,Sri Lanka,West Indies,37553,West Indies in Sri Lanka T20I Series 2024,2024-10-13,246,246,246,246,1.0,true
+Cricsheet men T20I,1451815.yaml,2024-10-15,Sri Lanka,West Indies,37554,West Indies in Sri Lanka T20I Series 2024,2024-10-15,225,225,225,225,1.0,true
+Cricsheet men T20I,1451816.yaml,2024-10-17,West Indies,Sri Lanka,37555,West Indies in Sri Lanka T20I Series 2024,2024-10-17,234,234,234,234,1.0,true
+Cricsheet men T20I,1456441.yaml,2024-11-09,New Zealand,Sri Lanka,37894,New Zealand in Sri Lanka T20I Series 2024,2024-11-09,239,239,239,239,1.0,true
+Cricsheet men T20I,1456442.yaml,2024-11-10,New Zealand,Sri Lanka,37895,New Zealand in Sri Lanka T20I Series 2024,2024-11-10,246,246,246,246,1.0,true
+Cricsheet men T20I,1467704.yaml,2025-02-22,Zimbabwe,Ireland,39983,Ireland in Zimbabwe T20I Series 2025,2025-02-22,56,56,56,56,1.0,true
+Cricsheet men T20I,1467705.yaml,2025-02-23,Ireland,Zimbabwe,39984,Ireland in Zimbabwe T20I Series 2025,2025-02-23,243,243,243,243,1.0,true
+Cricsheet men T20I,1467706.yaml,2025-02-25,Zimbabwe,Ireland,39985,Ireland in Zimbabwe T20I Series 2025,2025-02-25,113,113,113,113,1.0,true
+Cricsheet men T20I,1472516.yaml,2025-06-15,West Indies,Ireland,41504,West Indies in Ireland T20I Series 2025,2025-06-15,257,257,257,257,1.0,true
+Cricsheet men T20I,1472520.yaml,2025-07-20,West Indies,Australia,41505,Australia in West Indies T20I Series 2025,2025-07-20,238,238,238,238,1.0,true
+Cricsheet men T20I,1472521.yaml,2025-07-22,West Indies,Australia,41506,Australia in West Indies T20I Series 2025,2025-07-22,224,224,224,224,1.0,true
+Cricsheet men T20I,1472522.yaml,2025-07-25,West Indies,Australia,41507,Australia in West Indies T20I Series 2025,2025-07-25,231,231,231,231,1.0,true
+Cricsheet men T20I,1472523.yaml,2025-07-26,West Indies,Australia,41508,Australia in West Indies T20I Series 2025,2025-07-26,261,261,261,261,1.0,true
+Cricsheet men T20I,1472524.yaml,2025-07-28,West Indies,Australia,41509,Australia in West Indies T20I Series 2025,2025-07-28,231,231,231,231,1.0,true
+Cricsheet men T20I,1472525.yaml,2025-07-31,Pakistan,West Indies,41510,Pakistan in West Indies T20I Series 2025,2025-07-31,256,256,256,256,1.0,true
+Cricsheet men T20I,1472526.yaml,2025-08-02,Pakistan,West Indies,41511,Pakistan in West Indies T20I Series 2025,2025-08-02,252,252,252,252,1.0,true
+Cricsheet men T20I,1472527.yaml,2025-08-03,Pakistan,West Indies,41512,Pakistan in West Indies T20I Series 2025,2025-08-03,255,255,255,255,1.0,true
+Cricsheet men T20I,1477609.yaml,2026-01-27,West Indies,South Africa,41849,West Indies in South Africa T20I Series 2026,2026-01-27,237,237,237,237,1.0,true
+Cricsheet men T20I,1477610.yaml,2026-01-29,West Indies,South Africa,41850,West Indies in South Africa T20I Series 2026,2026-01-29,238,238,238,238,1.0,true
+Cricsheet men T20I,1478898.yaml,2025-08-10,Australia,South Africa,41969,South Africa in Australia T20I Series 2025,2025-08-10,251,251,251,251,1.0,true
+Cricsheet men T20I,1478899.yaml,2025-08-12,South Africa,Australia,41970,South Africa in Australia T20I Series 2025,2025-08-12,242,242,242,242,1.0,true
+Cricsheet men T20I,1478900.yaml,2025-08-16,South Africa,Australia,41971,South Africa in Australia T20I Series 2025,2025-08-16,246,246,246,246,1.0,true
+Cricsheet men T20I,1478907.yaml,2025-10-29,India,Australia,41975,India in Australia T20I Series 2025,2025-10-29,60,60,60,60,1.0,true
+Cricsheet men T20I,1478908.yaml,2025-10-31,India,Australia,41976,India in Australia T20I Series 2025,2025-10-31,196,196,196,196,1.0,true
+Cricsheet men T20I,1478909.yaml,2025-11-02,Australia,India,41977,India in Australia T20I Series 2025,2025-11-02,236,236,236,236,1.0,true
+Cricsheet men T20I,1478910.yaml,2025-11-06,India,Australia,41978,India in Australia T20I Series 2025,2025-11-06,237,237,237,237,1.0,true
+Cricsheet men T20I,1478911.yaml,2025-11-08,India,Australia,41979,India in Australia T20I Series 2025,2025-11-08,29,29,29,29,1.0,true
+Cricsheet men T20I,1479576.yaml,2025-12-09,India,South Africa,42027,South Africa in India T20I Series 2025,2025-12-09,201,201,201,201,1.0,true
+Cricsheet men T20I,1479577.yaml,2025-12-11,South Africa,India,42028,South Africa in India T20I Series 2025,2025-12-11,251,251,251,251,1.0,true
+Cricsheet men T20I,1479578.yaml,2025-12-14,South Africa,India,42029,South Africa in India T20I Series 2025,2025-12-14,217,217,217,217,1.0,true
+Cricsheet men T20I,1479580.yaml,2025-12-19,India,South Africa,42031,South Africa in India T20I Series 2025,2025-12-19,256,256,256,256,1.0,true
+Cricsheet men T20I,1483785.yaml,2025-05-28,Pakistan,Bangladesh,42742,Bangladesh in Pakistan T20I Series 2025,2025-05-28,241,241,241,241,1.0,true
+Cricsheet men T20I,1483786.yaml,2025-05-30,Pakistan,Bangladesh,42743,Bangladesh in Pakistan T20I Series 2025,2025-05-30,240,240,240,240,1.0,true
+Cricsheet men T20I,1483787.yaml,2025-06-01,Bangladesh,Pakistan,42744,Bangladesh in Pakistan T20I Series 2025,2025-06-01,231,231,231,231,1.0,true
+Cricsheet men T20I,1484051.yaml,2025-05-17,Bangladesh,United Arab Emirates,42783,Bangladesh in United Arab Emirates T20I Series 2025,2025-05-17,251,251,251,251,1.0,true
+Cricsheet men T20I,1484052.yaml,2025-05-19,Bangladesh,United Arab Emirates,42784,Bangladesh in United Arab Emirates T20I Series 2025,2025-05-19,254,254,254,254,1.0,true
+Cricsheet men T20I,1485508.yaml,2025-07-10,Bangladesh,Sri Lanka,43592,Bangladesh in Sri Lanka T20I Series 2025,2025-07-10,235,235,235,235,1.0,true
+Cricsheet men T20I,1485509.yaml,2025-07-13,Bangladesh,Sri Lanka,43594,Bangladesh in Sri Lanka T20I Series 2025,2025-07-13,218,218,218,218,1.0,true
+Cricsheet men T20I,1485510.yaml,2025-07-16,Sri Lanka,Bangladesh,43595,Bangladesh in Sri Lanka T20I Series 2025,2025-07-16,222,222,222,222,1.0,true
+Cricsheet men T20I,1486582.yaml,2025-05-21,Bangladesh,United Arab Emirates,43171,Bangladesh in United Arab Emirates T20I Series 2025,2025-05-21,247,247,247,247,1.0,true
+Cricsheet men T20I,1489968.yaml,2025-09-27,Nepal,West Indies,46249,Nepal v West Indies T20I Series 2025,2025-09-27,254,254,254,254,1.0,true
+Cricsheet men T20I,1489970.yaml,2025-09-30,Nepal,West Indies,46251,Nepal v West Indies T20I Series 2025,2025-09-30,201,201,201,201,1.0,true
+Cricsheet men T20I,1490234.yaml,2026-01-21,India,New Zealand,48591,New Zealand in India T20I Series 2026,2026-01-21,252,252,252,252,1.0,true
+Cricsheet men T20I,1490235.yaml,2026-01-23,New Zealand,India,48592,New Zealand in India T20I Series 2026,2026-01-23,227,227,227,227,1.0,true
+Cricsheet men T20I,1490236.yaml,2026-01-25,New Zealand,India,48593,New Zealand in India T20I Series 2026,2026-01-25,183,183,183,183,1.0,true
+Cricsheet men T20I,1490237.yaml,2026-01-28,New Zealand,India,48594,New Zealand in India T20I Series 2026,2026-01-28,238,238,238,238,1.0,true
+Cricsheet men T20I,1490238.yaml,2026-01-31,India,New Zealand,48595,New Zealand in India T20I Series 2026,2026-01-31,248,248,248,248,1.0,true
+Cricsheet men T20I,1491714.yaml,2025-10-01,New Zealand,Australia,46310,Australia in New Zealand T20I Series 2025,2025-10-01,230,230,230,230,1.0,true
+Cricsheet men T20I,1491715.yaml,2025-10-03,Australia,New Zealand,46311,Australia in New Zealand T20I Series 2025,2025-10-03,13,13,13,13,1.0,true
+Cricsheet men T20I,1491716.yaml,2025-10-04,New Zealand,Australia,46312,Australia in New Zealand T20I Series 2025,2025-10-04,234,234,234,234,1.0,true
+Cricsheet men T20I,1491717.yaml,2025-10-18,England,New Zealand,46747,England in New Zealand T20I Series 2025,2025-10-18,124,124,124,124,1.0,true
+Cricsheet men T20I,1491718.yaml,2025-10-20,England,New Zealand,46748,England in New Zealand T20I Series 2025,2025-10-20,242,242,242,242,1.0,true
+Cricsheet men T20I,1491719.yaml,2025-10-23,New Zealand,England,46749,England in New Zealand T20I Series 2025,2025-10-23,25,25,25,25,1.0,true
+Cricsheet men T20I,1491723.yaml,2025-11-05,West Indies,New Zealand,47965,West Indies in New Zealand T20I Series 2025,2025-11-05,252,252,252,252,1.0,true
+Cricsheet men T20I,1491724.yaml,2025-11-06,New Zealand,West Indies,47966,West Indies in New Zealand T20I Series 2025,2025-11-06,255,255,255,255,1.0,true
+Cricsheet men T20I,1491725.yaml,2025-11-09,New Zealand,West Indies,47967,West Indies in New Zealand T20I Series 2025,2025-11-09,247,247,247,247,1.0,true
+Cricsheet men T20I,1491726.yaml,2025-11-10,West Indies,New Zealand,47968,West Indies in New Zealand T20I Series 2025,2025-11-10,41,41,41,41,1.0,true
+Cricsheet men T20I,1491727.yaml,2025-11-13,West Indies,New Zealand,47969,West Indies in New Zealand T20I Series 2025,2025-11-13,214,214,214,214,1.0,true
+Cricsheet men T20I,1491735.yaml,2026-03-15,New Zealand,South Africa,49736,South Africa in New Zealand T20I Series 2026,2026-03-15,196,196,196,196,1.0,true
+Cricsheet men T20I,1491736.yaml,2026-03-17,New Zealand,South Africa,49737,South Africa in New Zealand T20I Series 2026,2026-03-17,223,223,223,223,1.0,true
+Cricsheet men T20I,1491737.yaml,2026-03-20,South Africa,New Zealand,49738,South Africa in New Zealand T20I Series 2026,2026-03-20,226,226,226,226,1.0,true
+Cricsheet men T20I,1491738.yaml,2026-03-22,South Africa,New Zealand,49739,South Africa in New Zealand T20I Series 2026,2026-03-22,238,238,238,238,1.0,true
+Cricsheet men T20I,1491739.yaml,2026-03-25,South Africa,New Zealand,49740,South Africa in New Zealand T20I Series 2026,2026-03-25,251,251,251,251,1.0,true
+Cricsheet men T20I,1491903.yaml,2025-07-20,Pakistan,Bangladesh,44265,Pakistan in Bangladesh T20I Series 2025,2025-07-20,215,215,215,215,1.0,true
+Cricsheet men T20I,1491904.yaml,2025-07-22,Bangladesh,Pakistan,44266,Pakistan in Bangladesh T20I Series 2025,2025-07-22,242,242,242,242,1.0,true
+Cricsheet men T20I,1491905.yaml,2025-07-24,Pakistan,Bangladesh,44267,Pakistan in Bangladesh T20I Series 2025,2025-07-24,233,233,232,233,0.9957081545064378,true
+Cricsheet men T20I,1492823.yaml,2025-09-03,Zimbabwe,Sri Lanka,45903,Sri Lanka in Zimbabwe T20I Series 2025,2025-09-03,246,246,246,246,1.0,true
+Cricsheet men T20I,1492824.yaml,2025-09-06,Sri Lanka,Zimbabwe,45904,Sri Lanka in Zimbabwe T20I Series 2025,2025-09-06,195,195,194,195,0.9948717948717949,true
+Cricsheet men T20I,1492825.yaml,2025-09-07,Zimbabwe,Sri Lanka,45905,Sri Lanka in Zimbabwe T20I Series 2025,2025-09-07,238,238,238,238,1.0,true
+Cricsheet men T20I,1496574.yaml,2026-07-01,India,England,45390,India in England T20I Series 2026,2026-07-01,122,122,122,122,1.0,true
+Cricsheet men T20I,1496575.yaml,2026-07-04,India,England,45391,India in England T20I Series 2026,2026-07-04,246,246,246,246,1.0,true
+Cricsheet men T20I,1496576.yaml,2026-07-07,England,India,45392,India in England T20I Series 2026,2026-07-07,195,195,195,195,1.0,true
+Cricsheet men T20I,1496577.yaml,2026-07-09,India,England,45393,India in England T20I Series 2026,2026-07-09,213,213,213,213,1.0,true
+Cricsheet men T20I,1496578.yaml,2026-07-11,England,India,45394,India in England T20I Series 2026,2026-07-11,256,256,256,256,1.0,true
+Cricsheet men T20I,1496585.yaml,2026-09-15,England,Sri Lanka,45489,Sri Lanka in England T20I Series 2026,2026-09-15,248,248,248,248,1.0,true
+Cricsheet men T20I,1496586.yaml,2026-09-17,Sri Lanka,England,45490,Sri Lanka in England T20I Series 2026,2026-09-17,200,200,200,200,1.0,true
+Cricsheet men T20I,1496921.yaml,2025-09-10,United Arab Emirates,India,45496,Asia Cup 2025,2025-09-10,111,111,111,111,1.0,true
+Cricsheet men T20I,1496922.yaml,2025-09-11,Hong Kong,Bangladesh,45497,Asia Cup 2025,2025-09-11,238,238,238,238,1.0,true
+Cricsheet men T20I,1496923.yaml,2025-09-12,Pakistan,Oman,45498,Asia Cup 2025,2025-09-12,225,225,225,225,1.0,true
+Cricsheet men T20I,1496924.yaml,2025-09-13,Bangladesh,Sri Lanka,45499,Asia Cup 2025,2025-09-13,220,220,220,220,1.0,true
+Cricsheet men T20I,1496925.yaml,2025-09-14,Pakistan,India,45500,Asia Cup 2025,2025-09-14,219,219,219,219,1.0,true
+Cricsheet men T20I,1496926.yaml,2025-09-15,United Arab Emirates,Oman,45501,Asia Cup 2025,2025-09-15,247,247,247,247,1.0,true
+Cricsheet men T20I,1496927.yaml,2025-09-15,Hong Kong,Sri Lanka,45502,Asia Cup 2025,2025-09-15,239,239,239,239,1.0,true
+Cricsheet men T20I,1496929.yaml,2025-09-17,Pakistan,United Arab Emirates,45504,Asia Cup 2025,2025-09-17,238,238,238,238,1.0,true
+Cricsheet men T20I,1496931.yaml,2025-09-19,India,Oman,45506,Asia Cup 2025,2025-09-19,252,252,252,252,1.0,true
+Cricsheet men T20I,1496932.yaml,2025-09-20,Sri Lanka,Bangladesh,45507,Asia Cup 2025,2025-09-20,243,243,243,243,1.0,true
+Cricsheet men T20I,1496933.yaml,2025-09-21,Pakistan,India,45508,Asia Cup 2025,2025-09-21,245,245,245,245,1.0,true
+Cricsheet men T20I,1496934.yaml,2025-09-23,Sri Lanka,Pakistan,45509,Asia Cup 2025,2025-09-23,234,234,234,234,1.0,true
+Cricsheet men T20I,1496935.yaml,2025-09-24,India,Bangladesh,45510,Asia Cup 2025,2025-09-24,245,245,245,245,1.0,true
+Cricsheet men T20I,1496936.yaml,2025-09-25,Pakistan,Bangladesh,45511,Asia Cup 2025,2025-09-25,244,244,244,244,1.0,true
+Cricsheet men T20I,1496937.yaml,2025-09-26,India,Sri Lanka,45512,Asia Cup 2025,2025-09-26,253,253,253,253,1.0,true
+Cricsheet men T20I,1496938.yaml,2025-09-28,Pakistan,India,45513,Asia Cup 2025,2025-09-28,239,239,239,239,1.0,true
+Cricsheet men T20I,1497874.yaml,2025-08-30,Pakistan,United Arab Emirates,45852,United Arab Emirates T20I Tri-Series 2025,2025-08-30,250,250,250,250,1.0,true
+Cricsheet men T20I,1497877.yaml,2025-09-04,Pakistan,United Arab Emirates,45855,United Arab Emirates T20I Tri-Series 2025,2025-09-04,244,244,244,244,1.0,true
+Cricsheet men T20I,1498662.yaml,2025-08-30,Netherlands,Bangladesh,45906,Netherlands in Bangladesh T20I Series 2025,2025-08-30,208,208,208,208,1.0,true
+Cricsheet men T20I,1498663.yaml,2025-09-01,Netherlands,Bangladesh,45907,Netherlands in Bangladesh T20I Series 2025,2025-09-01,194,194,194,194,1.0,true
+Cricsheet men T20I,1498664.yaml,2025-09-03,Bangladesh,Netherlands,45908,Netherlands in Bangladesh T20I Series 2025,2025-09-03,114,114,114,114,1.0,true
+Cricsheet men T20I,1501895.yaml,2025-10-28,South Africa,Pakistan,46740,South Africa in Pakistan T20I Series 2025,2025-10-28,248,248,248,248,1.0,true
+Cricsheet men T20I,1501896.yaml,2025-10-31,South Africa,Pakistan,46741,South Africa in Pakistan T20I Series 2025,2025-10-31,200,200,200,200,1.0,true
+Cricsheet men T20I,1501897.yaml,2025-11-01,South Africa,Pakistan,46742,South Africa in Pakistan T20I Series 2025,2025-11-01,245,245,245,245,1.0,true
+Cricsheet men T20I,1502050.yaml,2025-11-22,Sri Lanka,Pakistan,47978,Pakistan T20I Tri-Series 2025,2025-11-22,218,218,218,218,1.0,true
+Cricsheet men T20I,1502051.yaml,2025-11-23,Pakistan,Zimbabwe,47979,Pakistan T20I Tri-Series 2025,2025-11-23,241,241,241,241,1.0,true
+Cricsheet men T20I,1502052.yaml,2025-11-25,Zimbabwe,Sri Lanka,47980,Pakistan T20I Tri-Series 2025,2025-11-25,227,227,227,227,1.0,true
+Cricsheet men T20I,1502053.yaml,2025-11-27,Sri Lanka,Pakistan,47981,Pakistan T20I Tri-Series 2025,2025-11-27,255,255,255,255,1.0,true
+Cricsheet men T20I,1502054.yaml,2025-11-29,Sri Lanka,Pakistan,47982,Pakistan T20I Tri-Series 2025,2025-11-29,234,234,234,234,1.0,true
+Cricsheet men T20I,1505125.yaml,2025-10-27,West Indies,Bangladesh,46940,West Indies in Bangladesh T20I Series 2025,2025-10-27,248,248,248,248,1.0,true
+Cricsheet men T20I,1506014.yaml,2025-11-27,Ireland,Bangladesh,47241,Ireland in Bangladesh T20I Series 2025,2025-11-27,251,251,251,251,1.0,true
+Cricsheet men T20I,1506015.yaml,2025-11-29,Ireland,Bangladesh,47242,Ireland in Bangladesh T20I Series 2025,2025-11-29,247,247,247,247,1.0,true
+Cricsheet men T20I,1506016.yaml,2025-12-02,Ireland,Bangladesh,47243,Ireland in Bangladesh T20I Series 2025,2025-12-02,207,207,207,207,1.0,true
+Cricsheet men T20I,1507719.yaml,2026-01-30,Sri Lanka,England,48610,England in Sri Lanka T20I Series 2026,2026-01-30,194,194,194,194,1.0,true
+Cricsheet men T20I,1507720.yaml,2026-02-01,Sri Lanka,England,48611,England in Sri Lanka T20I Series 2026,2026-02-01,233,233,233,233,1.0,true
+Cricsheet men T20I,1507721.yaml,2026-02-03,England,Sri Lanka,48612,England in Sri Lanka T20I Series 2026,2026-02-03,241,241,241,241,1.0,true
+Cricsheet men T20I,1514480.yaml,2026-01-07,Sri Lanka,Pakistan,48512,Pakistan in Sri Lanka T20I Series 2026,2026-01-07,219,219,219,219,1.0,true
+Cricsheet men T20I,1519139.yaml,2026-01-29,Ireland,United Arab Emirates,48466,Ireland in United Arab Emirates T20I Series 2026,2026-01-29,244,244,244,244,1.0,true
+Cricsheet men T20I,1519140.yaml,2026-01-31,Ireland,United Arab Emirates,48467,Ireland in United Arab Emirates T20I Series 2026,2026-01-31,250,250,250,250,1.0,true
+Cricsheet men T20I,1519636.yaml,2026-01-29,Pakistan,Australia,48915,Australia in Pakistan T20I Series 2026,2026-01-29,250,250,250,250,1.0,true
+Cricsheet men T20I,1519637.yaml,2026-01-31,Pakistan,Australia,48916,Australia in Pakistan T20I Series 2026,2026-01-31,217,217,217,217,1.0,true
+Cricsheet men T20I,1519638.yaml,2026-02-01,Pakistan,Australia,48917,Australia in Pakistan T20I Series 2026,2026-02-01,227,227,227,227,1.0,true
+Cricsheet men T20I,1528275.yaml,2026-04-27,New Zealand,Bangladesh,50188,New Zealand in Bangladesh T20I Series 2026,2026-04-27,241,241,241,241,1.0,true
+Cricsheet men T20I,1528277.yaml,2026-05-02,Bangladesh,New Zealand,50190,New Zealand in Bangladesh T20I Series 2026,2026-05-02,161,161,161,161,1.0,true
+Cricsheet men T20I,1528548.yaml,2026-06-26,Ireland,India,50340,India in Ireland T20I Series 2026,2026-06-26,247,247,246,247,0.9959514170040485,true
+Cricsheet men T20I,1528549.yaml,2026-06-28,Ireland,India,50341,India in Ireland T20I Series 2026,2026-06-28,249,249,249,249,1.0,true
+Cricsheet men T20I,1530060.yaml,2026-07-23,Zimbabwe,India,50507,India in Zimbabwe T20I Series 2026,2026-07-23,215,215,215,215,1.0,true
+Cricsheet men T20I,1530061.yaml,2026-07-25,India,Zimbabwe,50508,India in Zimbabwe T20I Series 2026,2026-07-25,235,235,235,235,1.0,true
+Cricsheet men T20I,1530062.yaml,2026-07-26,India,Zimbabwe,50509,India in Zimbabwe T20I Series 2026,2026-07-26,260,260,260,260,1.0,true
+Cricsheet men T20I,1532483.yaml,2026-06-17,Bangladesh,Australia,50597,Australia in Bangladesh T20I Series 2026,2026-06-17,228,228,228,228,1.0,true
+Cricsheet men T20I,1532484.yaml,2026-06-19,Australia,Bangladesh,50598,Australia in Bangladesh T20I Series 2026,2026-06-19,249,249,249,249,1.0,true
+Cricsheet men T20I,1532485.yaml,2026-06-21,Bangladesh,Australia,50599,Australia in Bangladesh T20I Series 2026,2026-06-21,192,192,192,192,1.0,true
+Cricsheet men T20I,1538301.yaml,2026-07-15,Zimbabwe,Bangladesh,51383,Bangladesh in Zimbabwe T20I Series 2026,2026-07-15,247,247,247,247,1.0,true
+Cricsheet men T20I,1538302.yaml,2026-07-17,Bangladesh,Zimbabwe,51384,Bangladesh in Zimbabwe T20I Series 2026,2026-07-17,248,248,248,248,1.0,true
+Cricsheet men T20I,1538303.yaml,2026-07-19,Zimbabwe,Bangladesh,51385,Bangladesh in Zimbabwe T20I Series 2026,2026-07-19,243,243,243,243,1.0,true
+Cricsheet men T20I,1538309.yaml,2026-06-14,Sri Lanka,West Indies,50504,Sri Lanka in West Indies T20I Series 2026,2026-06-14,251,239,68,251,0.27091633466135456,false

@@ -1,0 +1,17 @@
+check,role,metric,n_estimation_rows,mu0_final,ball_weighted_raw_mean,absolute_difference,threshold,pass,fallback_applied,n_players_ge_100_balls,mean_sampling_variance,observed_raw_per_ball_variance,n_eligible,top30_rows,tied_rows_top30,n_players_ge_200_balls,spearman,pearson_correlation,abs_correlation,tau2,between_player_sd,boundary_zero,policy
+EB1_mu0_ball_weighted_mean,batter,pressure,286,0.0553544751921002,0.054620755217737293,0.0007337199743629036,<0.05,true,false,,,,,,,,,,,,,,
+EB1_mu0_ball_weighted_mean,batter,delta,103,0.05592517065185824,0.053897624213585515,0.002027546438272722,<0.05,true,false,,,,,,,,,,,,,,
+EB1_mu0_ball_weighted_mean,bowler,pressure,319,0.02360596581878466,0.02897822244106773,0.005372256622283068,<0.05,true,false,,,,,,,,,,,,,,
+EB1_mu0_ball_weighted_mean,bowler,delta,284,-0.0030620275453137704,-0.01074453752376233,0.007682509978448561,<0.05,true,false,,,,,,,,,,,,,,
+EB2_sampling_variance_not_below_observed,batter,pressure,,,,,>=,false,,179,NaN,0.03766700642922097,,,,,,,,,,,
+EB2_sampling_variance_not_below_observed,bowler,pressure,,,,,>=,false,,188,NaN,0.03518673064684346,,,,,,,,,,,
+EB3_no_exact_rating_ties_top30,batter,rating,,,,,0,true,,,,,65,30,0,,,,,,,,
+EB4_spearman_shrunk_vs_raw_pressure,batter,pressure,,,,,>0.5,true,,,,,,,,25,0.9046153846153847,,,,,,
+EB5_rating_vs_T20I_exposure_share,batter,rating,,,,,abs<0.30,true,,,,,65,,,,,-0.07657127334923718,0.07657127334923718,,,,
+EB3_no_exact_rating_ties_top30,bowler,rating,,,,,0,true,,,,,83,30,0,,,,,,,,
+EB4_spearman_shrunk_vs_raw_pressure,bowler,pressure,,,,,>0.5,true,,,,,,,,35,0.9280112044817928,,,,,,
+EB5_rating_vs_T20I_exposure_share,bowler,rating,,,,,abs<0.30,true,,,,,83,,,,,-0.007551279624428467,0.007551279624428467,,,,
+tau2_boundary_note,batter,pressure,,,,,,true,,,,,,,,,,,,0.0047276674872774324,0.06875803580147874,false,zero tau2 valid; posterior equals competition prior mean; component deviation zero
+tau2_boundary_note,batter,delta,,,,,,true,,,,,,,,,,,,0.0,0.0,true,zero tau2 valid; posterior equals competition prior mean; component deviation zero
+tau2_boundary_note,bowler,pressure,,,,,,true,,,,,,,,,,,,0.006225799076814452,0.0789037329713522,false,zero tau2 valid; posterior equals competition prior mean; component deviation zero
+tau2_boundary_note,bowler,delta,,,,,,true,,,,,,,,,,,,0.0,0.0,true,zero tau2 valid; posterior equals competition prior mean; component deviation zero
